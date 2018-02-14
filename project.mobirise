@@ -669,7 +669,7 @@
             ".mbr-header .mbr-header__text": {
               "color": "#252525",
               "font-size": "15px",
-              "text-align": "center"
+              "text-align": "right"
             },
             ".mbr-article": {
               "color": "#252525"
@@ -886,7 +886,7 @@
           "_styles": {
             ".mbr-header .mbr-header__text": {
               "color": "#252525",
-              "text-align": "center",
+              "text-align": "right",
               "font-size": "16px"
             },
             ".mbr-article": {
@@ -1225,7 +1225,7 @@
             ".mbr-header .mbr-header__text": {
               "color": "#252525",
               "font-size": "15px",
-              "text-align": "center"
+              "text-align": "right"
             },
             ".mbr-article": {
               "color": "#252525"
@@ -1442,7 +1442,7 @@
           "_styles": {
             ".mbr-header .mbr-header__text": {
               "color": "#252525",
-              "text-align": "center",
+              "text-align": "right",
               "font-size": "16px"
             },
             ".mbr-article": {
