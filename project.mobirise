@@ -2552,7 +2552,7 @@
             "showTitle": true,
             "showText": false,
             "showButtons": false,
-            "showArrow": false,
+            "showArrow": true,
             "contentAlign": "right",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1077x1080.jpg",
