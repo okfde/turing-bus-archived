@@ -13,6 +13,9 @@
 #ext_menu-0 .mbr-navbar__hamburger {
   color: #ffffff;
 }
+#ext_menu-0 .mbr-brand__name a {
+  font-size: 10px;
+}
 #header1-1 H1 {
   color: #ffffff;
   font-family: 'PT Sans', sans-serif;
@@ -22,10 +25,12 @@
   font-family: 'PT Sans', sans-serif;
   color: #ffffff;
   font-size: 20px;
+  text-align: left;
 }
 #msg-box2-v .mbr-header .mbr-header__text {
   color: #252525;
-  font-size: 16px;
+  font-size: 15px;
+  text-align: center;
 }
 #msg-box2-v .mbr-article {
   color: #252525;
@@ -40,7 +45,7 @@
 }
 #msg-box2-x .mbr-header .mbr-header__text {
   color: #252525;
-  text-align: left;
+  text-align: center;
   font-size: 16px;
 }
 #msg-box2-x .mbr-article {
@@ -62,30 +67,34 @@
 #ext_menu-j .mbr-navbar__hamburger {
   color: #ffffff;
 }
-#msg-box2-y .mbr-header .mbr-header__text {
-  color: #252525;
-  font-size: 16px;
+#ext_menu-j .mbr-brand__name a {
+  font-size: 10px;
 }
-#msg-box2-y .mbr-article {
+#msg-box2-17 .mbr-header .mbr-header__text {
+  color: #252525;
+  font-size: 15px;
+  text-align: right;
+}
+#msg-box2-17 .mbr-article {
   color: #252525;
 }
-#features1-z .mbr-section-title .mbr-header__text {
+#features1-18 .mbr-section-title .mbr-header__text {
   font-size: 16px;
   text-align: left;
 }
-#features1-z .mbr-section__col .mbr-header__text {
+#features1-18 .mbr-section__col .mbr-header__text {
   text-align: left;
   font-size: 12px;
 }
-#msg-box2-10 .mbr-header .mbr-header__text {
+#msg-box2-19 .mbr-header .mbr-header__text {
   color: #252525;
-  text-align: left;
+  text-align: right;
   font-size: 16px;
 }
-#msg-box2-10 .mbr-article {
+#msg-box2-19 .mbr-article {
   color: #252525;
 }
-#features1-t .mbr-section-title .mbr-header__text {
+#features1-1a .mbr-section-title .mbr-header__text {
   font-size: 16px;
   text-align: left;
 }
@@ -101,30 +110,92 @@
 #ext_menu-a .mbr-navbar__hamburger {
   color: #ffffff;
 }
-#msg-box2-13 .mbr-header .mbr-header__text {
-  color: #252525;
-  font-size: 16px;
+#ext_menu-a .mbr-brand__name a {
+  font-size: 10px;
 }
-#msg-box2-13 .mbr-article {
+#msg-box2-1b .mbr-header .mbr-header__text {
+  color: #252525;
+  font-size: 15px;
+  text-align: right;
+}
+#msg-box2-1b .mbr-article {
   color: #252525;
 }
-#features1-12 .mbr-section-title .mbr-header__text {
+#features1-1c .mbr-section-title .mbr-header__text {
   font-size: 16px;
   text-align: left;
 }
-#features1-12 .mbr-section__col .mbr-header__text {
+#features1-1c .mbr-section__col .mbr-header__text {
   text-align: left;
   font-size: 12px;
 }
-#msg-box2-11 .mbr-header .mbr-header__text {
+#msg-box2-1d .mbr-header .mbr-header__text {
   color: #252525;
-  text-align: left;
+  text-align: right;
   font-size: 16px;
 }
-#msg-box2-11 .mbr-article {
+#msg-box2-1d .mbr-article {
   color: #252525;
 }
-#features1-u .mbr-section-title .mbr-header__text {
+#features1-1e .mbr-section-title .mbr-header__text {
+  font-size: 16px;
+  text-align: left;
+}
+#ext_menu-1i .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-1i.mbr-navbar--stuck .mbr-navbar__section {
+  background: #79b1b8;
+}
+#ext_menu-1i .mbr-navbar__section {
+  background: #79b1b8;
+}
+#ext_menu-1i .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-1i .mbr-brand__name a {
+  font-size: 10px;
+}
+#features1-1q .mbr-section__col .mbr-header__text {
+  text-align: center;
+}
+#features1-1q P {
+  text-align: left;
+}
+#features1-1q .mbr-section-title .mbr-header__text {
+  text-align: center;
+}
+#features1-1q .mbr-header__subtext {
+  text-align: left;
+}
+#features1-1q .mbr-header__subtext SPAN {
+  font-size: 16px;
+}
+#msg-box2-1l .mbr-header .mbr-header__text {
+  color: #252525;
+  font-size: 15px;
+  text-align: center;
+}
+#msg-box2-1l .mbr-article {
+  color: #252525;
+}
+#features1-1m .mbr-section-title .mbr-header__text {
+  font-size: 16px;
+  text-align: left;
+}
+#features1-1m .mbr-section__col .mbr-header__text {
+  text-align: left;
+  font-size: 12px;
+}
+#msg-box2-1n .mbr-header .mbr-header__text {
+  color: #252525;
+  text-align: center;
+  font-size: 16px;
+}
+#msg-box2-1n .mbr-article {
+  color: #252525;
+}
+#features1-1o .mbr-section-title .mbr-header__text {
   font-size: 16px;
   text-align: left;
 }
