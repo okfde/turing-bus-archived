@@ -174,7 +174,8 @@
                 "title": "Selbstbestimmt in die digitale Zukunft",
                 "contentAlign": "center",
                 "text": "Die Projekte, Initiativen und Akteure die auf den Stationen des Turing-Bus vorgestellt werden haben eines gemeinsam: sie entmystifizieren die Informatik als Schlüssel zu einer selbstbestimmteren und besseren Zukunft im digitalen Zeitalter. Dies kann auf verschiedene Arten passieren.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"module.html\" data-toolbar=\"-mbrBtnMove\">ZU DEN MODULEN</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"module.html\" data-toolbar=\"-mbrBtnMove\">ZU DEN MODULEN</a> ",
+                "overlay": false
               }
             ]
           },
@@ -2555,7 +2556,7 @@
             "showArrow": true,
             "contentAlign": "right",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1077x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
