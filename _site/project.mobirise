@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-02-07_1319",
-    "currentPage": "module.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -150,7 +150,7 @@
                 "title": "Gegen die Blase",
                 "contentAlign": "right",
                 "text": "Wer in Großstädten wohnt und nach Workshops, Communities und Projekten sucht um sich fortzubilden, an Initiativen für eine bessere digitale Zukunft zu beteiligen oder um Gleichgesinnte zu treffen, findet schnell ein Überangebot. Abseits der Großstädte sieht es anders aus: auch überregionale Angebote sind hier oft nicht bekannt. <br><br>Der <b>Turing-Bus </b>möchte dies ändern und fährt deswegen gezielt an Orte außerhalb der etablierten Ballungszentren.&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ICH SUCHE NACH ANGEBOTEN</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH SUCHE NACH ANGEBOTEN</a>",
                 "overlay": true
               },
               {
@@ -162,7 +162,7 @@
                 "title": "Netzwerke verbinden",
                 "contentAlign": "left",
                 "text": "Es gibt bereits viele spannende Projekte, die lokale Ableger haben. Coder Dojos, Labs, Regionalgruppen, regionale Hackathons und Wettbewerbe. Oft fehlen diesen aber die Mittel und Wege, ihr Angebot in die benachbarten Städte zu tragen. Der <b>Turing-Bus</b>&nbsp;sammelt und verbreitet deswegen diese Angebote vor Ort und digital.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ICH SUCHE NACH ANGEBOTEN</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH SUCHE NACH ANGEBOTEN</a>",
                 "overlay": true
               },
               {
@@ -174,7 +174,7 @@
                 "title": "Selbstbestimmt in die digitale Zukunft",
                 "contentAlign": "center",
                 "text": "Die Projekte, Initiativen und Akteure die auf den Stationen des Turing-Bus vorgestellt werden haben eines gemeinsam: sie entmystifizieren die Informatik als Schlüssel zu einer selbstbestimmteren und besseren Zukunft im digitalen Zeitalter. Dies kann auf verschiedene Arten passieren.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ZU DEN MODULEN</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"module.html\" data-toolbar=\"-mbrBtnMove\">ZU DEN MODULEN</a> "
               }
             ]
           },
