@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-02-07_1319",
-    "currentPage": "index.html",
+    "currentPage": "info.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -742,6 +742,9 @@
             },
             ".mbr-article": {
               "color": "#252525"
+            },
+            ".mbr-header .mbr-header__text P": {
+              "text-align": "center"
             }
           },
           "_params": {
@@ -955,7 +958,7 @@
           "_styles": {
             ".mbr-header .mbr-header__text": {
               "color": "#252525",
-              "text-align": "right",
+              "text-align": "center",
               "font-size": "16px"
             },
             ".mbr-article": {
@@ -1301,6 +1304,9 @@
             },
             ".mbr-article": {
               "color": "#252525"
+            },
+            ".mbr-header .mbr-header__text P": {
+              "text-align": "center"
             }
           },
           "_params": {
@@ -1514,7 +1520,7 @@
           "_styles": {
             ".mbr-header .mbr-header__text": {
               "color": "#252525",
-              "text-align": "right",
+              "text-align": "center",
               "font-size": "16px"
             },
             ".mbr-article": {
