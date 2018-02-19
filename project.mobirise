@@ -103,7 +103,7 @@
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#a38f84",
+            "overlayColor": "#252525",
             "overlayOpacity": "0.7"
           },
           "title": "Willkommen",
@@ -717,7 +717,7 @@
           "_anchor": "header3-2q"
         },
         {
-          "text": "<p>Der Turing-Bus (benannt nach <a href=\"https://de.wikipedia.org/wiki/Alan_Turing\">Alan Turing</a>) ist ein Projekt der Gesellschaft für Informatik und der Open Knowledge Foundation Deutschland. Als <b>mobiles Bildungsangebot</b> fährt ab dem Frühjahr 2018 ein Kleinbus entlang einer Route Städte in Deutschland (Stationen) ab, die abseits großer und etablierter Ballungszentren liegen, um Grundlagen der Informatik und gesellschaftliche Konsequenzen der Digitalisierung zu diskutieren.</p>",
+          "text": "<p>Der Turing-Bus (benannt nach <a href=\"https://de.wikipedia.org/wiki/Alan_Turing\">Alan Turing</a>) ist ein Projekt der Gesellschaft für Informatik und der Open Knowledge Foundation Deutschland. Als <b>mobiles Bildungsangebot</b> fährt ab dem Frühjahr 2018 ein Kleinbus entlang einer Route Städte in Deutschland (Stationen) ab, die abseits großer und etablierter Ballungszentren liegen, um Grundlagen der Informatik und gesellschaftliche Konsequenzen der Digitalisierung zu vermitteln und diskutieren.</p>",
           "_tags": [
             "Theme"
           ],
