@@ -27,6 +27,9 @@
   font-size: 20px;
   text-align: left;
 }
+#slider-1h P {
+  text-align: center;
+}
 #msg-box2-3f .mbr-header .mbr-header__text {
   color: #252525;
 }
