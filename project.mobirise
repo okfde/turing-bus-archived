@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-02-07_1319",
-    "currentPage": "index.html",
+    "currentPage": "impressum.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -16,7 +16,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 108,
+    "uniqCompNum": 127,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png"
   },
@@ -88,7 +88,7 @@
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
-            "showTitle": true,
+            "showTitle": false,
             "showText": true,
             "showButtons": true,
             "showArrow": true,
@@ -106,8 +106,8 @@
             "overlayColor": "#252525",
             "overlayOpacity": "0.7"
           },
-          "title": "Willkommen",
-          "text": "auf der zukünftigen Webseite des <b>Turing-Bus</b>, einem Projekt der <a href=\"http://okfn.de\" class=\"text-warning\">Open Knowledge Foundation Deutschland</a> und der <a href=\"https://gi.de/\" class=\"text-warning\">Gesellschaft für Informatik</a>, gefördert durch das <a href=\"http://bmbf.de\" class=\"text-warning\">BMBF</a> im Rahmen des Wissenschaftsjahres 2018.<br><br>Der Turing-Bus fährt entlang einer Route durch deutsche Städte abseits der Ballungszentren Stationen ab, um Potenziale und Chancen der Informatik in der Gesellschaft und Arbeitswelt von morgen mit <b>Workshops</b>, <b>Diskussionen</b> und <b>Hands-on Sessions</b> zu ergründen.<br><br>Gegenwärtig befinden wir uns in der Planungsphase und suchen nach lokalen Partnern und Interessierten, die an den Stationen mitwirken möchten.&nbsp;<br><br>",
+          "title": "",
+          "text": "Der <b>Turing-Bus</b> ist ein Projekt der <a href=\"http://okfn.de\" class=\"text-warning\">Open Knowledge Foundation Deutschland</a> und der <a href=\"https://gi.de/\" class=\"text-warning\">Gesellschaft für Informatik</a>, gefördert durch das <a href=\"http://bmbf.de\" class=\"text-warning\">BMBF</a> im Rahmen des Wissenschaftsjahres 2018.<br><br>Der Turing-Bus fährt entlang einer Route abseits der Ballungszentren Stationen ab, um Potenziale und Chancen der Informatik in der Gesellschaft und Arbeitswelt von morgen mit <b>Workshops</b>, <b>Diskussionen</b> und <b>Hands-on Sessions</b> zu ergründen.<br><br>Gegenwärtig befinden wir uns in der Planungsphase und suchen nach lokalen Partnern und Interessierten, die an den Stationen mitwirken möchten.&nbsp;<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">SCHREIBEN SIE UNS!</a> ",
           "_tags": [
             "Theme"
@@ -189,9 +189,7 @@
           "_inherit": "msg-box1",
           "_styles": {
             ".mbr-header .mbr-header__text": {
-              "color": "#252525",
-              "font-size": "15px",
-              "text-align": "center"
+              "color": "#252525"
             },
             ".mbr-article": {
               "color": "#252525"
@@ -200,14 +198,14 @@
           "_params": {
             "showTitle": true,
             "showText": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -216,14 +214,14 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "GEFÖRDERT DURCH:",
+          "title": "ABONNIEREN SIE UNSEREN NEWSLETTER:",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://eepurl.com/dlz6Fb\" data-toolbar=\"-mbrBtnMove\">BESTELLEN</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box2",
-          "_anchor": "msg-box2-v"
+          "_anchor": "msg-box2-3f"
         },
         {
           "_params": {
@@ -233,9 +231,9 @@
             "showTitles": false,
             "showCaptions": false,
             "showButtons": false,
-            "paddingTop": "2",
+            "paddingTop": "1",
             "paddingBottom": "1",
-            "columns": "5",
+            "columns": "6",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -255,7 +253,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "src": "@PROJECT_PATH@/assets/images/bmbf-gefirdert-vom-deutsch-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -278,7 +276,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -301,7 +299,7 @@
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-600x294.jpg",
+              "src": "@PROJECT_PATH@/assets/images/gi-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -324,7 +322,7 @@
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -370,9 +368,12 @@
           "media6": {
             "image": {
               "active": true,
-              "src": "images/host.png",
+              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "video": {
               "class": "mbr-figure__img",
@@ -391,7 +392,6 @@
             "Theme"
           ],
           "_name": "features1",
-          "_anchor": "features1-r",
           "_styles": {
             ".mbr-section-title .mbr-header__text": {
               "font-size": "16px",
@@ -401,241 +401,33 @@
               "text-align": "left",
               "font-size": "12px"
             }
-          }
-        },
-        {
-          "_inherit": "msg-box1",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "color": "#252525",
-              "text-align": "center",
-              "font-size": "16px"
-            },
-            ".mbr-article": {
-              "color": "#252525"
-            }
           },
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "EIN PROJEKT VON:",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-x"
-        },
-        {
-          "_params": {
-            "showHeader": false,
-            "showSubheader": false,
-            "showImages": true,
-            "showTitles": false,
-            "showCaptions": false,
-            "showButtons": false,
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "columns": "5",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "headerAlign": "left",
-          "header": "",
-          "subheader": "By John Smith posted July 30, 2015",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "BOOTSTRAP 3",
-          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/gi-logo-links-600x195.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title2": "RESPONSIVE",
-          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/okfde-logo-black-600x255.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title3": "WEB FONTS",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title4": "UNLIMITED WEBSITES",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "images/host.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features1",
-          "_styles": {
-            ".mbr-section-title .mbr-header__text": {
-              "font-size": "16px",
-              "text-align": "left"
-            }
-          },
-          "_anchor": "features1-w"
+          "_anchor": "features1-34"
         },
         {
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#444444",
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-danger\">Impressum / Datenschutz</a>",
+          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-s"
+          "_anchor": "footer1-s",
+          "_styles": {
+            "P": {
+              "color": "#252525"
+            }
+          }
         }
       ]
     },
@@ -796,28 +588,23 @@
           "_inherit": "msg-box1",
           "_styles": {
             ".mbr-header .mbr-header__text": {
-              "color": "#252525",
-              "font-size": "15px",
-              "text-align": "right"
+              "color": "#252525"
             },
             ".mbr-article": {
               "color": "#252525"
-            },
-            ".mbr-header .mbr-header__text P": {
-              "text-align": "center"
             }
           },
           "_params": {
             "showTitle": true,
             "showText": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -826,14 +613,14 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<p>GEFÖRDERT DURCH:</p>",
+          "title": "ABONNIEREN SIE UNSEREN NEWSLETTER:",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://eepurl.com/dlz6Fb\" data-toolbar=\"-mbrBtnMove\">BESTELLEN</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box2",
-          "_anchor": "msg-box2-17"
+          "_anchor": "msg-box2-3i"
         },
         {
           "_params": {
@@ -843,9 +630,9 @@
             "showTitles": false,
             "showCaptions": false,
             "showButtons": false,
-            "paddingTop": "2",
+            "paddingTop": "1",
             "paddingBottom": "1",
-            "columns": "5",
+            "columns": "6",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -865,7 +652,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "src": "@PROJECT_PATH@/assets/images/bmbf-gefirdert-vom-deutsch-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -888,7 +675,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -911,7 +698,7 @@
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-600x294.jpg",
+              "src": "@PROJECT_PATH@/assets/images/gi-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -934,7 +721,7 @@
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -980,9 +767,12 @@
           "media6": {
             "image": {
               "active": true,
-              "src": "images/host.png",
+              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "video": {
               "class": "mbr-figure__img",
@@ -1014,238 +804,29 @@
           "_anchor": "features1-18"
         },
         {
-          "_inherit": "msg-box1",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "color": "#252525",
-              "text-align": "center",
-              "font-size": "16px"
-            },
-            ".mbr-article": {
-              "color": "#252525"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "EIN PROJEKT VON:",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-19"
-        },
-        {
-          "_params": {
-            "showHeader": false,
-            "showSubheader": false,
-            "showImages": true,
-            "showTitles": false,
-            "showCaptions": false,
-            "showButtons": false,
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "columns": "5",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "headerAlign": "left",
-          "header": "",
-          "subheader": "By John Smith posted July 30, 2015",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "BOOTSTRAP 3",
-          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/gi-logo-links-600x195.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title2": "RESPONSIVE",
-          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/okfde-logo-black-600x255.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title3": "WEB FONTS",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title4": "UNLIMITED WEBSITES",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "images/host.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features1",
-          "_styles": {
-            ".mbr-section-title .mbr-header__text": {
-              "font-size": "16px",
-              "text-align": "left"
-            }
-          },
-          "_anchor": "features1-1a"
-        },
-        {
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#444444",
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-danger\">Impressum / Datenschutz</a>",
+          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-s"
+          "_anchor": "footer1-s",
+          "_styles": {
+            "P": {
+              "color": "#252525"
+            }
+          }
         }
       ]
     },
@@ -1335,51 +916,26 @@
           "_anchor": "content1-f"
         },
         {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#444444",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-danger\">Impressum / Datenschutz</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-i"
-        },
-        {
           "_inherit": "msg-box1",
           "_styles": {
             ".mbr-header .mbr-header__text": {
-              "color": "#252525",
-              "font-size": "15px",
-              "text-align": "right"
+              "color": "#252525"
             },
             ".mbr-article": {
               "color": "#252525"
-            },
-            ".mbr-header .mbr-header__text P": {
-              "text-align": "center"
             }
           },
           "_params": {
             "showTitle": true,
             "showText": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1388,14 +944,14 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "GEFÖRDERT DURCH:",
+          "title": "ABONNIEREN SIE UNSEREN NEWSLETTER:",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://eepurl.com/dlz6Fb\" data-toolbar=\"-mbrBtnMove\">BESTELLEN</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box2",
-          "_anchor": "msg-box2-1b"
+          "_anchor": "msg-box2-3e"
         },
         {
           "_params": {
@@ -1405,9 +961,9 @@
             "showTitles": false,
             "showCaptions": false,
             "showButtons": false,
-            "paddingTop": "2",
+            "paddingTop": "1",
             "paddingBottom": "1",
-            "columns": "5",
+            "columns": "6",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -1427,7 +983,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "src": "@PROJECT_PATH@/assets/images/bmbf-gefirdert-vom-deutsch-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -1450,7 +1006,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -1473,7 +1029,7 @@
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-600x294.jpg",
+              "src": "@PROJECT_PATH@/assets/images/gi-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -1496,7 +1052,7 @@
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -1542,9 +1098,12 @@
           "media6": {
             "image": {
               "active": true,
-              "src": "images/host.png",
+              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "video": {
               "class": "mbr-figure__img",
@@ -1573,221 +1132,32 @@
               "font-size": "12px"
             }
           },
-          "_anchor": "features1-1c"
+          "_anchor": "features1-37"
         },
         {
-          "_inherit": "msg-box1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#444444",
+            "overlay": false,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-i",
           "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "color": "#252525",
-              "text-align": "center",
-              "font-size": "16px"
-            },
-            ".mbr-article": {
+            "P": {
               "color": "#252525"
             }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "EIN PROJEKT VON:",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-1d"
-        },
-        {
-          "_params": {
-            "showHeader": false,
-            "showSubheader": false,
-            "showImages": true,
-            "showTitles": false,
-            "showCaptions": false,
-            "showButtons": false,
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "columns": "5",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "headerAlign": "left",
-          "header": "",
-          "subheader": "By John Smith posted July 30, 2015",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "BOOTSTRAP 3",
-          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/gi-logo-links-600x195.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title2": "RESPONSIVE",
-          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/okfde-logo-black-600x255.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title3": "WEB FONTS",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title4": "UNLIMITED WEBSITES",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "images/host.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features1",
-          "_styles": {
-            ".mbr-section-title .mbr-header__text": {
-              "font-size": "16px",
-              "text-align": "left"
-            }
-          },
-          "_anchor": "features1-1e"
+          }
         }
       ]
     },
@@ -1882,7 +1252,7 @@
           },
           "headerAlign": "left",
           "header": "MODULE<br><br>",
-          "subheader": "<span style=\"font-style: normal;\">Die Sationen des <b>Turing-Bus</b> bestehen aus einer individuell angepassten Konfiguration aus den unten stehenden Modulen. Nicht jede Station enthält jedes Modul, da diese an die örtlichen Gegebenheiten und lokale Angebote angepasst werden. </span><br><br><span style=\"font-style: normal;\">Für die <b>Teilnehmer</b>&nbsp; (13-20 jährige Schüler und Studentinnen)&nbsp;vor Ort stellen die Stationen eine Gelegenheit dar, mehr über partizipative Angebote zu lernen, kritisch über die Rolle von Technologie und Informatik in der Gesellschaft zu reflektieren und sich mit H</span><span style=\"font-style: normal;\">ands-on Formaten anzunähern.</span><br><br><span style=\"font-style: normal;\">Für die <b>Vorstellenden</b> ist der Bus eine Chance, die Reichweite der eigenen Initiative oder des eigenen Projekts zu erhöhen und mit Akteuren aus anderen Zielgruppen zu diskutieren.&nbsp;</span><br><span style=\"font-style: normal;\"><br></span>",
+          "subheader": "<span style=\"font-style: normal;\">Die Stationen des <b>Turing-Bus</b> bestehen aus einer individuell angepassten Konfiguration aus den unten stehenden Modulen. Nicht jede Station enthält jedes Modul, da diese an die örtlichen Gegebenheiten und lokale Angebote angepasst werden. </span><br><br><span style=\"font-style: normal;\">Für die <b>Teilnehmer</b>&nbsp; (13-20 jährige Schüler und Studentinnen)&nbsp;vor Ort stellen die Stationen eine Gelegenheit dar, mehr über partizipative Angebote zu lernen, kritisch über die Rolle von Technologie und Informatik in der Gesellschaft zu reflektieren und sich mit H</span><span style=\"font-style: normal;\">ands-on Formaten anzunähern.</span><br><br><span style=\"font-style: normal;\">Für die <b>Vorstellenden</b> ist der Bus eine Chance, die Reichweite der eigenen Initiative oder des eigenen Projekts zu erhöhen und mit Akteuren aus anderen Zielgruppen zu diskutieren.&nbsp;</span><br><span style=\"font-style: normal;\"><br></span>",
           "media1": {
             "image": {
               "active": true,
@@ -2091,9 +1461,7 @@
           "_inherit": "msg-box1",
           "_styles": {
             ".mbr-header .mbr-header__text": {
-              "color": "#252525",
-              "font-size": "15px",
-              "text-align": "center"
+              "color": "#252525"
             },
             ".mbr-article": {
               "color": "#252525"
@@ -2102,14 +1470,14 @@
           "_params": {
             "showTitle": true,
             "showText": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#cccccc",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -2118,14 +1486,14 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "GEFÖRDERT DURCH:",
+          "title": "ABONNIEREN SIE UNSEREN NEWSLETTER:",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://eepurl.com/dlz6Fb\" data-toolbar=\"-mbrBtnMove\">BESTELLEN</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box2",
-          "_anchor": "msg-box2-1l"
+          "_anchor": "msg-box2-3g"
         },
         {
           "_params": {
@@ -2135,9 +1503,9 @@
             "showTitles": false,
             "showCaptions": false,
             "showButtons": false,
-            "paddingTop": "2",
+            "paddingTop": "1",
             "paddingBottom": "1",
-            "columns": "5",
+            "columns": "6",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -2157,7 +1525,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "src": "@PROJECT_PATH@/assets/images/bmbf-gefirdert-vom-deutsch-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -2180,7 +1548,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -2203,7 +1571,7 @@
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-600x294.jpg",
+              "src": "@PROJECT_PATH@/assets/images/gi-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -2226,7 +1594,7 @@
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -2272,9 +1640,12 @@
           "media6": {
             "image": {
               "active": true,
-              "src": "images/host.png",
+              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "video": {
               "class": "mbr-figure__img",
@@ -2303,241 +1674,32 @@
               "font-size": "12px"
             }
           },
-          "_anchor": "features1-1m"
-        },
-        {
-          "_inherit": "msg-box1",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "color": "#252525",
-              "text-align": "center",
-              "font-size": "16px"
-            },
-            ".mbr-article": {
-              "color": "#252525"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "EIN PROJEKT VON:",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-1n"
-        },
-        {
-          "_params": {
-            "showHeader": false,
-            "showSubheader": false,
-            "showImages": true,
-            "showTitles": false,
-            "showCaptions": false,
-            "showButtons": false,
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "columns": "5",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "headerAlign": "left",
-          "header": "",
-          "subheader": "By John Smith posted July 30, 2015",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "BOOTSTRAP 3",
-          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/gi-logo-links-600x195.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title2": "RESPONSIVE",
-          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/okfde-logo-black-600x255.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title3": "WEB FONTS",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title4": "UNLIMITED WEBSITES",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "images/host.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features1",
-          "_styles": {
-            ".mbr-section-title .mbr-header__text": {
-              "font-size": "16px",
-              "text-align": "left"
-            }
-          },
-          "_anchor": "features1-1o"
+          "_anchor": "features1-35"
         },
         {
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#444444",
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-danger\">Impressum / Datenschutz</a>",
+          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-1p"
+          "_anchor": "footer1-1p",
+          "_styles": {
+            "P": {
+              "color": "#252525"
+            }
+          }
         }
       ]
     },
@@ -2638,61 +1800,10 @@
           "_anchor": "header2-23"
         },
         {
-          "_params": {
-            "showTitle": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "KONTAKTIEREN SIE UNS",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SENDEN</a>",
-          "form": {
-            "action": "info@turing-bus.de",
-            "alerts": {
-              "success": "Danke!"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Nachricht"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-1x"
-        },
-        {
           "_inherit": "msg-box1",
           "_styles": {
             ".mbr-header .mbr-header__text": {
-              "color": "#252525",
-              "font-size": "15px",
-              "text-align": "center"
+              "color": "#252525"
             },
             ".mbr-article": {
               "color": "#252525"
@@ -2701,14 +1812,14 @@
           "_params": {
             "showTitle": true,
             "showText": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -2717,14 +1828,14 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "GEFÖRDERT DURCH:",
+          "title": "ABONNIEREN SIE UNSEREN NEWSLETTER:",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://eepurl.com/dlz6Fb\" data-toolbar=\"-mbrBtnMove\">BESTELLEN</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box2",
-          "_anchor": "msg-box2-1y"
+          "_anchor": "msg-box2-3h"
         },
         {
           "_params": {
@@ -2734,9 +1845,9 @@
             "showTitles": false,
             "showCaptions": false,
             "showButtons": false,
-            "paddingTop": "2",
+            "paddingTop": "1",
             "paddingBottom": "1",
-            "columns": "5",
+            "columns": "6",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -2756,7 +1867,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "src": "@PROJECT_PATH@/assets/images/bmbf-gefirdert-vom-deutsch-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -2779,7 +1890,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -2802,7 +1913,7 @@
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-600x294.jpg",
+              "src": "@PROJECT_PATH@/assets/images/gi-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -2825,7 +1936,7 @@
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -2871,9 +1982,12 @@
           "media6": {
             "image": {
               "active": true,
-              "src": "images/host.png",
+              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "video": {
               "class": "mbr-figure__img",
@@ -2902,241 +2016,32 @@
               "font-size": "12px"
             }
           },
-          "_anchor": "features1-1z"
-        },
-        {
-          "_inherit": "msg-box1",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "color": "#252525",
-              "text-align": "center",
-              "font-size": "16px"
-            },
-            ".mbr-article": {
-              "color": "#252525"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "EIN PROJEKT VON:",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-20"
-        },
-        {
-          "_params": {
-            "showHeader": false,
-            "showSubheader": false,
-            "showImages": true,
-            "showTitles": false,
-            "showCaptions": false,
-            "showButtons": false,
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "columns": "5",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "headerAlign": "left",
-          "header": "",
-          "subheader": "By John Smith posted July 30, 2015",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "BOOTSTRAP 3",
-          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/gi-logo-links-600x195.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title2": "RESPONSIVE",
-          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/okfde-logo-black-600x255.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title3": "WEB FONTS",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title4": "UNLIMITED WEBSITES",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "images/host.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features1",
-          "_styles": {
-            ".mbr-section-title .mbr-header__text": {
-              "font-size": "16px",
-              "text-align": "left"
-            }
-          },
-          "_anchor": "features1-21"
+          "_anchor": "features1-36"
         },
         {
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#444444",
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-danger\">Impressum / Datenschutz</a>",
+          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-22"
+          "_anchor": "footer1-22",
+          "_styles": {
+            "P": {
+              "color": "#252525"
+            }
+          }
         }
       ]
     }
