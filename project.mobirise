@@ -186,7 +186,10 @@
           "_anchor": "slider-1h",
           "_styles": {
             "P": {
-              "text-align": "center"
+              "text-align": "left"
+            },
+            "H1": {
+              "text-align": "left"
             }
           }
         },
