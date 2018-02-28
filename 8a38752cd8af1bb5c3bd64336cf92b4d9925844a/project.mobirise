@@ -16,7 +16,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 135,
+    "uniqCompNum": 137,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -200,6 +200,26 @@
               "text-align": "left"
             }
           }
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "WISSENSCHAFTSJAHR 2018",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-3r"
+        },
+        {
+          "text": "<p>Der Turing-Bus ist eine Initiative der <b>Gesellschaft für Informatik</b> und der <b>Open Knowledge Foundation Deutschland</b>. Das Projekt wird im Rahmen des <b>Wissenschaftsjahres 2018</b>&nbsp;durch <b>Bundesministerium für Bildung und Forschung</b> gefördert.</p><p>Das <a href=\"https://www.wissenschaftsjahr.de/2018\">Wissenschaftsjahr 2018</a> widmet sich dem Thema <b>Arbeitswelten der Zukunft</b>. Durch die Digitalisierung, alternative Arbeitsmodelle und die Entwicklung künstlicher Intelligenz stehen Forschung und Zivilgesellschaft vor neuen Chancen und Herausforderungen: Wie werden die Menschen in Zukunft arbeiten? Wie machen sie sich fit dafür? Und welche Rolle spielen Wissenschaft und Forschung bei der Gestaltung eben dieser neuen Arbeitswelten? </p><p>Das Wissenschaftsjahr 2018 zeigt, welchen Einfluss soziale und technische Innovationen auf die Arbeitswelten von morgen haben - und wie diese nicht nur den Arbeitsalltag verändern, sondern auch neue Maßstäbe im gesellschaftspolitischen Dialog setzen. \"Erleben. Erlernen. Gestalten.\" – unter diesem Motto werden Bürgerinnen und Bürger im Wissenschaftsjahr 2018 dazu aufgerufen mitzumachen, Fragen zu stellen und gemeinsam Lösungsansätze zu finden. </p><p>Weitere Informationen unter <a href=\"http://www.wissenschaftsjahr.de\" style=\"background-color: rgb(255, 255, 255);\">www.wissenschaftsjahr.de</a>.<br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-3s"
         },
         {
           "_inherit": "msg-box1",
