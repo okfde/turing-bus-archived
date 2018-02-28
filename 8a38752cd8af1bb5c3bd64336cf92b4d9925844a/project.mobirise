@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-02-07_1319",
+    "name": "Turing-Bus",
     "currentPage": "index.html",
     "theme": {
       "name": "default",
@@ -16,9 +16,14 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 127,
+    "uniqCompNum": 135,
     "versionPublish": "4.6.3",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "html_before": "",
+    "headbody": "",
+    "botbody": ""
   },
   "pages": {
     "index.html": {
@@ -68,7 +73,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-white.svg",
+              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-final.svg",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
@@ -94,20 +99,23 @@
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-7-1620x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/bg-mit-logo-und-frame10-2000x1333.png",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#c1c1c1",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/embed/UrXQ7abF-Fs?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://youtu.be/UrXQ7abF-Fs?t=1m11s",
+              "width": 1280,
+              "height": 720
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#252525",
             "overlayOpacity": "0.7"
           },
           "title": "",
-          "text": "Der <b>Turing-Bus</b> ist ein Projekt der <a href=\"http://okfn.de\" class=\"text-warning\">Open Knowledge Foundation Deutschland</a> und der <a href=\"https://gi.de/\" class=\"text-warning\">Gesellschaft für Informatik</a>, gefördert durch das <a href=\"http://bmbf.de\" class=\"text-warning\">BMBF</a> im Rahmen des Wissenschaftsjahres 2018.<br><br>Der Turing-Bus fährt entlang einer Route abseits der Ballungszentren Stationen ab, um Potenziale und Chancen der Informatik in der Gesellschaft und Arbeitswelt von morgen mit <b>Workshops</b>, <b>Diskussionen</b> und <b>Hands-on Sessions</b> zu ergründen.<br><br>Gegenwärtig befinden wir uns in der Planungsphase und suchen nach lokalen Partnern und Interessierten, die an den Stationen mitwirken möchten.&nbsp;<br>",
+          "text": "Der <b>Turing-Bus</b> ist ein mobiles Bildungsangebot der <a href=\"http://okfn.de\" class=\"text-warning\">Open Knowledge Foundation Deutschland</a> und der <a href=\"https://gi.de/\" class=\"text-warning\">Gesellschaft für Informatik</a>, gefördert durch das <a href=\"http://bmbf.de\" class=\"text-warning\">BMBF</a> im Rahmen des Wissenschaftsjahres 2018.&nbsp;<br><br>Der Turing-Bus bietet&nbsp;<b>Workshops</b>, <b>Diskussionen</b> und <b>Hands-on Sessions </b>für&nbsp;Jugendliche und junge Erwachsene um&nbsp;selbstbestimmt in eine bessere digitale Zukunft zu gehen.<br><br>Gegenwärtig befinden wir uns in der Planungsphase und suchen nach lokalen Partnern und Interessierten, die an den Stationen mitwirken möchten.&nbsp;<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">SCHREIBEN SIE UNS!</a> ",
           "_tags": [
             "Theme"
@@ -122,8 +130,8 @@
               "text-align": "left"
             },
             "P": {
-              "font-family": "'PT Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "color": "#ffffff",
               "font-size": "20px",
               "text-align": "left"
@@ -154,19 +162,19 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "title": "Netzwerke verbinden",
-                "contentAlign": "center",
+                "contentAlign": "left",
                 "text": "Es gibt bereits viele spannende Projekte, die lokale Ableger haben. Coder Dojos, Labs, Regionalgruppen, regionale Hackathons und Wettbewerbe. Oft fehlen diesen aber die Mittel und Wege, ihr Angebot in die benachbarten Städte zu tragen. Der <b>Turing-Bus</b>&nbsp;sammelt und verbreitet deswegen diese Angebote vor Ort und digital.",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH SUCHE NACH ANGEBOTEN</a>",
                 "overlay": true
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1621x1080.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -229,7 +237,7 @@
             "Theme"
           ],
           "_name": "msg-box2",
-          "_anchor": "msg-box2-3f"
+          "_anchor": "msg-box2-3q"
         },
         {
           "_params": {
@@ -264,9 +272,10 @@
               "src": "@PROJECT_PATH@/assets/images/bmbf-gefirdert-vom-deutsch-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
+              "link": "http://bmbf.de",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -310,9 +319,10 @@
               "src": "@PROJECT_PATH@/assets/images/gi-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
+              "link": "http://gi.de",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -333,9 +343,10 @@
               "src": "@PROJECT_PATH@/assets/images/okf-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
+              "link": "http://okfn.de",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": true
             },
             "video": {
               "class": "mbr-figure__img",
@@ -379,9 +390,10 @@
               "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
+              "link": "https://www.wissenschaftsjahr.de/2018/",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -425,7 +437,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "text": "Bilder: <a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
@@ -486,7 +498,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-white.svg",
+              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-final.svg",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
@@ -577,7 +589,7 @@
           "_anchor": "header3-2z"
         },
         {
-          "text": "<p>Die Relevanz der <b>Digitalisierung</b>&nbsp;muss heute eigentlich nicht mehr betont oder bestritten werden: Alltagsleben, Arbeit und Kommunikation sind für viele ohne Computer nicht mehr vorstellbar. Konsequenzen hat dies nicht nur für die Anforderungen an unser Können und unsere Fähigkeiten, auch für die gemeinnützige Arbeit, soziales Engagement und die Art und Weise zu arbeiten ergeben sich neue <b>Fragestellungen.</b></p><p><b>INFORMATIK ALS SCHLÜSSEL</b></p><p>Informatik ist längst mehr als eine Wissenschaft. Als Schlüssel zu der uns umgebenden, stetig wachsenden digitalen Infrastruktur hat sie die Macht, unser Verhältnis zu unserer Umwelt zu definieren; als Werkzeug, dass die 'Black Box' der großen und kleinen Computer öffnen kann, kann sie uns Aufschluss über die stetig Daten sammelnden 'Smart' Phones, Watches und Devices geben, um dadurch ein Verständnis dafür zu entwickeln, wohin die unseren Alltag abbildenden Datenströme fließen. Daten gibt es nicht nur bei Facebook: was der Staat tut, wohin Steuergelder fließen oder was in der Politik geschieht, kann mithilfe von datenverarbeitender Software aufgedeckt und verstanden werden.</p><p>Wie gehen wir auf die Zukunft zu - und mit ihr um? Welche Herausforderungen und Chancen warten auf uns und setzt sich eine breite Öffentlichkeit kritisch mit dem Thema auseinander? In größeren Städten wie Berlin gibt es oftmals bereits eine Reihe an Angeboten: von selbstorganisierten Treffen über Vereine und Fortbildungen bis hin zu Veranstaltungen besteht für die Einwohner ein breites Angebot, um sich mit den Themen der Digitalisierung auseinanderzusetzen.&nbsp;<br></p><p><b>Außerhalb dieser Ballungszentren besteht dagegen oftmals ein Mangel an Angeboten.&nbsp;</b></p><p>Der Turing-Bus (benannt nacht Alan Turing) möchte deshalb <b>Akteure</b>, <b>Initiativen</b> und <b>Projekte</b> mit diesen <b>vernachlässigten Zielgruppen</b> verbinden und besucht deshalb im Frühjahr/Sommer 2018 Städte, Bildungseinrichtungen und Institutionen in Deutschland. Auf diesen Stationen finden individuell entwickelte Veranstaltungen, Workshops, Panel-Diskussionen und Hands-on Formate statt, bei denen Vertreter der oben genannten Initiativen (Infonauten) sich und ihre Arbeit präsentieren.</p><p>Die Ergebnisse können in einer <b>Infonauten-Karte</b> auf dieser Webseite eingesehen werden. &nbsp;</p><p><br></p>",
+          "text": "<p>Die Relevanz der <b>Digitalisierung</b>&nbsp;muss heute eigentlich nicht mehr betont oder bestritten werden: Alltagsleben, Arbeit und Kommunikation sind für viele ohne Computer nicht mehr vorstellbar. Konsequenzen hat dies nicht nur für die Anforderungen an unser Können und unsere Fähigkeiten, auch für die gemeinnützige Arbeit, soziales Engagement und die Art und Weise zu arbeiten ergeben sich neue <b>Fragestellungen.</b></p><p><b>INFORMATIK ALS SCHLÜSSEL</b></p><p>Informatik ist längst mehr als eine Wissenschaft. Als Schlüssel zu der uns umgebenden, stetig wachsenden digitalen Infrastruktur hat sie die Macht, unser Verhältnis zu unserer Umwelt zu definieren; als Werkzeug, dass die 'Black Box' der großen und kleinen Computer öffnen kann, kann sie uns Aufschluss über die stetig Daten sammelnden 'Smart' Phones, Watches und Devices geben, um dadurch ein Verständnis dafür zu entwickeln, wohin die unseren Alltag abbildenden Datenströme fließen. Daten gibt es nicht nur bei Facebook: was der Staat tut, wohin Steuergelder fließen oder was in der Politik geschieht, kann mithilfe von datenverarbeitender Software aufgedeckt und verstanden werden.</p><p>Wie gehen wir auf die Zukunft zu - und mit ihr um? Welche Herausforderungen und Chancen warten auf uns und setzt sich eine breite Öffentlichkeit kritisch mit dem Thema auseinander? In größeren Städten wie Berlin gibt es oftmals bereits eine Reihe an Angeboten: von selbstorganisierten Treffen über Vereine und Fortbildungen bis hin zu Veranstaltungen besteht für die Einwohner ein breites Angebot, um sich mit den Themen der Digitalisierung auseinanderzusetzen.&nbsp;<br></p><p><b>Außerhalb dieser Ballungszentren besteht dagegen oftmals ein Mangel an Angeboten.&nbsp;</b></p><p>Der Turing-Bus (benannt nacht Alan Turing) möchte deshalb <b>Akteure</b>, <b>Initiativen</b> und <b>Projekte</b> mit diesen <b>vernachlässigten Zielgruppen</b> verbinden und besucht deshalb im Frühjahr/Sommer 2018 Städte, Bildungseinrichtungen und Institutionen in Deutschland. Auf diesen Stationen finden individuell entwickelte Veranstaltungen, Workshops, Panel-Diskussionen und Hands-on Formate statt, bei denen Vertreter der oben genannten Initiativen (Infonauten) sich und ihre Arbeit präsentieren.</p><p>Die Ergebnisse können in einer <b>Infonauten-Karte</b> auf dieser Webseite eingesehen werden.&nbsp;</p><p><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -585,7 +597,19 @@
           "_anchor": "content1-o"
         },
         {
-          "text": "<p>Der Turing-Bus ist eine Initiative der <b>Gesellschaft für Informatik</b> und der <b>Open Knowledge Foundation Deutschland</b>. Das Projekt wird im Rahmen des <b>Wissenschaftsjahres 2018</b>&nbsp;durch Bundesministerium für Bildung und Forschung gefördert.</p>",
+          "_params": {
+            "showMeta": false
+          },
+          "title": "WISSENSCHAFTSJAHR 2018",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-3m"
+        },
+        {
+          "text": "<p>Der Turing-Bus ist eine Initiative der <b>Gesellschaft für Informatik</b> und der <b>Open Knowledge Foundation Deutschland</b>. Das Projekt wird im Rahmen des <b>Wissenschaftsjahres 2018</b>&nbsp;durch <b>Bundesministerium für Bildung und Forschung</b> gefördert.</p><p>Das <a href=\"https://www.wissenschaftsjahr.de/2018\">Wissenschaftsjahr 2018</a> widmet sich dem Thema <b>Arbeitswelten der Zukunft</b>. Durch die Digitalisierung, alternative Arbeitsmodelle und die Entwicklung künstlicher Intelligenz stehen Forschung und Zivilgesellschaft vor neuen Chancen und Herausforderungen: Wie werden die Menschen in Zukunft arbeiten? Wie machen sie sich fit dafür? Und welche Rolle spielen Wissenschaft und Forschung bei der Gestaltung eben dieser neuen Arbeitswelten? </p><p>Das Wissenschaftsjahr 2018 zeigt, welchen Einfluss soziale und technische Innovationen auf die Arbeitswelten von morgen haben - und wie diese nicht nur den Arbeitsalltag verändern, sondern auch neue Maßstäbe im gesellschaftspolitischen Dialog setzen. \"Erleben. Erlernen. Gestalten.\" – unter diesem Motto werden Bürgerinnen und Bürger im Wissenschaftsjahr 2018 dazu aufgerufen mitzumachen, Fragen zu stellen und gemeinsam Lösungsansätze zu finden. </p><p>Weitere Informationen unter <a href=\"http://www.wissenschaftsjahr.de\" style=\"background-color: rgb(255, 255, 255);\">www.wissenschaftsjahr.de</a>.<br></p>",
           "_tags": [
             "Theme"
           ],
@@ -824,7 +848,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "text": "Bilder: <a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
@@ -885,7 +909,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-white.svg",
+              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-final.svg",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
@@ -1155,7 +1179,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "text": "Bilder: <a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
@@ -1216,7 +1240,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-white.svg",
+              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-final.svg",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
@@ -1287,7 +1311,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-1200x800.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-4-1200x800.jpg",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -1697,7 +1721,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "text": "Bilder: <a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
@@ -1758,7 +1782,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-white.svg",
+              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-final.svg",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
@@ -2039,7 +2063,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "text": "Bilder: <a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],

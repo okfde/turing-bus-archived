@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 
 
 #ext_menu-0 .mbr-brand__name {
@@ -22,7 +23,7 @@
   text-align: left;
 }
 #header1-1 P {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-size: 20px;
   text-align: left;
@@ -33,10 +34,10 @@
 #slider-1h H1 {
   text-align: left;
 }
-#msg-box2-3f .mbr-header .mbr-header__text {
+#msg-box2-3q .mbr-header .mbr-header__text {
   color: #252525;
 }
-#msg-box2-3f .mbr-article {
+#msg-box2-3q .mbr-article {
   color: #252525;
 }
 #features1-34 .mbr-section-title .mbr-header__text {
