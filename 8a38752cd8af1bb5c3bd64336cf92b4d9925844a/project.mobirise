@@ -17,7 +17,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 160,
+    "uniqCompNum": 163,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -106,7 +106,7 @@
             "bgImage": "@PROJECT_PATH@/assets/images/simon-rae-221560-unsplash-1-2000x1333.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#efefef",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -138,7 +138,7 @@
             }
           },
           "title": "DRAG AND DROP WEBSITE BUILDER",
-          "text": "<p>Der Turing-Bus ist ein mobiles Bildungsangebot der Open Knowledge Foundation Deutschland und der Gesellschaft für Informatik.</p><p>Der Bus möchte die Rolle von Digitalisierung und Technologie für Beruf und Gesellschaft mit Workshops, Vorträgen und Hands-on Sessions ergründen, diskutieren und kritisch hinterfragen. Die Zielgruppe des Projektes sind jugendliche und junge Erwachsene im Alter von 15-25 Jahren.</p><p>Gegenwärtig befinden wir uns in der Planungsphase und suchen nach lokalen Partnern und Interessierten, die an den Stationen mitwirken möchten.&nbsp;</p>",
+          "text": "<p>Der Turing-Bus ist ein mobiles Bildungsangebot der Open Knowledge Foundation Deutschland und der Gesellschaft für Informatik.</p><p>Der Bus möchte die Rolle der Digitalisierung und neuer Technologien für Beruf und Gesellschaft mit Workshops, Vorträgen und Hands-on Sessions ergründen, diskutieren und kritisch hinterfragen. Die Zielgruppe des Projektes sind jugendliche und junge Erwachsene im Alter von 15-25 Jahren.</p><p>Gegenwärtig befinden wir uns in der Planungsphase und suchen nach lokalen Partnern und Interessierten, die an den Stationen mitwirken möchten.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
