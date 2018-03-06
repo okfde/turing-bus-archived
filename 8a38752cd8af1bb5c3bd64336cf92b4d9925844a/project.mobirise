@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "bus.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -173,7 +173,7 @@
             "showCaptions": true,
             "showButtons": false,
             "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingBottom": "0",
             "columns": 4,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
