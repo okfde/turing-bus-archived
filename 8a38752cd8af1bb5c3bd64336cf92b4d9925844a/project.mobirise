@@ -367,20 +367,20 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/pop-2478651-1920-1920x1274.jpg",
                 "active": false,
-                "showButtons": true,
+                "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "title": "Gegen die Blase",
                 "contentAlign": "center",
                 "text": "Community macht schlau: Der Turing-Bus möchte Angebote, Ideen und Ansätze aus den oftmals überversorgten Großstädten in bisher unterversorgte Regionen tragen.&nbsp;<br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH SUCHE NACH ANGEBOTEN</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> ",
                 "overlay": true,
                 "overlayOpacity": "0.6"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
                 "active": true,
-                "showButtons": true,
+                "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "title": "Netzwerke verbinden",
