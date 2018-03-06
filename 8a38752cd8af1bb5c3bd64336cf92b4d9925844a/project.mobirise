@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "faq.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -234,8 +234,8 @@
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
-            "autoplay": true,
-            "fullScreen": true,
+            "autoplay": false,
+            "fullScreen": false,
             "paddingTop": 3,
             "paddingBottom": 3,
             "showBullets": true,
@@ -243,25 +243,26 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/pop-2478651-1920-1920x1274.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "title": "Gegen die Blase",
                 "contentAlign": "center",
-                "text": "Wer in Großstädten wohnt und nach Workshops, Communities und Projekten sucht um sich fortzubilden, an Initiativen für eine bessere digitale Zukunft zu beteiligen oder um Gleichgesinnte zu treffen, findet schnell ein Überangebot. Abseits der Großstädte sieht es anders aus: auch überregionale Angebote sind hier oft nicht bekannt. <br><br>Der <b>Turing-Bus </b>möchte dies ändern und fährt deswegen gezielt an Orte außerhalb der etablierten Ballungszentren.&nbsp;",
+                "text": "Community macht schlau: Der Turing-Bus möchte Angebote, Ideen und Ansätze aus den oftmals überversorgten Großstädten in bisher unterversorgte Regionen tragen.&nbsp;<br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH SUCHE NACH ANGEBOTEN</a>",
-                "overlay": true
+                "overlay": true,
+                "overlayOpacity": "0.5"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "title": "Netzwerke verbinden",
                 "contentAlign": "left",
-                "text": "Es gibt bereits viele spannende Projekte, die lokale Ableger haben. Coder Dojos, Labs, Regionalgruppen, regionale Hackathons und Wettbewerbe. Oft fehlen diesen aber die Mittel und Wege, ihr Angebot in die benachbarten Städte zu tragen. Der <b>Turing-Bus</b>&nbsp;sammelt und verbreitet deswegen diese Angebote vor Ort und digital.",
+                "text": "Es gibt bereits viele spannende Projekte, die lokale Ableger haben, wie z.B. Coder Dojos, Labs, Regionalgruppen, regionale Hackathons und Wettbewerbe. Oft fehlen diesen aber die Mittel und Wege, ihr Angebot einer breiten Masse zugänglich zu machen. Der <b>Turing-Bus</b> sammelt, vernetzt diese Angebote und bietet ihnen eine mediale Plattform.",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH SUCHE NACH ANGEBOTEN</a>",
                 "overlay": true
               },
@@ -273,7 +274,7 @@
                 "showTitle": true,
                 "title": "Selbstbestimmt in die digitale Zukunft",
                 "contentAlign": "center",
-                "text": "Die Projekte, Initiativen und Akteure die auf den Stationen des Turing-Bus vorgestellt werden haben eines gemeinsam: sie entmystifizieren die Informatik als Schlüssel zu einer selbstbestimmteren und besseren Zukunft im digitalen Zeitalter. Dies kann auf verschiedene Arten passieren.",
+                "text": "Der Umgang mit Code ist eine der zentralsten Kompetenzen der Zukunft. Dennoch möchte der Turing-Bus Informatik nicht als Selbstzweck vermitteln: in Zeiten detaillierter Datenspuren und einem stetig wachsenden digitalen Angebot ist kritische Reflexion und die Entwicklung von  wichtiger denn je.&nbsp;<br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"module.html\" data-toolbar=\"-mbrBtnMove\">ZU DEN MODULEN</a> ",
                 "overlay": true
               }
