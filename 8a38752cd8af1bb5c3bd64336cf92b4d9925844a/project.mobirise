@@ -385,7 +385,7 @@
                 "showTitle": true,
                 "title": "Netzwerke verbinden",
                 "contentAlign": "left",
-                "text": "Es gibt bereits viele spannende Projekte, die lokale Ableger haben, wie z.B. Coder Dojos, Labs, Regionalgruppen, regionale Hackathons und Wettbewerbe. Oft fehlen diesen aber die Mittel und Wege, ihr Angebot einer breiten Masse zugänglich zu machen. Der <b>Turing-Bus</b> sammelt, vernetzt diese Angebote und bietet ihnen eine mediale Plattform.",
+                "text": "Es gibt bereits viele spannende lokale Projekte wie z.B. Coder Dojos, Labs, Regionalgruppen, regionale Hackathons und Wettbewerbe. Der Turing-Bus verbreitet diese vor Ort und über die Webseite und stärkt dadurch deren Bekanntheit.",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH SUCHE NACH ANGEBOTEN</a>",
                 "overlay": true
               },
