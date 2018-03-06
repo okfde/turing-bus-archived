@@ -1120,8 +1120,7 @@
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1131,7 +1130,7 @@
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">..denn die Zukunft ist auch nicht mehr das, was sie mal war..</a>",
           "_name": "ext.menu",
-          "_anchor": "ext_menu-1i"
+          "_anchor": "ext_menu-0"
         },
         {
           "_params": {
