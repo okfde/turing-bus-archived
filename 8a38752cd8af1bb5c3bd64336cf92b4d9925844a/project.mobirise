@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "index.html",
+    "currentPage": "module.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -1158,7 +1158,7 @@
           },
           "headerAlign": "left",
           "header": "MODULE<br><br>",
-          "subheader": "<span style=\"font-style: normal;\">Die Stationen des <b>Turing-Bus</b> bestehen aus einer individuell angepassten Konfiguration aus den unten stehenden Modulen.&nbsp;</span><br><br><span style=\"font-style: normal;\">Die <b>Teilnehmer</b>&nbsp;können dabei mehr über partizipative Angebote lernen, kritisch über die Rolle von Technologie und Informatik in der Gesellschaft zu reflektieren und sich mit H</span><span style=\"font-style: normal;\">ands-on Formaten an die Themen der Arbeitswelt der Zukunft nähern.</span><br><br><span style=\"font-style: normal;\">Für die <b>Vorstellenden</b> ist der Bus eine Chance, die Reichweite der eigenen Initiative oder des eigenen Projekts zu erhöhen und mit Akteuren aus anderen Zielgruppen zu diskutieren.&nbsp;</span><br><span style=\"font-style: normal;\"><br></span>",
+          "subheader": "<span style=\"font-style: normal;\">Die Stationen des <b>Turing-Bus</b> bestehen aus einer individuell angepassten Konfiguration aus den unten stehenden Modulen.</span><br><br><span style=\"font-style: normal;\">Die <b>Teilnehmer</b>&nbsp;können dabei mehr über partizipative Angebote lernen, kritisch über die Rolle von Technologie und Informatik in der Gesellschaft zu reflektieren und sich mit H</span><span style=\"font-style: normal;\">ands-on Formaten an die Themen der Arbeitswelt der Zukunft nähern.</span><br><br><span style=\"font-style: normal;\">Für die <b>Vorstellenden</b> ist der Bus eine Chance, die Reichweite der eigenen Initiative oder des eigenen Projekts zu erhöhen und mit Akteuren aus anderen Zielgruppen zu diskutieren.</span><br><span style=\"font-style: normal;\"><br></span>",
           "media1": {
             "image": {
               "active": true,
@@ -1249,7 +1249,7 @@
             }
           },
           "title4": "MITMACHEN",
-          "caption4": "Digitales Ehrenamt, Offene Bildungsmaterialien, Open Data, Civic Tech und Feinstaubsensoren? Was sich hinter diesen Begriffen versteckt und wie man dabei mitwirken kann, wird hier erklärt.",
+          "caption4": "Digitales Ehrenamt, Offene Bildungsmaterialien, Open Data, Civic Tech und Feinstaub-sensoren? Was sich hinter diesen Begriffen versteckt und wie man dabei mitwirken kann, wird hier erklärt.",
           "button4": "<a data-app-btn=\"true\" href=\"mailto:info@turing-bus.de\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN PROJEKT / MEINE INITIATIVE VORSTELLEN</a>",
           "media5": {
             "image": {
