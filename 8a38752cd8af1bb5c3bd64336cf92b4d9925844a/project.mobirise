@@ -18,7 +18,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 177,
+    "uniqCompNum": 180,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -85,7 +85,7 @@
             }
           },
           "title": "DRAG AND DROP WEBSITE BUILDER",
-          "text": "<p>Der Turing-Bus ist ein mobiles Bildungsangebot der <b>Open Knowledge Foundation Deutschland</b> und der <b>Gesellschaft für Informatik </b>für Schulen, Jugendclubs und lokale Institutionen.</p><p>Der Bus möchte die Rolle von Digitalisierung und Technologie für Beruf und Gesellschaft mit Workshops, Vorträgen und Hands-on-Sessions ergründen, diskutieren und kritisch hinterfragen. Die Zielgruppe des Projektes sind jugendliche und junge Erwachsene im Alter zwischen 15 und 25 Jahren.</p>",
+          "text": "<p>Der Turing-Bus ist ein mobiles Bildungsangebot der <b>Open Knowledge Foundation Deutschland</b> und der <b>Gesellschaft für Informatik </b>für Schulen, Jugendclubs und lokale Institutionen.</p><p>Der Bus möchte die Rolle von Digitalisierung und Technologie für Beruf und Gesellschaft mit Workshops, Vorträgen und Hands-on-Sessions ergründen, diskutieren und kritisch hinterfragen. Die Zielgruppe des Projektes sind Jugendliche und junge Erwachsene im Alter zwischen 15 und 25 Jahren.</p>",
           "_tags": [
             "Theme"
           ],
@@ -2340,7 +2340,7 @@
           "_anchor": "header3-2q"
         },
         {
-          "text": "<p>Der Turing-Bus (benannt nach <a href=\"https://de.wikipedia.org/wiki/Alan_Turing\">Alan Turing</a>) ist ein Projekt der Gesellschaft für Informatik und der Open Knowledge Foundation Deutschland. Als <b>mobiles Bildungsangebot</b> fährt ab dem Frühjahr 2018 ein Kleinbus entlang einer Route Städte in Deutschland (Stationen) ab, die abseits großer und etablierter Ballungszentren liegen, um Grundlagen der Informatik und gesellschaftliche Konsequenzen der Digitalisierung zu vermitteln und diskutieren.</p>",
+          "text": "<p>Der Turing-Bus (benannt nach <a href=\"https://de.wikipedia.org/wiki/Alan_Turing\">Alan Turing</a>) ist ein Projekt der Gesellschaft für Informatik und der Open Knowledge Foundation Deutschland. Als <b>mobiles Bildungsangebot</b>&nbsp;fährt er ab dem Frühjahr 2018 entlang einer Route Städte in Deutschland (Stationen) ab, die abseits großer und etablierter Ballungszentren liegen, um Grundlagen der Informatik und gesellschaftliche Konsequenzen der Digitalisierung zu vermitteln und diskutieren.</p>",
           "_tags": [
             "Theme"
           ],
@@ -2360,7 +2360,7 @@
           "_anchor": "header3-2w"
         },
         {
-          "text": "<p>Die Zielgruppe des Projektes sind vor allem junge Menschen zwischen 15 und 25 Jahren. Sie können an unseren Workshops teilnehmen oder selbst welche mit unserer Unterstützung durchführen (Wie werde ich Infonaut*in?). Dazu fahren wir  nach Absprache zu den Schulen, Jugendclubs, lokalen Labs oder auf passende Veranstaltungen. Die Angebote, Projekte und Fähigkeiten, die auf den Stationen vermittelt werden, stammen aus dem weiteren Feld der Informatik und werden von Expert*innen in den jeweiligen Gebieten vermittelt.</p><p>Sie möchten, dass der Turing-Bus zu Ihnen kommt? <a href=\"mailto:info@turing-bus.de\"><b>Schreiben Sie uns</b></a>!</p>",
+          "text": "<p>Die Zielgruppe des Projektes sind vor allem junge Menschen zwischen 15 und 25 Jahren. Sie können an unseren Workshops teilnehmen oder selbst welche mit unserer Unterstützung durchführen (Wie werde ich Infonaut*in?). Dazu fahren wir  nach Absprache zu den Schulen, Jugendclubs, lokalen Labs oder auf passende Veranstaltungen. Die Angebote, Projekte und Fähigkeiten, die auf den Stationen vermittelt werden, stammen aus dem weiteren Feld der In wformatik und werden von Expert*innen in den jeweiligen Gebieten vermittelt.</p><p>Ihr möchtet, dass der Turing-Bus zu Euch kommt?<b> Schreibt uns</b>!</p>",
           "_tags": [
             "Theme"
           ],
@@ -2391,6 +2391,26 @@
           "_params": {
             "showMeta": false
           },
+          "title": "WAS MÖCHTE DER TURING-BUS ERREICHEN?",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4x"
+        },
+        {
+          "text": "<p>Die Relevanz der Digitalisierung muss heute eigentlich nicht mehr betont oder bestritten werden: Alltagsleben, Arbeit und Kommunikation sind für viele ohne Computer nicht mehr vorstellbar. Konsequenzen hat dies nicht nur für die Anforderungen an unser Können und unsere Fähigkeiten, auch für die gemeinnützige Arbeit, soziales Engagement und die Art und Weise zu arbeiten ergeben sich neue Fragestellungen. Der Turing-Bus möchte einen Beitrag zur Auseinandersetzung Jugendlicher mit diesen Themen und Veränderungen leisten, um so auf die Zukunft der Arbeit und die Arbeitswelten der Zukunft vorzubereiten.&nbsp;</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-4z"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
           "title": "WIE SIEHT EINE STATION KONKRET AUS?",
           "meta": "By John Smith posted July 30, 2015",
           "_tags": [
@@ -2398,6 +2418,14 @@
           ],
           "_name": "header3",
           "_anchor": "header3-4k"
+        },
+        {
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-4y"
         },
         {
           "_params": {
