@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "module.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -18,14 +18,14 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 173,
+    "uniqCompNum": 177,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
     "html_before": "",
     "headbody": "",
-    "botbody": ""
+    "botbody": "<!-- Matomo -->\r\n<script type=\"text/javascript\">\r\n  var _paq = _paq || [];\r\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\r\n  _paq.push(['trackPageView']);\r\n  _paq.push(['enableLinkTracking']);\r\n  (function() {\r\n    var u=\"//traffic.okfn.de/\";\r\n    _paq.push(['setTrackerUrl', u+'piwik.php']);\r\n    _paq.push(['setSiteId', '41']);\r\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\r\n    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);\r\n  })();\r\n</script>\r\n<!-- End Matomo Code -->"
   },
   "pages": {
     "index.html": {
@@ -44,11 +44,11 @@
             "showTitle": false,
             "showMeta": false,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "inverse": false,
-            "imageSize": "17",
-            "paddingTop": "4",
-            "paddingBottom": "4",
+            "imageSize": "12",
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
             "parallax": true,
@@ -85,7 +85,7 @@
             }
           },
           "title": "DRAG AND DROP WEBSITE BUILDER",
-          "text": "<p>Der Turing-Bus ist ein mobiles Bildungsangebot der <b>Open Knowledge Foundation Deutschland</b> und der <b>Gesellschaft für Informatik</b>.</p><p>Der Bus möchte die Rolle der Digitalisierung und neuer Technologien für Beruf und Gesellschaft mit Workshops, Vorträgen und Hands-on Sessions ergründen, diskutieren und kritisch hinterfragen. Die Zielgruppe des Projektes sind jugendliche und junge Erwachsene im Alter von 15-25 Jahren.</p><p>Gegenwärtig befinden wir uns in der Planungsphase und suchen nach lokalen Partnern und Interessierten, die an den Stationen mitwirken möchten.&nbsp;</p>",
+          "text": "<p>Der Turing-Bus ist ein mobiles Bildungsangebot der <b>Open Knowledge Foundation Deutschland</b> und der <b>Gesellschaft für Informatik </b>für Schulen, Jugendclubs und lokale Institutionen.</p><p>Der Bus möchte die Rolle von Digitalisierung und Technologie für Beruf und Gesellschaft mit Workshops, Vorträgen und Hands-on-Sessions ergründen, diskutieren und kritisch hinterfragen. Die Zielgruppe des Projektes sind jugendliche und junge Erwachsene im Alter zwischen 15 und 25 Jahren.</p>",
           "_tags": [
             "Theme"
           ],
@@ -100,8 +100,8 @@
               "color": "#ffffff"
             },
             ".mbr-article P": {
-              "font-size": "21px",
-              "color": "#222222"
+              "font-size": "19px",
+              "color": "#3b3b3b"
             }
           },
           "headerAlign": "left",
@@ -109,60 +109,6 @@
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">SCHREIBEN SIE UNS!</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-4f"
-        },
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": true,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#79b1b8",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"wissenschaftsjahr.html\" data-toolbar=\"-mbrBtnMove\">WISSENSCHAFTSJAHR 2018</a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#79b1b8"
-            },
-            ".mbr-navbar__section": {
-              "background": "#79b1b8"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".mbr-brand__name a": {
-              "font-size": "10px"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">MODULE</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"faq.html\">FAQ</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-white.svg",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">..denn die Zukunft ist auch nicht mehr das, was sie mal war..</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-0"
         },
         {
           "_params": {
@@ -347,7 +293,7 @@
           "_anchor": "features1-4q"
         },
         {
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"module.html\" data-toolbar=\"-mbrBtnMove\">MEHR..</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"module.html\" data-toolbar=\"-mbrBtnMove\">MEHR ERFAHREN..</a> ",
           "_tags": [
             "Theme"
           ],
@@ -362,42 +308,43 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "showBullets": false,
-            "bgColor": "#ffffff",
+            "bgColor": "#79b1b8",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/pop-2478651-1920-1920x1274.jpg",
+                "image": "@PROJECT_PATH@/assets/images/18829055635-4e9296675f-o-2-2000x1500.jpg",
                 "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Gegen die Blase",
-                "contentAlign": "center",
-                "text": "Gute Ideen in die Breite tragen: Der Turing-Bus möchte Angebote, Ideen und Ansätze aus den oftmals überversorgten Großstädten in noch nicht erschlossene Regionen bringen.&nbsp;<br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> ",
-                "overlay": true,
-                "overlayOpacity": "0.6"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
-                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "title": "Netzwerke verbinden",
                 "contentAlign": "left",
-                "text": "Es gibt bereits viele spannende lokale Projekte wie z.B. Coder Dojos, Labs, Regionalgruppen, regionale Hackathons und Veranstaltungen. Der Turing-Bus verbreitet diese vor Ort und über die Webseite und stärkt dadurch existierende Netzwerke.",
+                "text": "Es gibt bereits viele spannende lokale Projekte wie z.B. Coder Dojos, Labs, Regionalgruppen, regionale Hackathons und andere kreative IT-Projekte. Der Turing-Bus verbreitet diese vor Ort und über die Webseite und stärkt dadurch existierende Netzwerke.<br><br>Foto:&nbsp;<a href=\"https://www.flickr.com/photos/okfde/18829055635/in/album-72157654186937588/\" class=\"text-danger\">Hack your City Karlsruhe</a>, CC-BY 2.0",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN LOKALES ANGEBOT VERBREITEN</a> ",
                 "overlay": true
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1621x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/landscape-tree-grass-plant-road-lawn-787070-pxhere.com-1-2000x1402.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Gegen die Blase",
+                "contentAlign": "center",
+                "text": "Community macht schlau: Der Turing-Bus möchte Angebote, Ideen und Ansätze aus den oftmals überversorgten Großstädten in Regionen tragen, die in der „digitalen Arbeitswelt von Morgen“ wenig repräsentiert erscheinen bzw. noch nicht erschlossen sind. <br><br>Foto: <a href=\"https://creativecommons.org/publicdomain/zero/1.0/deed.de\" class=\"text-danger\">CC-0</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> ",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "overlayColor": "#222222"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/38991698625-5e9ab7c6d1-o-2000x1333.jpg",
                 "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "title": "Selbstbestimmt in die digitale Zukunft",
                 "contentAlign": "center",
-                "text": "Der Umgang mit Code ist eine der zentralsten Kompetenzen der Zukunft. Dennoch möchte der Turing-Bus Informatik nicht als Selbstzweck vermitteln: in Zeiten detaillierter Datenspuren und einem stetig wachsenden digitalen Angebot ist kritische Reflexion und die Entwicklung von  wichtiger denn je.&nbsp;<br>",
+                "text": "Der Umgang mit Code ist eine der zentralen Kompetenzen der Zukunft. Dennoch möchte der Turing-Bus den Zugang zur Informatik nicht als Selbstzweck vermitteln: In Zeiten detaillierter Datenspuren und einem stetig wachsenden digitalen Angebot ist kritische Reflexion, Einordnung und Beurteilung wichtiger denn je.<br><br>Foto: <a href=\"https://www.flickr.com/photos/okfde/38991698625/\" class=\"text-danger\">Jugend hackt in Österreich 2017</a>, Jürgen Grünwald (CC BY 4.0)",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"module.html\" data-toolbar=\"-mbrBtnMove\">ZU DEN MODULEN</a> ",
                 "overlay": true
               }
@@ -421,72 +368,58 @@
           }
         },
         {
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff",
-              "font-size": "36px"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
-            },
-            ".mbr-article P": {
-              "font-size": "20px",
-              "color": "#fdfdfd"
-            }
-          },
+          "_inherit": "menu",
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
+            "logo": true,
+            "showBrand": false,
             "showButtons": true,
-            "inverse": false,
-            "imageSize": 50,
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/simon-rae-221560-unsplash-2000x1333.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#3c3c3c",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.6"
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#79b1b8",
+            "hamburgerColor": "#ffffff"
           },
-          "headerAlign": "left",
-          "media": {
-            "image": {
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/wj18-cd-motive3-1999x2829-800x1132.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "active": true
-            },
-            "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title": "HINTERGRUND",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Das<b> </b>Wissenschaftsjahr 2018 widmet sich dem Thema Arbeitswelten der Zukunft. Durch die Digitalisierung, alternative Arbeitsmodelle und die Entwicklung künstlicher Intelligenz stehen Forschung und Zivilgesellschaft vor neuen Chancen und Herausforderungen: Wie werden die Menschen in Zukunft arbeiten? Wie machen sie sich fit dafür? Und welche Rolle spielen Wissenschaft und Forschung bei der Gestaltung eben dieser neuen Arbeitswelten?<br></p><p>Das Wissenschaftsjahr 2018 zeigt, welchen Einfluss soziale und technische Innovationen auf die Arbeitswelten von morgen haben - und wie diese nicht nur den Arbeitsalltag verändern, sondern auch neue Maßstäbe im gesellschaftspolitischen Dialog setzen. \"Erleben. Erlernen. Gestalten.\" – unter diesem Motto werden Bürgerinnen und Bürger im Wissenschaftsjahr 2018 dazu aufgerufen mitzumachen, Fragen zu stellen und gemeinsam Lösungsansätze zu finden.</p><p>Weitere Informationen unter:</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">WWW.WISSENSCHAFTSJAHR.DE/2018</a>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"wissenschaftsjahr.html\" data-toolbar=\"-mbrBtnMove\">WISSENSCHAFTSJAHR 2018</a></li>",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-4e"
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#79b1b8"
+            },
+            ".mbr-navbar__section": {
+              "background": "#79b1b8"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "10px"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">MODULE</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"faq.html\">FAQ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-white.svg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">..denn die Zukunft ist auch nicht mehr das, was sie mal war..</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0"
         },
         {
           "_inherit": "msg-box1",
@@ -1147,7 +1080,7 @@
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
