@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "index.html",
+    "currentPage": "faq.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -2560,7 +2560,7 @@
           "_anchor": "header3-4k"
         },
         {
-          "text": "<p>Die Infonauten sind die Mitreisenden des turing-Busses, die die jeweiligen Module gestalten. Neben Vertretern der Gesellschaft für Informatik und der Open Knowledge Foundation Deutschland können dies unterschiedliche Akteure aus Wissenschaft, Wirtschaft, Vereinen, gemeinnützigen Initiativen oder IT-bezogenen Projekten sein. Da lokale Initiativen gefördert werden sollen, werden die Infonauten auf Basis der jeweiligen Gegebenheiten vor Ort ausgewählt.&nbsp;</p>",
+          "text": "<p>Die Infonauten sind die Mitreisenden des Turing-Busses, die die jeweiligen Module gestalten. Neben Vertretern der Gesellschaft für Informatik und der Open Knowledge Foundation Deutschland können dies unterschiedliche Akteure aus Wissenschaft, Wirtschaft, Vereinen, gemeinnützigen Initiativen oder IT-bezogenen Projekten sein. Da lokale Initiativen gefördert werden sollen, werden die Infonauten auf Basis der jeweiligen Gegebenheiten vor Ort ausgewählt.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
