@@ -85,7 +85,7 @@
             }
           },
           "title": "DRAG AND DROP WEBSITE BUILDER",
-          "text": "<p>Der Turing-Bus ist ein mobiles Bildungsangebot der <b>Open Knowledge Foundation Deutschland</b> und der <b>Gesellschaft für Informatik </b>für Schulen, Jugendclubs und lokale Institutionen.</p><p>Der Bus möchte die Rolle von Digitalisierung und Technologie für Beruf und Gesellschaft mit Workshops, Vorträgen und Hands-on-Sessions ergründen, diskutieren und kritisch hinterfragen. Die Zielgruppe des Projektes sind Jugendliche und junge Erwachsene im Alter zwischen 15 und 25 Jahren.</p>",
+          "text": "<p>Der Turing-Bus ist ein mobiles Bildungsangebot der <b>Open Knowledge Foundation Deutschland</b> und der <b>Gesellschaft für Informatik </b>im <b>Wissenschaftsjahr 2018  - Arbeitswelten der Zukunft</b>&nbsp;für Schulen, Jugendclubs und lokale Institutionen.</p><p>Der Bus möchte die Rolle von Digitalisierung und Technologie für Beruf und Gesellschaft mit Workshops, Vorträgen und Hands-on-Sessions ergründen, diskutieren und kritisch hinterfragen. Die Zielgruppe des Projektes sind Jugendliche und junge Erwachsene im Alter zwischen 15 und 25 Jahren.</p>",
           "_tags": [
             "Theme"
           ],
@@ -1184,7 +1184,7 @@
             }
           },
           "title1": "DISKUTIEREN",
-          "caption1": "Fortschritt ist relativ: die Änderungen, die wir bereits erleben und die auf uns zukommen sind nicht nur positiver Natur. Die Konsequenzen der Digitalisierung für die Gesellschaft sollen in diesem Modul diskutiert werden.",
+          "caption1": "Fortschritt ist relativ: die Änderungen, die wir bereits erleben und die auf uns zukommen, sind nicht nur positiver Natur. Die Konsequenzen der Digitalisierung für die Gesellschaft sollen in diesem Modul diskutiert werden.",
           "button1": "<a data-app-btn=\"true\" href=\"mailto:info@turing-bus.de\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MITDISKUTIEREN</a>",
           "media2": {
             "image": {
@@ -2079,7 +2079,7 @@
           },
           "title": "ARBEITSWELTEN DER ZUKUNFT",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Das<b> </b>Wissenschaftsjahr 2018 widmet sich dem Thema Arbeitswelten der Zukunft. Durch die Digitalisierung, alternative Arbeitsmodelle und die Entwicklung künstlicher Intelligenz stehen Forschung und Zivilgesellschaft vor neuen Chancen und Herausforderungen: Wie werden die Menschen in Zukunft arbeiten? Wie machen sie sich fit dafür? Und welche Rolle spielen Wissenschaft und Forschung bei der Gestaltung eben dieser neuen Arbeitswelten?<br></p><p>Das Wissenschaftsjahr 2018 zeigt, welchen Einfluss soziale und technische Innovationen auf die Arbeitswelten von morgen haben - und wie diese nicht nur den Arbeitsalltag verändern, sondern auch neue Maßstäbe im gesellschaftspolitischen Dialog setzen. \"Erleben. Erlernen. Gestalten.\" – unter diesem Motto werden Bürgerinnen und Bürger im Wissenschaftsjahr 2018 dazu aufgerufen mitzumachen, Fragen zu stellen und gemeinsam Lösungsansätze zu finden.</p><p>Weitere Informationen unter:</p>",
+          "text": "<p>Der Turing-Bus wird vom <a href=\"https://www.bmbf.de/\" class=\"text-white\">Bundesministerium für Bildung und Forschung</a> im Rahmen des <a href=\"https://www.wissenschaftsjahr.de/2018/\" class=\"text-white\">Wissenschaftsjahres 2018</a> gefördert.</p><p>Das<b> </b>Wissenschaftsjahr 2018 widmet sich dem Thema Arbeitswelten der Zukunft. Durch die Digitalisierung, alternative Arbeitsmodelle und die Entwicklung künstlicher Intelligenz stehen Forschung und Zivilgesellschaft vor neuen Chancen und Herausforderungen: Wie werden die Menschen in Zukunft arbeiten? Wie machen sie sich fit dafür? Und welche Rolle spielen Wissenschaft und Forschung bei der Gestaltung eben dieser neuen Arbeitswelten?<br></p><p>Das Wissenschaftsjahr 2018 zeigt, welchen Einfluss soziale und technische Innovationen auf die Arbeitswelten von morgen haben - und wie diese nicht nur den Arbeitsalltag verändern, sondern auch neue Maßstäbe im gesellschaftspolitischen Dialog setzen. \"Erleben. Erlernen. Gestalten.\" – unter diesem Motto werden Bürgerinnen und Bürger im Wissenschaftsjahr 2018 dazu aufgerufen mitzumachen, Fragen zu stellen und gemeinsam Lösungsansätze zu finden.</p><p>Weitere Informationen unter:</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://www.wissenschaftsjahr.de/2018\" data-toolbar=\"-mbrBtnMove\">WWW.WISSENSCHAFTSJAHR.DE/2018</a>",
           "_tags": [
             "Theme"
