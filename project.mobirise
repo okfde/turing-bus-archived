@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Site-02-07_1319",
-    "currentPage": "index.html",
+    "name": "Turing-Bus",
+    "currentPage": "wissenschaftsjahr.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -11,14 +11,21 @@
         "#3b3b3b",
         "#79b1b8",
         "#e73e07",
-        "#252525"
+        "#252525",
+        "#fdfdfd",
+        "#222222"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 127,
+    "uniqCompNum": 188,
     "versionPublish": "4.6.3",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "html_before": "",
+    "headbody": "",
+    "botbody": "<!-- Matomo -->\r\n<script type=\"text/javascript\">\r\n  var _paq = _paq || [];\r\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\r\n  _paq.push(['trackPageView']);\r\n  _paq.push(['enableLinkTracking']);\r\n  (function() {\r\n    var u=\"//traffic.okfn.de/\";\r\n    _paq.push(['setTrackerUrl', u+'piwik.php']);\r\n    _paq.push(['setSiteId', '41']);\r\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\r\n    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);\r\n  })();\r\n</script>\r\n<!-- End Matomo Code -->"
   },
   "pages": {
     "index.html": {
@@ -32,18 +39,347 @@
       },
       "components": [
         {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": false,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "15",
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222222",
+            "overlayOpacity": "0.1"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "DRAG AND DROP WEBSITE BUILDER",
+          "text": "<p>Der Turing-Bus ist ein mobiles Bildungsangebot der <b>Open Knowledge Foundation Deutschland</b> und der <b>Gesellschaft für Informatik </b>im <b>Wissenschaftsjahr 2018  - Arbeitswelten der Zukunft</b>&nbsp;für Schulen, Jugendclubs und lokale Institutionen.</p><p>Der Bus möchte die Rolle von Digitalisierung und Technologie für Beruf und Gesellschaft mit Workshops, Vorträgen und Hands-on-Sessions ergründen, diskutieren und kritisch hinterfragen. Die Zielgruppe des Projektes sind Jugendliche und junge Erwachsene im Alter zwischen 15 und 25 Jahren.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "font-size": "19px",
+              "color": "#3b3b3b"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">SCHREIBEN SIE UNS!</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-4f"
+        },
+        {
+          "_params": {
+            "showHeader": true,
+            "showSubheader": false,
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": false,
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "header": "WAS PASSIERT AUF DEN STATIONEN?",
+          "subheader": "<br><span style=\"font-style: normal;\"><br></span>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1200x800.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "DISKUTIEREN",
+          "caption1": "Fortschritt ist relativ: die Änderungen, die wir bereits erleben und die auf uns zukommen sind nicht nur positiver Natur. Die Konsequenzen der Digitalisierung für die Gesellschaft sollen in diesem Modul diskutiert werden.",
+          "button1": "<a data-app-btn=\"true\" href=\"mailto:info@turing-bus.de\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MITDISKUTIEREN</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-4-1200x800.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "VERÄNDERUNG ERFAHREN",
+          "caption2": "Welche Veränderungen gibt es bei existierenden Berufsbildern und welche neuen Berufe entstehen? Arbeitnehmer- und geberinnen teilen ihre Erfahrungen mit Studentinnen und Schülern.",
+          "button2": " <a data-app-btn=\"true\" href=\"mailto:info@turing-bus.de\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEINE ERFAHRUNGEN TEILEN (ARBEITGEBER / ARBEITNEHMER)</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-2-1200x800.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "ANFASSEN",
+          "caption3": "Informatik und Technologie können Mittel und Zweck für praktische, gesellschaftlich wertvolle oder einfach spaßige Aktivitäten sein. Im Hands-On Teil werden Formate vorgestellt, die zum Mitmachen einladen.",
+          "button3": "<a data-app-btn=\"true\" href=\"mailto:info@turing-bus.de\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE EIN HANDS-ON FORMAT VORSTELLEN</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-3-1200x800.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "MITMACHEN",
+          "caption4": "Digitales Ehrenamt, Offene Bildungsmaterialien, Open Data, Civic Tech und Feinstaubsensoren? Was sich hinter diesen Projekten und Begriffen versteckt und wie man dabei mitwirken kann, wird hier erklärt.",
+          "button4": "<a data-app-btn=\"true\" href=\"mailto:info@turing-bus.de\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN PROJEKT / MEINE INITIATIVE VORSTELLEN</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".mbr-section__col .mbr-header__text": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "left"
+            },
+            ".mbr-section-title .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header__subtext": {
+              "text-align": "left"
+            },
+            ".mbr-header__subtext SPAN": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "features1-4q"
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"module.html\" data-toolbar=\"-mbrBtnMove\">MEHR ERFAHREN..</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-4s"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": false,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": false,
+            "bgColor": "#79b1b8",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/18829055635-4e9296675f-o-2-2000x1500.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Netzwerke verbinden",
+                "contentAlign": "left",
+                "text": "Es gibt bereits viele spannende lokale Projekte wie z.B. Coder Dojos, Labs, Regionalgruppen, regionale Hackathons und andere kreative IT-Projekte. Der Turing-Bus verbreitet diese vor Ort und über die Webseite und stärkt dadurch existierende Netzwerke.<br><br>Foto:&nbsp;<a href=\"https://www.flickr.com/photos/okfde/18829055635/in/album-72157654186937588/\" class=\"text-danger\">Hack your City Karlsruhe</a>, CC-BY 2.0",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN LOKALES ANGEBOT VERBREITEN</a> ",
+                "overlay": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/landscape-tree-grass-plant-road-lawn-787070-pxhere.com-1-2000x1402.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Gegen die Blase",
+                "contentAlign": "center",
+                "text": "Community macht schlau: Der Turing-Bus möchte Angebote, Ideen und Ansätze aus den oftmals überversorgten Großstädten in Regionen tragen, die in der „digitalen Arbeitswelt von Morgen“ wenig repräsentiert erscheinen bzw. noch nicht erschlossen sind. <br><br>Foto: <a href=\"https://creativecommons.org/publicdomain/zero/1.0/deed.de\" class=\"text-danger\">CC-0</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> ",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "overlayColor": "#222222"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/38991698625-5e9ab7c6d1-o-2000x1333.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Selbstbestimmt in die digitale Zukunft",
+                "contentAlign": "center",
+                "text": "Der Umgang mit Code ist eine der zentralen Kompetenzen der Zukunft. Dennoch möchte der Turing-Bus den Zugang zur Informatik nicht als Selbstzweck vermitteln: In Zeiten detaillierter Datenspuren und einem stetig wachsenden digitalen Angebot ist kritische Reflexion, Einordnung und Beurteilung wichtiger denn je.<br><br>Foto: <a href=\"https://www.flickr.com/photos/okfde/38991698625/\" class=\"text-danger\">Jugend hackt in Österreich 2017</a>, Jürgen Grünwald (CC BY 4.0)",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"module.html\" data-toolbar=\"-mbrBtnMove\">ZU DEN MODULEN</a> ",
+                "overlay": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-1h",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-size": "21px"
+            },
+            "H1": {
+              "text-align": "left",
+              "font-size": "36px"
+            }
+          }
+        },
+        {
           "_inherit": "menu",
           "_params": {
             "logo": true,
             "showBrand": false,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": false,
             "color": "#79b1b8",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"wissenschaftsjahr.html\" data-toolbar=\"-mbrBtnMove\">WISSENSCHAFTSJAHR 2018</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -64,7 +400,7 @@
               "font-size": "10px"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">STATIONEN / MODULE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bus.html\">BUS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"info.html\">FAQ</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">MODULE</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"faq.html\">FAQ</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -84,114 +420,6 @@
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">..denn die Zukunft ist auch nicht mehr das, was sie mal war..</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-0"
-        },
-        {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_params": {
-            "showTitle": false,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-7-1620x1080.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#c1c1c1",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#252525",
-            "overlayOpacity": "0.7"
-          },
-          "title": "",
-          "text": "Der <b>Turing-Bus</b> ist ein Projekt der <a href=\"http://okfn.de\" class=\"text-warning\">Open Knowledge Foundation Deutschland</a> und der <a href=\"https://gi.de/\" class=\"text-warning\">Gesellschaft für Informatik</a>, gefördert durch das <a href=\"http://bmbf.de\" class=\"text-warning\">BMBF</a> im Rahmen des Wissenschaftsjahres 2018.<br><br>Der Turing-Bus fährt entlang einer Route abseits der Ballungszentren Stationen ab, um Potenziale und Chancen der Informatik in der Gesellschaft und Arbeitswelt von morgen mit <b>Workshops</b>, <b>Diskussionen</b> und <b>Hands-on Sessions</b> zu ergründen.<br><br>Gegenwärtig befinden wir uns in der Planungsphase und suchen nach lokalen Partnern und Interessierten, die an den Stationen mitwirken möchten.&nbsp;<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">SCHREIBEN SIE UNS!</a> ",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-1",
-          "_styles": {
-            "H1": {
-              "color": "#ffffff",
-              "font-family": "'PT Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
-              "text-align": "left"
-            },
-            "P": {
-              "font-family": "'PT Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
-              "color": "#ffffff",
-              "font-size": "20px",
-              "text-align": "left"
-            }
-          }
-        },
-        {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#ffffff",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/pop-2478651-1920-1920x1274.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Gegen die Blase",
-                "contentAlign": "center",
-                "text": "Wer in Großstädten wohnt und nach Workshops, Communities und Projekten sucht um sich fortzubilden, an Initiativen für eine bessere digitale Zukunft zu beteiligen oder um Gleichgesinnte zu treffen, findet schnell ein Überangebot. Abseits der Großstädte sieht es anders aus: auch überregionale Angebote sind hier oft nicht bekannt. <br><br>Der <b>Turing-Bus </b>möchte dies ändern und fährt deswegen gezielt an Orte außerhalb der etablierten Ballungszentren.&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH SUCHE NACH ANGEBOTEN</a>",
-                "overlay": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
-                "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Netzwerke verbinden",
-                "contentAlign": "center",
-                "text": "Es gibt bereits viele spannende Projekte, die lokale Ableger haben. Coder Dojos, Labs, Regionalgruppen, regionale Hackathons und Wettbewerbe. Oft fehlen diesen aber die Mittel und Wege, ihr Angebot in die benachbarten Städte zu tragen. Der <b>Turing-Bus</b>&nbsp;sammelt und verbreitet deswegen diese Angebote vor Ort und digital.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN ANGEBOT VERBREITEN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">ICH SUCHE NACH ANGEBOTEN</a>",
-                "overlay": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1621x1080.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Selbstbestimmt in die digitale Zukunft",
-                "contentAlign": "center",
-                "text": "Die Projekte, Initiativen und Akteure die auf den Stationen des Turing-Bus vorgestellt werden haben eines gemeinsam: sie entmystifizieren die Informatik als Schlüssel zu einer selbstbestimmteren und besseren Zukunft im digitalen Zeitalter. Dies kann auf verschiedene Arten passieren.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"module.html\" data-toolbar=\"-mbrBtnMove\">ZU DEN MODULEN</a> ",
-                "overlay": true
-              }
-            ]
-          },
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_anchor": "slider-1h",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            },
-            "H1": {
-              "text-align": "left"
-            }
-          }
         },
         {
           "_inherit": "msg-box1",
@@ -229,7 +457,7 @@
             "Theme"
           ],
           "_name": "msg-box2",
-          "_anchor": "msg-box2-3f"
+          "_anchor": "msg-box2-3q"
         },
         {
           "_params": {
@@ -264,9 +492,10 @@
               "src": "@PROJECT_PATH@/assets/images/bmbf-gefirdert-vom-deutsch-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
+              "link": "http://bmbf.de",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -310,9 +539,10 @@
               "src": "@PROJECT_PATH@/assets/images/gi-logo-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
+              "link": "http://gi.de",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -330,10 +560,10 @@
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/okf-logo-1-600x427.png",
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-angepasst-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
+              "link": "http://okfn.de",
               "alt": "",
               "title": ""
             },
@@ -379,9 +609,10 @@
               "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
+              "link": "https://www.wissenschaftsjahr.de/2018/",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -425,406 +656,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-s",
-          "_styles": {
-            "P": {
-              "color": "#252525"
-            }
-          }
-        }
-      ]
-    },
-    "info.html": {
-      "settings": {
-        "title": "Info",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 4
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#79b1b8",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#79b1b8"
-            },
-            ".mbr-navbar__section": {
-              "background": "#79b1b8"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".mbr-brand__name a": {
-              "font-size": "10px"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">STATIONEN / MODULE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bus.html\">BUS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"info.html\">FAQ</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-white.svg",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">..denn die Zukunft ist auch nicht mehr das, was sie mal war..</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-j"
-        },
-        {
-          "_params": {
-            "showMeta": false
-          },
-          "title": "WAS IST DER TURING BUS?",
-          "meta": "By John Smith posted July 30, 2015",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-2q"
-        },
-        {
-          "text": "<p>Der Turing-Bus (benannt nach <a href=\"https://de.wikipedia.org/wiki/Alan_Turing\">Alan Turing</a>) ist ein Projekt der Gesellschaft für Informatik und der Open Knowledge Foundation Deutschland. Als <b>mobiles Bildungsangebot</b> fährt ab dem Frühjahr 2018 ein Kleinbus entlang einer Route Städte in Deutschland (Stationen) ab, die abseits großer und etablierter Ballungszentren liegen, um Grundlagen der Informatik und gesellschaftliche Konsequenzen der Digitalisierung zu vermitteln und diskutieren.</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-2r"
-        },
-        {
-          "_params": {
-            "showMeta": false
-          },
-          "title": "WER KANN MITMACHEN?",
-          "meta": "By John Smith posted July 30, 2015",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-2w"
-        },
-        {
-          "text": "<p>Die Zielgruppe des Projektes sind 15-19 jährige Schülerinnen und Studenten. Um diese zu erreichen fährt der Bus nach Absprache Schulen, Bildungs- und Kuilturinstitutionen, lokale Labs und Treffpunkte sowie relevante Veranstaltungen an. Die Angebote, Projekte und Fähigkeiten die auf den Stationen vemittelt werden stammen aus dem weiteren Feld der Informatik und werden von Experten in den jeweiligen Gebieten vermittelt.&nbsp;</p><p>Sie möchten, dass der Turing-Bus zu Ihnen kommt? <a href=\"mailto:info@turing-bus.de\"><b>Schreiben Sie uns</b></a>!</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-2x"
-        },
-        {
-          "_params": {
-            "showMeta": false
-          },
-          "title": "WAS PASSIERT AUF DEN STATIONEN?",
-          "meta": "By John Smith posted July 30, 2015",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-2u"
-        },
-        {
-          "text": "<p>In kostenlosen Workshops, Diskussionsveranstaltungen und Vorträgen geben fachkundige Expertinnen, Aktivisten und Wissenschaftlerinnen, sogenannte Infonauten, Jugendlichen vor Ort spannende Einblicke in die Welt der Informatik. Das breite Spektrum an Methoden, Hardware und Know-How verknüpft praxisnahe IT-Kompetenz mit gesellschaftlichen Fragen der Digitalisierung.</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-2v"
-        },
-        {
-          "_params": {
-            "showMeta": false
-          },
-          "title": "WAS MÖCHTE DER TURING-BUS ERREICHEN?",
-          "meta": "By John Smith posted July 30, 2015",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-2z"
-        },
-        {
-          "text": "<p>Die Relevanz der <b>Digitalisierung</b>&nbsp;muss heute eigentlich nicht mehr betont oder bestritten werden: Alltagsleben, Arbeit und Kommunikation sind für viele ohne Computer nicht mehr vorstellbar. Konsequenzen hat dies nicht nur für die Anforderungen an unser Können und unsere Fähigkeiten, auch für die gemeinnützige Arbeit, soziales Engagement und die Art und Weise zu arbeiten ergeben sich neue <b>Fragestellungen.</b></p><p><b>INFORMATIK ALS SCHLÜSSEL</b></p><p>Informatik ist längst mehr als eine Wissenschaft. Als Schlüssel zu der uns umgebenden, stetig wachsenden digitalen Infrastruktur hat sie die Macht, unser Verhältnis zu unserer Umwelt zu definieren; als Werkzeug, dass die 'Black Box' der großen und kleinen Computer öffnen kann, kann sie uns Aufschluss über die stetig Daten sammelnden 'Smart' Phones, Watches und Devices geben, um dadurch ein Verständnis dafür zu entwickeln, wohin die unseren Alltag abbildenden Datenströme fließen. Daten gibt es nicht nur bei Facebook: was der Staat tut, wohin Steuergelder fließen oder was in der Politik geschieht, kann mithilfe von datenverarbeitender Software aufgedeckt und verstanden werden.</p><p>Wie gehen wir auf die Zukunft zu - und mit ihr um? Welche Herausforderungen und Chancen warten auf uns und setzt sich eine breite Öffentlichkeit kritisch mit dem Thema auseinander? In größeren Städten wie Berlin gibt es oftmals bereits eine Reihe an Angeboten: von selbstorganisierten Treffen über Vereine und Fortbildungen bis hin zu Veranstaltungen besteht für die Einwohner ein breites Angebot, um sich mit den Themen der Digitalisierung auseinanderzusetzen.&nbsp;<br></p><p><b>Außerhalb dieser Ballungszentren besteht dagegen oftmals ein Mangel an Angeboten.&nbsp;</b></p><p>Der Turing-Bus (benannt nacht Alan Turing) möchte deshalb <b>Akteure</b>, <b>Initiativen</b> und <b>Projekte</b> mit diesen <b>vernachlässigten Zielgruppen</b> verbinden und besucht deshalb im Frühjahr/Sommer 2018 Städte, Bildungseinrichtungen und Institutionen in Deutschland. Auf diesen Stationen finden individuell entwickelte Veranstaltungen, Workshops, Panel-Diskussionen und Hands-on Formate statt, bei denen Vertreter der oben genannten Initiativen (Infonauten) sich und ihre Arbeit präsentieren.</p><p>Die Ergebnisse können in einer <b>Infonauten-Karte</b> auf dieser Webseite eingesehen werden. &nbsp;</p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-o"
-        },
-        {
-          "text": "<p>Der Turing-Bus ist eine Initiative der <b>Gesellschaft für Informatik</b> und der <b>Open Knowledge Foundation Deutschland</b>. Das Projekt wird im Rahmen des <b>Wissenschaftsjahres 2018</b>&nbsp;durch Bundesministerium für Bildung und Forschung gefördert.</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1u"
-        },
-        {
-          "_inherit": "msg-box1",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "color": "#252525"
-            },
-            ".mbr-article": {
-              "color": "#252525"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "ABONNIEREN SIE UNSEREN NEWSLETTER:",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://eepurl.com/dlz6Fb\" data-toolbar=\"-mbrBtnMove\">BESTELLEN</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-3i"
-        },
-        {
-          "_params": {
-            "showHeader": false,
-            "showSubheader": false,
-            "showImages": true,
-            "showTitles": false,
-            "showCaptions": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "columns": "6",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "headerAlign": "left",
-          "header": "",
-          "subheader": "By John Smith posted July 30, 2015",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-gefirdert-vom-deutsch-600x427.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "GEFÖRDERT DURCH DAS BUNDESMINISTERIUM FÜR BILDUNG UND FORSCHUNG",
-          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title2": "WISSENSCHAFTSJAHR 2018",
-          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/gi-logo-1-600x427.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title3": "",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/okf-logo-1-600x427.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title4": "",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
-              "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features1",
-          "_styles": {
-            ".mbr-section-title .mbr-header__text": {
-              "font-size": "16px",
-              "text-align": "left"
-            },
-            ".mbr-section__col .mbr-header__text": {
-              "text-align": "left",
-              "font-size": "12px"
-            }
-          },
-          "_anchor": "features1-18"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#444444",
-            "overlay": false,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "text": "Bilder: <a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
@@ -853,14 +685,14 @@
           "_params": {
             "logo": true,
             "showBrand": false,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": false,
             "color": "#79b1b8",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"wissenschaftsjahr.html\" data-toolbar=\"-mbrBtnMove\">WISSENSCHAFTSJAHR 2018</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -881,7 +713,7 @@
               "font-size": "10px"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">STATIONEN / MODULE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bus.html\">BUS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"info.html\">FAQ</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">MODULE</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"faq.html\">FAQ</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1060,7 +892,7 @@
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/okf-logo-1-600x427.png",
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-angepasst-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -1155,7 +987,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "text": "Bilder: <a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
@@ -1184,14 +1016,14 @@
           "_params": {
             "logo": true,
             "showBrand": false,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": false,
             "color": "#79b1b8",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"wissenschaftsjahr.html\" data-toolbar=\"-mbrBtnMove\">WISSENSCHAFTSJAHR 2018</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1212,7 +1044,7 @@
               "font-size": "10px"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">STATIONEN / MODULE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bus.html\">BUS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"info.html\">FAQ</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">MODULE</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"faq.html\">FAQ</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1221,8 +1053,7 @@
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1232,24 +1063,95 @@
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">..denn die Zukunft ist auch nicht mehr das, was sie mal war..</a>",
           "_name": "ext.menu",
-          "_anchor": "ext_menu-1i"
+          "_anchor": "ext_menu-0"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "38",
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#79b1b8",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/38991941785-969cf3198b-o-1400x933.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "MODULE",
+          "text": "<p>Die Stationen des Turing-Bus bestehen aus einer individuell angepassten Konfiguration aus den unten stehenden Modulen.</p><p>Die <b>Teilnehmer</b> können dabei mehr über partizipative Angebote lernen, kritisch über die Rolle von Technologie und Informatik in der Gesellschaft reflektieren und sich mit Hands-on Formaten an die Themen der Arbeitswelt der Zukunft annähern.</p><p>Für die <b>Infonauten</b> (<a href=\"faq.html#header3-2w\" class=\"text-white\">siehe FAQ</a>) ist der Bus eine Chance, die Reichweite der eigenen Initiative oder des eigenen Projekts zu erhöhen und mit Akteuren aus anderen Zielgruppen zu diskutieren.</p><p>Foto: <a href=\"https://www.flickr.com/photos/okfde/38991941785/\" class=\"text-info\">Jugend hackt in Österreich 2017</a>, Jürgen Grünwald, CC BY 4.0</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "font-size": "18px"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-52"
         },
         {
           "_params": {
-            "showHeader": true,
+            "showHeader": false,
             "showSubheader": true,
             "showImages": true,
             "showTitles": true,
             "showCaptions": true,
             "showButtons": true,
-            "paddingTop": "2",
+            "paddingTop": "1",
             "paddingBottom": 3,
             "columns": 4,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1260,7 +1162,7 @@
           },
           "headerAlign": "left",
           "header": "MODULE<br><br>",
-          "subheader": "<span style=\"font-style: normal;\">Die Stationen des <b>Turing-Bus</b> bestehen aus einer individuell angepassten Konfiguration aus den unten stehenden Modulen. Nicht jede Station enthält jedes Modul, da diese an die örtlichen Gegebenheiten und lokale Angebote angepasst werden. </span><br><br><span style=\"font-style: normal;\">Für die <b>Teilnehmer</b>&nbsp; (13-20 jährige Schüler und Studentinnen)&nbsp;vor Ort stellen die Stationen eine Gelegenheit dar, mehr über partizipative Angebote zu lernen, kritisch über die Rolle von Technologie und Informatik in der Gesellschaft zu reflektieren und sich mit H</span><span style=\"font-style: normal;\">ands-on Formaten anzunähern.</span><br><br><span style=\"font-style: normal;\">Für die <b>Vorstellenden</b> ist der Bus eine Chance, die Reichweite der eigenen Initiative oder des eigenen Projekts zu erhöhen und mit Akteuren aus anderen Zielgruppen zu diskutieren.&nbsp;</span><br><span style=\"font-style: normal;\"><br></span>",
+          "subheader": "<span style=\"font-style: normal;\">Die Stationen des <b>Turing-Bus</b> bestehen aus einer individuell angepassten Konfiguration aus den unten stehenden Modulen.</span><br><br><span style=\"font-style: normal;\">Die <b>Teilnehmer</b>&nbsp;können dabei mehr über partizipative Angebote lernen, kritisch über die Rolle von Technologie und Informatik in der Gesellschaft zu reflektieren und sich mit H</span><span style=\"font-style: normal;\">ands-on Formaten an die Themen der Arbeitswelt der Zukunft nähern.</span><br><br><span style=\"font-style: normal;\">Für die <b>Vorstellenden</b> ist der Bus eine Chance, die Reichweite der eigenen Initiative oder des eigenen Projekts zu erhöhen und mit Akteuren aus anderen Zielgruppen zu diskutieren.</span><br><span style=\"font-style: normal;\"><br></span>",
           "media1": {
             "image": {
               "active": true,
@@ -1282,12 +1184,12 @@
             }
           },
           "title1": "DISKUTIEREN",
-          "caption1": "Fortschritt ist relativ: die Änderungen, die wir bereits erleben und die auf uns zukommen sind nicht nur positiver Natur. Die Konsequenzen der Digitalisierung für die Gesellschaft sollen in diesem Modul diskutiert werden.",
+          "caption1": "Fortschritt ist relativ: die Änderungen, die wir bereits erleben und die auf uns zukommen, sind nicht nur positiver Natur. Die Konsequenzen der Digitalisierung für die Gesellschaft sollen in diesem Modul diskutiert werden.",
           "button1": "<a data-app-btn=\"true\" href=\"mailto:info@turing-bus.de\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MITDISKUTIEREN</a>",
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-1200x800.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-4-1200x800.jpg",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -1304,7 +1206,7 @@
               "size": 0
             }
           },
-          "title2": "ERFAHREN",
+          "title2": "VERÄNDERUNG ERFAHREN",
           "caption2": "Welche Veränderungen gibt es bei existierenden Berufsbildern und welche neuen Berufe entstehen? Arbeitnehmer- und geberinnen teilen ihre Erfahrungen mit Studentinnen und Schülern.&nbsp;",
           "button2": " <a data-app-btn=\"true\" href=\"mailto:info@turing-bus.de\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEINE ERFAHRUNGEN TEILEN (ARBEITGEBER / ARBEITNEHMER)</a>",
           "media3": {
@@ -1351,7 +1253,7 @@
             }
           },
           "title4": "MITMACHEN",
-          "caption4": "Digitales Ehrenamt, Offene Bildungsmaterialien, Open Data, Civic Tech und Feinstaubsensoren? Was sich hinter diesen Begriffen versteckt und wie man dabei mitwirken kann, wird hier erklärt.",
+          "caption4": "Digitales Ehrenamt, Offene Bildungsmaterialien, Open Data, Civic Tech und Feinstaub-sensoren? Was sich hinter diesen Begriffen versteckt und wie man dabei mitwirken kann, wird hier erklärt.",
           "button4": "<a data-app-btn=\"true\" href=\"mailto:info@turing-bus.de\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">ICH MÖCHTE MEIN PROJEKT / MEINE INITIATIVE VORSTELLEN</a>",
           "media5": {
             "image": {
@@ -1602,7 +1504,7 @@
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/okf-logo-1-600x427.png",
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-angepasst-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -1697,7 +1599,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "text": "Bilder: <a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
@@ -1718,7 +1620,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 3
+        "order": 2
       },
       "components": [
         {
@@ -1726,14 +1628,14 @@
           "_params": {
             "logo": true,
             "showBrand": false,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": false,
             "color": "#79b1b8",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"wissenschaftsjahr.html\" data-toolbar=\"-mbrBtnMove\">WISSENSCHAFTSJAHR 2018</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1754,7 +1656,7 @@
               "font-size": "10px"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">STATIONEN / MODULE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bus.html\">BUS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"info.html\">FAQ</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">MODULE</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"faq.html\">FAQ</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1944,7 +1846,7 @@
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/okf-logo-1-600x427.png",
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-angepasst-1-600x427.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -2039,12 +1941,1031 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Bilder: CC-0. Andere Inhalte: CC-BY. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "text": "Bilder: <a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
           "_anchor": "footer1-22",
+          "_styles": {
+            "P": {
+              "color": "#252525"
+            }
+          }
+        }
+      ]
+    },
+    "wissenschaftsjahr.html": {
+      "settings": {
+        "title": "Wissenschaftsjahr",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#79b1b8",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"wissenschaftsjahr.html\" data-toolbar=\"-mbrBtnMove\">WISSENSCHAFTSJAHR 2018</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#79b1b8"
+            },
+            ".mbr-navbar__section": {
+              "background": "#79b1b8"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "10px"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">MODULE</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"faq.html\">FAQ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-white.svg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">..denn die Zukunft ist auch nicht mehr das, was sie mal war..</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-3t"
+        },
+        {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff",
+              "font-size": "36px"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#3c3c3c",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/wj18-cd-motive3-1999x2829-800x1132.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "ARBEITSWELTEN DER ZUKUNFT",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Der Turing-Bus wird vom <a href=\"https://www.bmbf.de/\" class=\"text-white\">Bundesministerium für Bildung und Forschung</a> im Rahmen des <a href=\"https://www.wissenschaftsjahr.de/2018/\" class=\"text-white\">Wissenschaftsjahres 2018</a> gefördert.</p><p>Das<b> </b>Wissenschaftsjahr 2018 widmet sich dem Thema Arbeitswelten der Zukunft. Durch die Digitalisierung, alternative Arbeitsmodelle und die Entwicklung künstlicher Intelligenz stehen Forschung und Zivilgesellschaft vor neuen Chancen und Herausforderungen: Wie werden die Menschen in Zukunft arbeiten? Wie machen sie sich fit dafür? Und welche Rolle spielen Wissenschaft und Forschung bei der Gestaltung eben dieser neuen Arbeitswelten?<br></p><p>Das Wissenschaftsjahr 2018 zeigt, welchen Einfluss soziale und technische Innovationen auf die Arbeitswelten von morgen haben - und wie diese nicht nur den Arbeitsalltag verändern, sondern auch neue Maßstäbe im gesellschaftspolitischen Dialog setzen. \"Erleben. Erlernen. Gestalten.\" – unter diesem Motto werden Bürgerinnen und Bürger im Wissenschaftsjahr 2018 dazu aufgerufen mitzumachen, Fragen zu stellen und gemeinsam Lösungsansätze zu finden.</p><p>Weitere Informationen unter:</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://www.wissenschaftsjahr.de/2018\" data-toolbar=\"-mbrBtnMove\">WWW.WISSENSCHAFTSJAHR.DE/2018</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-49"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "showText": false,
+            "bgColor": "#252525"
+          },
+          "media": {
+            "image": {
+              "src": "images/slide3.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=6Ofsxv5jVVk",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video1",
+          "_anchor": "video1-57"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "ABONNIEREN SIE UNSEREN NEWSLETTER:",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://eepurl.com/dlz6Fb\" data-toolbar=\"-mbrBtnMove\">BESTELLEN</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-44"
+        },
+        {
+          "_params": {
+            "showHeader": false,
+            "showSubheader": false,
+            "showImages": true,
+            "showTitles": false,
+            "showCaptions": false,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "header": "",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bmbf-gefirdert-vom-deutsch-600x427.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "GEFÖRDERT DURCH DAS BUNDESMINISTERIUM FÜR BILDUNG UND FORSCHUNG",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "WISSENSCHAFTSJAHR 2018",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/gi-logo-1-600x427.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-angepasst-1-600x427.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".mbr-section-title .mbr-header__text": {
+              "font-size": "16px",
+              "text-align": "left"
+            },
+            ".mbr-section__col .mbr-header__text": {
+              "text-align": "left",
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "features1-45"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#444444",
+            "overlay": false,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Bilder: <a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#252525"
+            }
+          },
+          "_anchor": "footer1-46"
+        }
+      ]
+    },
+    "faq.html": {
+      "settings": {
+        "title": "FAQ",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 3
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#79b1b8",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"wissenschaftsjahr.html\" data-toolbar=\"-mbrBtnMove\">WISSENSCHAFTSJAHR 2018</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#79b1b8"
+            },
+            ".mbr-navbar__section": {
+              "background": "#79b1b8"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "10px"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">MODULE</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"faq.html\">FAQ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-white.svg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">..denn die Zukunft ist auch nicht mehr das, was sie mal war..</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-j"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": false,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "25",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f97352",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1591x1080.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "FAQ",
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff",
+              "font-size": "72px"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-54"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "WAS IST DER TURING BUS?",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2q"
+        },
+        {
+          "text": "<p>Der Turing-Bus (benannt nach <a href=\"https://de.wikipedia.org/wiki/Alan_Turing\">Alan Turing</a>) ist ein Projekt der Gesellschaft für Informatik und der Open Knowledge Foundation Deutschland. Als <b>mobiles Bildungsangebot</b>&nbsp;fährt er ab dem Frühjahr 2018 entlang einer Route Städte in Deutschland (Stationen) ab, die abseits großer und etablierter Ballungszentren liegen, um Grundlagen der Informatik und gesellschaftliche Konsequenzen der Digitalisierung zu vermitteln und diskutieren.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2r"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "WER KANN MITMACHEN?",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2w"
+        },
+        {
+          "text": "<p>Die Zielgruppe des Projektes sind vor allem junge Menschen zwischen 15 und 25 Jahren. Sie können an unseren Workshops teilnehmen oder selbst welche mit unserer Unterstützung durchführen (Wie werde ich Infonaut*in?). Dazu fahren wir  nach Absprache zu den Schulen, Jugendclubs, lokalen Labs oder auf passende Veranstaltungen. Die Angebote, Projekte und Fähigkeiten, die auf den Stationen vermittelt werden, stammen aus dem weiteren Feld der In wformatik und werden von Expert*innen in den jeweiligen Gebieten vermittelt.</p><p>Ihr möchtet, dass der Turing-Bus zu Euch kommt?<b> Schreibt uns</b>!</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2x"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "WAS PASSIERT AUF DEN STATIONEN?",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2u"
+        },
+        {
+          "text": "<p>In kostenlosen Workshops, Diskussionsveranstaltungen und Vorträgen geben fachkundige Expertinnen, Aktivisten und Wissenschaftlerinnen, sogenannte Infonauten, Jugendlichen vor Ort spannende Einblicke in die Welt der Informatik. Das breite Spektrum an Methoden, Hardware und Know-How verknüpft praxisnahe IT-Kompetenz mit gesellschaftlichen Fragen der Digitalisierung.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2v"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "WAS MÖCHTE DER TURING-BUS ERREICHEN?",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4x"
+        },
+        {
+          "text": "<p>Die Relevanz der Digitalisierung muss heute eigentlich nicht mehr betont oder bestritten werden: Alltagsleben, Arbeit und Kommunikation sind für viele ohne Computer nicht mehr vorstellbar. Konsequenzen hat dies nicht nur für die Anforderungen an unser Können und unsere Fähigkeiten, auch für die gemeinnützige Arbeit, soziales Engagement und die Art und Weise zu arbeiten ergeben sich neue Fragestellungen. Der Turing-Bus möchte einen Beitrag zur Auseinandersetzung Jugendlicher mit diesen Themen und Veränderungen leisten, um so auf die Zukunft der Arbeit und die Arbeitswelten der Zukunft vorzubereiten.&nbsp;</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-4z"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "WAS SIND 'INFONAUTEN'?",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4k"
+        },
+        {
+          "text": "<p>Die Infonauten sind die Mitreisenden des Turing-Busses, die die jeweiligen Module gestalten. Neben Vertretern der Gesellschaft für Informatik und der Open Knowledge Foundation Deutschland können dies unterschiedliche Akteure aus Wissenschaft, Wirtschaft, Vereinen, gemeinnützigen Initiativen oder IT-bezogenen Projekten sein. Da lokale Initiativen gefördert werden sollen, werden die Infonauten auf Basis der jeweiligen Gegebenheiten vor Ort ausgewählt.&nbsp;</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-4y"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "WIE KÖNNTE EINE STATION KONKRET AUSSEHEN?",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-55"
+        },
+        {
+          "_params": {
+            "showText": false,
+            "outside": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/image1-845x817.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-4j"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "WIE WERDE ICH INFONAUT*IN?",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4m"
+        },
+        {
+          "text": "<p>Bewirb dich bei uns über unsere Webseite oder schreib uns <b>eine Mail</b> mit einer kurzen Vorstellung zu dir, deiner Arbeit und womit du dich gern einbringen möchtest. Wir freuen uns auf deinen Input!</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-4n"
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">SCHREIB UNS!</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-4o"
+        },
+        {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff",
+              "font-size": "36px"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#3c3c3c",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/wj18-cd-motive3-1999x2829-800x1132.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "ARBEITSWELTEN DER ZUKUNFT",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Das<b> </b>Wissenschaftsjahr 2018 widmet sich dem Thema Arbeitswelten der Zukunft. Durch die Digitalisierung, alternative Arbeitsmodelle und die Entwicklung künstlicher Intelligenz stehen Forschung und Zivilgesellschaft vor neuen Chancen und Herausforderungen: Wie werden die Menschen in Zukunft arbeiten? Wie machen sie sich fit dafür? Und welche Rolle spielen Wissenschaft und Forschung bei der Gestaltung eben dieser neuen Arbeitswelten?<br></p><p>Das Wissenschaftsjahr 2018 zeigt, welchen Einfluss soziale und technische Innovationen auf die Arbeitswelten von morgen haben - und wie diese nicht nur den Arbeitsalltag verändern, sondern auch neue Maßstäbe im gesellschaftspolitischen Dialog setzen. \"Erleben. Erlernen. Gestalten.\" – unter diesem Motto werden Bürgerinnen und Bürger im Wissenschaftsjahr 2018 dazu aufgerufen mitzumachen, Fragen zu stellen und gemeinsam Lösungsansätze zu finden.</p><p>Weitere Informationen unter:</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">WWW.WISSENSCHAFTSJAHR.DE/2018</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-4l"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "ABONNIEREN SIE UNSEREN NEWSLETTER:",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://eepurl.com/dlz6Fb\" data-toolbar=\"-mbrBtnMove\">BESTELLEN</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-3i"
+        },
+        {
+          "_params": {
+            "showHeader": false,
+            "showSubheader": false,
+            "showImages": true,
+            "showTitles": false,
+            "showCaptions": false,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "header": "",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bmbf-gefirdert-vom-deutsch-600x427.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "GEFÖRDERT DURCH DAS BUNDESMINISTERIUM FÜR BILDUNG UND FORSCHUNG",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "WISSENSCHAFTSJAHR 2018",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/gi-logo-1-600x427.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-angepasst-1-600x427.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-02-08-at-10.08.43-58x52.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".mbr-section-title .mbr-header__text": {
+              "font-size": "16px",
+              "text-align": "left"
+            },
+            ".mbr-section__col .mbr-header__text": {
+              "text-align": "left",
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "features1-18"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#444444",
+            "overlay": false,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Bilder: <a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. <a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-s",
           "_styles": {
             "P": {
               "color": "#252525"
