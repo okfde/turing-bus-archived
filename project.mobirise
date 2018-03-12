@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "impressum.html",
+    "currentPage": "module.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -1333,7 +1333,7 @@
             "overlayOpacity": 0.5
           },
           "title": "KONTAKTIEREN SIE UNS",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SENDEN</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SENDEN AN: INFO@TURING-BUS.DE</a>",
           "form": {
             "action": "info@turing-bus.de",
             "alerts": {
@@ -2654,7 +2654,7 @@
           "_anchor": "content1-4n"
         },
         {
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">SCHREIB UNS!</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">KONTAKT: INFO@TURING-BUS.DE</a> ",
           "_tags": [
             "Theme"
           ],
