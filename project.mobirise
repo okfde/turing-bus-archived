@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "wissenschaftsjahr.html",
+    "currentPage": "impressum.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -2654,7 +2654,7 @@
           "_anchor": "content1-4n"
         },
         {
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">SCHREIB UNS!</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"mailto:info@turing-bus.de\" data-toolbar=\"-mbrBtnMove\">SCHREIB UNS!</a> ",
           "_tags": [
             "Theme"
           ],
