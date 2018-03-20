@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "module.html",
+    "currentPage": "faq.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -2436,10 +2436,10 @@
             "imageSize": "25",
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#f97352",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -2454,7 +2454,7 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1591x1080.jpg",
+              "src": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
               "link": "",
               "alt": "",
               "title": ""
@@ -2498,7 +2498,7 @@
           "_params": {
             "showMeta": false
           },
-          "title": "WAS IST DER TURING BUS?",
+          "title": "WAS IST DER TURING-BUS?",
           "meta": "By John Smith posted July 30, 2015",
           "_tags": [
             "Theme"
@@ -2614,7 +2614,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/image1-845x817.png",
+              "src": "@PROJECT_PATH@/assets/images/va-aufbau-module-neu-1400x1092.png",
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
