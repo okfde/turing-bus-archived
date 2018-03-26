@@ -289,3 +289,35 @@
 #footer1-s P {
   color: #252525;
 }
+#ext_menu-58 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-58.mbr-navbar--stuck .mbr-navbar__section {
+  background: #79b1b8;
+}
+#ext_menu-58 .mbr-navbar__section {
+  background: #79b1b8;
+}
+#ext_menu-58 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-58 .mbr-brand__name a {
+  font-size: 10px;
+}
+#msg-box2-5a .mbr-header .mbr-header__text {
+  color: #252525;
+}
+#msg-box2-5a .mbr-article {
+  color: #252525;
+}
+#features1-5b .mbr-section-title .mbr-header__text {
+  font-size: 16px;
+  text-align: left;
+}
+#features1-5b .mbr-section__col .mbr-header__text {
+  text-align: left;
+  font-size: 12px;
+}
+#footer1-5c P {
+  color: #252525;
+}
