@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "stationen.html",
+    "currentPage": "faq.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -2527,7 +2527,7 @@
           "_anchor": "header3-2w"
         },
         {
-          "text": "<p>Die Zielgruppe des Projektes sind vor allem junge Menschen zwischen 15 und 25 Jahren. Sie können an unseren Workshops teilnehmen oder selbst welche mit unserer Unterstützung durchführen (Wie werde ich Infonaut*in?). Dazu fahren wir  nach Absprache zu den Schulen, Jugendclubs, lokalen Labs oder auf passende Veranstaltungen. Die Angebote, Projekte und Fähigkeiten, die auf den Stationen vermittelt werden, stammen aus dem weiteren Feld der In wformatik und werden von Expert*innen in den jeweiligen Gebieten vermittelt.</p><p>Ihr möchtet, dass der Turing-Bus zu Euch kommt?<b> Schreibt uns</b>!</p>",
+          "text": "<p>Die Zielgruppe des Projektes sind vor allem junge Menschen zwischen 15 und 25 Jahren. Sie können an unseren Workshops teilnehmen oder selbst welche mit unserer Unterstützung durchführen (Wie werde ich Infonaut*in?). Dazu fahren wir  nach Absprache zu den Schulen, Jugendclubs, lokalen Labs oder auf passende Veranstaltungen. Die Angebote, Projekte und Fähigkeiten, die auf den Stationen vermittelt werden, stammen aus dem weiteren Feld der In Informatik und werden von Expert*innen in den jeweiligen Gebieten vermittelt.</p><p>Ihr möchtet, dass der Turing-Bus zu Euch kommt?<b> Schreibt uns</b>!</p>",
           "_tags": [
             "Theme"
           ],
