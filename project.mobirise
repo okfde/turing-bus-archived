@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "faq.html",
+    "currentPage": "stationen.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -3479,7 +3479,7 @@
             }
           },
           "title": "STATIONEN",
-          "text": "<p>Hier gibt es Informationen zu den Stationen des Turing-Bus. Stationen können Schulen, Jugendclubs, Vereine oder Institutionen wie z.B. Museen sein. &nbsp;</p>",
+          "text": "<p>Hier gibt es Informationen zu den Stationen des Turing-Bus. Stationen können an Schulen, Jugendclubs, Vereine oder Institutionen wie z.B. Museen stattfinden. &nbsp;</p>",
           "_tags": [
             "Theme"
           ],
