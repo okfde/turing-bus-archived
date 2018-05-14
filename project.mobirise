@@ -18,7 +18,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 253,
+    "uniqCompNum": 257,
     "versionPublish": "4.7.1",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -3148,7 +3148,7 @@
           "_anchor": "header3-6l"
         },
         {
-          "text": "<p>20. April - <b>München</b>. Hochschule für Angewandte Wissenschaften</p><p>26. April - <b><a href=\"stationen.html#content1-6z\">Cottbus</a></b>. Brandenburgische Technische Universität Cottbus-Senftenberg (Girls'Day)</p><p>22. Mai - <b>Bernau</b>. Paulus-Praetorius-Gymnasium</p><p>07. Juni - <b>Tessin</b>. Regionale Schule Anne Frank&nbsp;</p><p>21. Juni - <b>Beetzendorf</b>. Ländliches Gymnasium Beetzendorf</p><p>26. Juni - <b>Riesa</b>. Christliches Gymnasium \"Rudolf Stempel\"</p><p>02. Juli - <b>Templin</b>. Gymnasium Templin</p>",
+          "text": "<p>w20. April - <b>München</b>. Hochschule für Angewandte Wissenschaften</p><p>26. April - <b><a href=\"stationen.html#content1-6z\">Cottbus</a></b>. BTU Cottbus-Senftenberg (Girls'Day)</p><p>22. Mai - <b><a href=\"stationen.html#header3-71\">Bernau</a></b>. Paulus-Praetorius-Gymnasium</p><p>01. Juni - <b>Rangsdorf</b>. Oberschule Rangsdorf</p><p>04. Juni - <b>Garz. </b>Regionale Schule „Am Burgwall“</p><p>07. Juni - <b>Tessin</b>. Regionale Schule Anne Frank&nbsp;</p><p>20. od. 22. Juni - <b>Uelzen</b>. Lessing-Gymnasium</p><p>21. Juni - <b>Beetzendorf</b>. Ländliches Gymnasium Beetzendorf</p><p>25. Juni - <b>Landsberg</b>. Sekundarschule „An der Doppelkapelle“ Landsberg<br></p><p>26. Juni - <b>Riesa</b>. Christliches Gymnasium \"Rudolf Stempel\"</p><p>27. Juni - <b>Pfiffelbach</b>. Regelschule Pfiffelbach</p><p>02. Juli - <b>Templin</b>. Gymnasium Templin<br></p>",
           "_tags": [
             "Theme"
           ],
@@ -3201,6 +3201,26 @@
           "meta": "By John Smith posted July 30, 2015",
           "_name": "content5",
           "_anchor": "content5-70"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "OFFIZIELLER T(O)UR-START IN BERNAU",
+          "meta": "Von Turing-Bus Team am 14. Mai, 2018",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-71"
+        },
+        {
+          "text": "<p>Der Turing-Bus startet seine Route offiziell am 22. Mai 2018 im <a href=\"http://praetoriusgymnasium.de/\">Paulus-Praetorius-Gymnasium</a> in Bernau.&nbsp;</p><p>Auf dieser Station des Turing-Busses werden fünf Hands-On-Workshops angeboten. Dazu gibt es ein Podiumsgespräch, in dem die Rolle von Digitalisierung und Informatik für Beruf und Gesellschaft ergründet, diskutiert und kritisch hinterfragt wird.</p><p>Die Veranstaltung beginnt um 8:10 Uhr mit einer Begrüßung der teilnehmenden Schüler*innen der 10. und 11. Klasse sowie einem kurzen Impulsreferat durch Ina Schieferdecker, Institutsleiterin des <a href=\"https://vernetzung-und-gesellschaft.de/\" style=\"background-color: rgb(255, 255, 255);\">Weizenbaum-Instituts für die vernetzte Gesellschaft</a>.&nbsp;<br></p><p>Darauf folgt ab 8:30 Uhr der Workshopteil, in dem ca. 80 Schüler*innen an fünf Workshops teilnehmen. Die folgenden Workshops werden dabei angeboten:&nbsp;</p><p>„<b>Informatik enlightened - ein Einstieg in die Arduino-Programmierung“</b> (Sven Kallet, Mobiles Schülerlabor “Science on Tour” der B-TU Cottbus-Senftenberg)</p><p>„<b>Demokratie in Aktion: Das digitale Flugblatt“</b>&nbsp;- Andrea Knaut (Gesellschaft für Informatik, Turing-Bus)&nbsp;</p><p><b>„Digitales Haustier“ </b>- Max Voigt (Fablab Cottbus)</p><p><b>„Eine Mess-Station selbst bauen: senseBox:edu“ </b>- Mario Pesch und Umut Tas; senseBox, Uni Münster</p><p><b>„gewissensbits“ </b>- Stefan Ullrich, Weizenbaum-Institut für die vernetzte Gesellschaft</p><p>Im anschließenden, <u>öffentlichen</u> Teil in der Aula werden ab 11:15 Uhr die folgenden Projektbeteiligten und Vertreter*innen der Bundes- und Landespolitik das Projekt offiziell eröffnen:&nbsp;</p><p><b>Matthias Graf von Kielmansegg</b> (Abteilungsleiter der Abteilung 1 für Grundsatzfragen, strategische Aspekte und den Digitalen Wandel, Bundesministerium für Bildung und Forschung)</p><p><b>Britta Stark</b> (Päsidentin des Landtages Brandenburg)</p><p><b>Hannes Federrath</b> (Präsident Gesellschaft für Informatik)</p><p><b>Nadine Evers</b> (Geschäftsführerin Open Knowledge Foundation &nbsp;Deutschland)</p><p><b>Matthias Tacke</b> (Landkreisdezernent Barnim)</p><p>Von 11:45 Uhr bis 12:30 Uhr findet dann eine Podiumsdiskussion statt, in der die Möglichkeit für Austausch und Fragen gegeben werden soll. Unter dem Thema „Mündig in den Arbeitswelten der Zukunft“ diskutieren Vertreter*innen der Politik, der Zivilgesellschaft und natürlich die Schüler*innen darüber, wie die Schule sie auf die Arbeitswelten der Zukunft vorbereitet. Was bedeuten Mündigkeit und Selbstbestimmung im informationstechnischen Zeitalter? Müssen wir Programmieren lernen, um nicht von Roboter*innen ersetzt zu werden?&nbsp;</p><p><b>Interessierte Teilnehmer am offiziellen Teil (11:15-12:30) werden um eine kurze Nachricht an info[at]turing-bus.de gebeten. </b></p><p><b>Pressevertreter sind zwischen 10:45 und 11:15 herzlich eingeladen, die letzten Minuten der Hands-On-Workshops zu besuchen, Interviews zu führen sowie den Pressebild- und Grußwort-Termin zu begleiten.</b>&nbsp;</p><p>08:10 - 08:30 Uhr: Begrüßung</p><p>08:30 - 11:00 Uhr: Workshops</p><p>11:00 - 11:15 Uhr: Pressefoto&nbsp;</p><p>11:15 - 11:45 Uhr: Kurzvorträge&nbsp;</p><p>11:45 - 12:30 Uhr: Podiumsdiskussion</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-72"
         },
         {
           "_params": {
