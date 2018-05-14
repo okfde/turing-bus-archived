@@ -26,6 +26,17 @@
 #features1-4q .mbr-header__subtext SPAN {
   font-size: 16px;
 }
+#content5-79 .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-79 .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-79 .mbr-article {
+  color: #fff;
+}
 #slider-1h P {
   text-align: left;
   font-size: 21px;
