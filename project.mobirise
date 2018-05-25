@@ -1792,7 +1792,7 @@
           ],
           "_name": "video1",
           "_anchor": "video1-7n",
-          "_customHTML": "<figure class=\"mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-outside-bottom\" data-rv-view=\"395\" style=\"background-color: rgb(37, 37, 37);\">\n    \n    <div><iframe width=\"100%\" height=\"850px\" src=\"http://umap.openstreetmap.fr/en/map/turing-bus_196785?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=undefined&amp;captionBar=false\"></iframe></div>\n</figure>",
+          "_customHTML": "<figure class=\"mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-outside-bottom\" data-rv-view=\"395\" style=\"background-color: rgb(37, 37, 37);\">\n    \n    <div><iframe width=\"100%\" height=\"750px\" frameborder=\"0\" src=\"http://umap.openstreetmap.fr/en/map/turing-bus_196785?scaleControl=false&amp;miniMap=true&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=false&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=undefined&amp;captionBar=false\"></iframe></div>\n</figure>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "",
