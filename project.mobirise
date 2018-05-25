@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "index.html",
+    "currentPage": "bus.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -18,7 +18,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 268,
+    "uniqCompNum": 277,
     "versionPublish": "4.7.1",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -1758,35 +1758,45 @@
           "_anchor": "ext_menu-1v"
         },
         {
-          "_inherit": "header1",
           "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "showArrow": true,
-            "contentAlign": "right",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-6-1620x1080.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": true
           },
-          "title": "COMING SOON...",
-          "text": "Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "title": "TURING-BUS-KARTE (BETA)",
+          "meta": "Turing-Bus Team am 25. Mai 2018",
           "_tags": [
             "Theme"
           ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header2",
-          "_anchor": "header2-23"
+          "_name": "header3",
+          "_anchor": "header3-7o"
+        },
+        {
+          "_params": {
+            "showText": true,
+            "bgColor": "#252525"
+          },
+          "media": {
+            "image": {
+              "src": "images/slide3.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video1",
+          "_anchor": "video1-7n",
+          "_customHTML": "<figure class=\"mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-outside-bottom\" data-rv-view=\"395\" style=\"background-color: rgb(37, 37, 37);\">\n    \n    <div><iframe width=\"100%\" height=\"850px\" src=\"http://umap.openstreetmap.fr/en/map/turing-bus_196785?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=undefined&amp;captionBar=false\"></iframe></div>\n</figure>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         },
         {
           "_inherit": "msg-box1",
