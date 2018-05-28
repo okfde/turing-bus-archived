@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "stationen.html",
+    "currentPage": "supporter.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -3779,7 +3779,7 @@
               "size": 0
             }
           },
-          "title1": "AFB SOCIAL &amp; GREEN IT",
+          "title1": "AFB GEMEINNÜTZIGE GMBH",
           "caption1": "<a href=\"https://www.afb-group.de/home/\">https://www.afb-group.de/home/</a>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media2": {
