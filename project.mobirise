@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "2018-05-22-Offizieller-Start-in-Bernau.html",
+    "currentPage": "blogbuch.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -4349,7 +4349,7 @@
             "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -4396,7 +4396,7 @@
               "color": "#ffffff"
             },
             ".mbr-article P": {
-              "color": "#252525"
+              "color": "#777777"
             }
           },
           "headerAlign": "left",
@@ -4420,7 +4420,7 @@
             "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#79b1b8",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -4467,7 +4467,7 @@
               "color": "#ffffff"
             },
             ".mbr-article P": {
-              "color": "#252525"
+              "color": "#777777"
             }
           },
           "headerAlign": "left",
