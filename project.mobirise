@@ -3233,6 +3233,26 @@
           "_anchor": "content1-ad"
         },
         {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "FÜR INTERESSENTEN:",
+          "meta": "Die unten stehende Stationenliste wird noch komplettiert. Ein Klick auf den Stationsnamen führt (sofern schon vorhanden) zu weiteren Informationen.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-90"
+        },
+        {
+          "text": "AKtuell haben wir bereits alle Plätze vergeben. Interessierte Schulen, Jugendclubs oder Bildungs- bzw. Kultureinrichtungen können aber dennoch ihr Interesse bekunden um auf eine Nachrückerliste zu kommen und sich für mögliche zukünftige Termine zu bewerben. Schreibe Sie dazu an <a href=\"mailto:info@turing-bus.de\">info[at]turing-bus.de</a>.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-91"
+        },
+        {
           "_inherit": "msg-box3",
           "_styles": {
             ".mbr-header .mbr-header__text": {
@@ -3278,26 +3298,6 @@
           "meta": "By John Smith posted July 30, 2015",
           "_name": "content5",
           "_anchor": "content5-92"
-        },
-        {
-          "_params": {
-            "showMeta": false
-          },
-          "title": "FÜR INTERESSENTEN:",
-          "meta": "Die unten stehende Stationenliste wird noch komplettiert. Ein Klick auf den Stationsnamen führt (sofern schon vorhanden) zu weiteren Informationen.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-90"
-        },
-        {
-          "text": "AKtuell haben wir bereits alle Plätze vergeben. Interessierte Schulen, Jugendclubs oder Bildungs- bzw. Kultureinrichtungen können aber dennoch ihr Interesse bekunden um auf eine Nachrückerliste zu kommen und sich für mögliche zukünftige Termine zu bewerben. Schreibe Sie dazu an <a href=\"mailto:info@turing-bus.de\">info[at]turing-bus.de</a>.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-91"
         },
         {
           "_inherit": "msg-box1",
