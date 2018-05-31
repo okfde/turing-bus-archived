@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "supporter.html",
+    "currentPage": "blogbuch.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -4400,7 +4400,7 @@
             }
           },
           "headerAlign": "left",
-          "meta": "Von Turing-Bus Team am 14. Mai, 2018",
+          "meta": "Von Turing-Bus Team am 22. Mai, 2018",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"2018-05-22-Offizieller-Start-in-Bernau.html\" data-toolbar=\"-mbrBtnMove\">LESEN..</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-8q"
@@ -4471,7 +4471,7 @@
             }
           },
           "headerAlign": "left",
-          "meta": "Von Turing-Bus Team am 6. April, 2018",
+          "meta": "Von Turing-Bus Team am 26. April, 2018",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"2018-04-26-Erste-Station-in-Cottbus.html\" data-toolbar=\"-mbrBtnMove\">LESEN..</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-8r"
