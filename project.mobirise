@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "2018-04-26-Erste-Station-in-Cottbus.html",
+    "currentPage": "2018-06-18-Tur-Uebersicht.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -18,7 +18,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 374,
+    "uniqCompNum": 399,
     "versionPublish": "4.7.1",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -3225,7 +3225,7 @@
           "_anchor": "header3-6l"
         },
         {
-          "text": "<p>20. April - 80797&nbsp;<b>München </b>(BY). <a href=\"https://www.openstreetmap.org/search?query=Hochschule%20f%C3%BCr%20Angewandte%20Wissenschaften%20m%C3%BCnchen#map=18/48.15416/11.55627\">Hochschule für Angewandte Wissenschaften</a></p><p>26. April - 01968&nbsp;<b>Cottbus</b>&nbsp;(BB). <a href=\"https://www.openstreetmap.org/search?query=BTU%20Cottbus-Senftenberg#map=19/51.52204/13.98733\">BTU Cottbus-Senftenberg</a> (Girls'Day)</p><p>22. Mai - 16321 <b>Bernau&nbsp;(</b>BB). <a href=\"https://www.openstreetmap.org/search?query=Paulus-Praetorius-Gymnasium#map=19/52.68042/13.58229\">Paulus-Praetorius-Gymnasium</a></p><p>01. Juni - 15834&nbsp;<b>Rangsdorf</b> (BB). <a href=\"https://www.openstreetmap.org/search?query=oberschule%20rangsdorf#map=19/52.28961/13.44108\">Oberschule Rangsdorf</a></p><p>04. Juni - 18574&nbsp;<b>Garz/Rügen</b> (MV)<b>. </b><a href=\"https://www.openstreetmap.org/search?query=%20Regionale%20Schule%20%E2%80%9EAm%20Burgwall%E2%80%9C#map=19/54.31403/13.35177\">Regionale Schule „Am Burgwall“</a></p><p>07. Juni - 18195&nbsp;<b>Tessin</b> (MV). <a href=\"https://www.openstreetmap.org/search?query=regionale%20schule%20tessin#map=19/54.02471/12.45922\">Regionale Schule Anne Frank</a>&nbsp;</p><p>21. Juni - 38489&nbsp;<b>Beetzendorf</b> (ST). &nbsp;<a href=\"https://www.openstreetmap.org/search?query=Goethestra%C3%9Fe%2018%2C%2038489%20Beetzendorf#map=18/52.70655/11.09812\">Ländliches Gymnasium Beetzendorf</a><br></p><p>22. Juni - 29525 <b>Uelzen</b>&nbsp;(NI).&nbsp;<a href=\"https://www.openstreetmap.org/search?query=52.97231%2C10.56490#map=19/52.97231/10.56490\">Lessing-Gymnasium</a></p><p>25. Juni - 06188&nbsp;<b>Landsberg (Saalekreis) </b>(ST). <a href=\"https://www.openstreetmap.org/search?query=Sekundarschule%20%E2%80%9EAn%20der%20Doppelkapelle%E2%80%9C%20Landsberg#map=19/51.52509/12.16927\">Sekundarschule „An der Doppelkapelle“ Landsberg</a><br></p><p>26. Juni - 01587&nbsp;<b>Riesa</b> (SN). <a href=\"https://www.openstreetmap.org/search?query=Lange%20Str.%2051%2C%2001587%20Riesa#map=19/51.30389/13.26924\">Christliches Gymnasium \"Rudolf Stempel\"</a></p><p>27. Juni - 99510&nbsp;<b>Pfiffelbach </b>(TH). <a href=\"https://www.openstreetmap.org/search?query=regelschule%20pfiffelbach#map=19/51.05906/11.43763\">Regelschule Pfiffelbach</a></p><p>02. Juli - 17268&nbsp;<b>Templin </b>(BB). <a href=\"https://www.openstreetmap.org/search?query=gymnasium%20templin#map=18/53.11052/13.51209\">Gymnasium Templin</a><br></p>",
+          "text": "<p>20. April - 80797&nbsp;<b>München </b>(BY). <a href=\"https://www.openstreetmap.org/search?query=Hochschule%20f%C3%BCr%20Angewandte%20Wissenschaften%20m%C3%BCnchen#map=18/48.15416/11.55627\">Hochschule für Angewandte Wissenschaften</a></p><p>26. April - 01968&nbsp;<b>Cottbus</b>&nbsp;(BB). <a href=\"https://www.openstreetmap.org/search?query=BTU%20Cottbus-Senftenberg#map=19/51.52204/13.98733\">BTU Cottbus-Senftenberg</a> (Girls'Day)</p><p>22. Mai - 16321 <b>Bernau&nbsp;(</b>BB). <a href=\"https://www.openstreetmap.org/search?query=Paulus-Praetorius-Gymnasium#map=19/52.68042/13.58229\">Paulus-Praetorius-Gymnasium</a></p><p>01. Juni - 15834&nbsp;<b>Rangsdorf</b> (BB). <a href=\"https://www.openstreetmap.org/search?query=oberschule%20rangsdorf#map=19/52.28961/13.44108\">Oberschule Rangsdorf</a></p><p>04. Juni - 18574&nbsp;<b>Garz/Rügen</b> (MV)<b>. </b><a href=\"https://www.openstreetmap.org/search?query=%20Regionale%20Schule%20%E2%80%9EAm%20Burgwall%E2%80%9C#map=19/54.31403/13.35177\">Regionale Schule „Am Burgwall“</a></p><p>07. Juni - 18195&nbsp;<b>Tessin</b> (MV). <a href=\"https://www.openstreetmap.org/search?query=regionale%20schule%20tessin#map=19/54.02471/12.45922\">Regionale Schule Anne Frank</a>&nbsp;</p><p>21. Juni - 38489&nbsp;<b>Beetzendorf</b> (ST). &nbsp;<a href=\"https://www.openstreetmap.org/search?query=Goethestra%C3%9Fe%2018%2C%2038489%20Beetzendorf#map=18/52.70655/11.09812\">Ländliches Gymnasium Beetzendorf</a><br></p><p>22. Juni - 29525 <b>Uelzen</b>&nbsp;(NI).&nbsp;<a href=\"https://www.openstreetmap.org/search?query=52.97231%2C10.56490#map=19/52.97231/10.56490\">Lessing-Gymnasium</a></p><p>25. Juni - 06188&nbsp;<b>Landsberg (Saalekreis) </b>(ST). <a href=\"https://www.openstreetmap.org/search?query=Sekundarschule%20%E2%80%9EAn%20der%20Doppelkapelle%E2%80%9C%20Landsberg#map=19/51.52509/12.16927\">Sekundarschule „An der Doppelkapelle“ Landsberg</a><br></p><p>26. Juni - 01587&nbsp;<b>Riesa</b> (SN). <a href=\"https://www.openstreetmap.org/search?query=Lange%20Str.%2051%2C%2001587%20Riesa#map=19/51.30389/13.26924\">Christliches Gymnasium \"Rudolf Stempel\"</a></p><p>27. Juni - 99510&nbsp;<b>Pfiffelbach </b>(TH). <a href=\"https://www.openstreetmap.org/search?query=regelschule%20pfiffelbach#map=19/51.05906/11.43763\">Regelschule Pfiffelbach</a></p><p>02. Juli - 17268&nbsp;<b>Templin </b>(BB). <a href=\"https://www.openstreetmap.org/search?query=gymnasium%20templin#map=18/53.11052/13.51209\">Gymnasium Templin</a></p><p><br><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -4349,6 +4349,77 @@
             "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
             "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x931.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "ÜBERSICHT ÜBER DIE KOMMENDEN STATIONEN",
+          "text": "Wo der Bus in den nächsten Wochen anzutreffen ist, erfahrt ihr hier.&nbsp;",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-header__subtext": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#3b3b3b"
+            },
+            ".mbr-article P": {
+              "color": "#777777"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "Von Turing-Bus Team am 18. Juni, 2018",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"page11.html\" data-toolbar=\"-mbrBtnMove\">LESEN..</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-af"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "60",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
             "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -4734,7 +4805,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -5097,7 +5168,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -5667,6 +5738,498 @@
             }
           },
           "_anchor": "footer1-a2"
+        }
+      ]
+    },
+    "2018-06-18-Tur-Uebersicht.html": {
+      "settings": {
+        "title": "Blog003 - Tur-Übersicht",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 9
+      },
+      "components": [
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "ÜBERSICHT ÜBER DIE KOMMENDEN STATIONEN",
+          "meta": "Von Turing-Bus Team am 18. Juni, 2018<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-ag"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#79b1b8",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"wissenschaftsjahr.html\" data-toolbar=\"-mbrBtnMove\">WISSENSCHAFTSJAHR 2018</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#79b1b8"
+            },
+            ".mbr-navbar__section": {
+              "background": "#79b1b8"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "10px"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"module.html\">MODULE</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"faq.html\">FAQ</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"stationen.html\">STATIONEN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"blogbuch.html\">[B]LOGBUCH</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-turing-bus-white.svg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">..denn die Zukunft ist auch nicht mehr das, was sie mal war..</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-ah"
+        },
+        {
+          "text": "<p>Einige Stationen liegen nun bereits hinter uns (Berichte folgen): In den nächsten Tagen und Wochen stehen uns jedoch noch spannende Stationen bevor, über die wir an dieser Stelle berichten wollen.&nbsp;</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-aj"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "22.JUNI - BEETZENDORF MIT CONSTANZE KURZ (CHAOS COMPUTER CLUB, NETZPOLITIK.ORG)",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-au",
+          "_styles": {
+            "H3": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showText": true,
+            "outside": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/40225443511-5cb3ee3e52-k-1400x933.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "Constanze Kurz (CC-BY 2.0 Sebastian Scholl)",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Constanze Kurz (<a href=\"https://www.flickr.com/photos/cmdr/40225443511/in/photolist-24hzUVv-24hAxLK-9GFHko-pejARC-achpNF-achqkn-ackcE5-achmb2-ptqNvD-achqqV-ackft3-achpHF-ackb5s-ackfhY-ackcQL-24hAGnT-KkGksi-achkzX-fPxe1Y-acke6N-acke2j-achn7F-81nufH-ack8GJ-achj5p-achn3a-achnxK-achqCX-ackfKY-achmB2-achnUe-ackdf7-achnhM-JcCY92-ack9HG-ack9WG-9xvRUS-achkFT-achjiD-ackaZ7-ackeEY-ackcUU-5MDktC-7UHB34-ackbFy-ack9aJ-ack9oL-9gQxLg-9gRyhX-9gQxHc\">CC-BY 2.0 Sebastian Scholl</a>)&nbsp;",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-ay"
+        },
+        {
+          "text": "<p>Auf dieser Station freuen wir uns, Constanze Kurz als 'Infonautin' begrüßen zu dürfen. Sie hat sich eingehend mit den Fragen der Arbeitswelt der Zukunft beschäftigt, ist promovierte Informatikerin, ehrenamtlich Sprecherin des Chaos Computer Clubs und Autorin mehrerer Bücher zum Thema Informatik und Gesellschaft. In Beetzendorf wird Constanze Kurz nach einem Impulsvortrag an einer anschließenden Podiumsdiskussion teilnehmen.</p><p><b>Teilnehmende</b>:<br>Dr. Constanze Kurz, Chaos Computer Club, netzpolitik.org<br>Andreas Kluge, Verbandsgeschäftsführer des Zweckverbandes Breitband Altmark<br>Dr. Henry Herper, AG Lehramtsausbildung, Otto-von-Guericke-Universität, Magdeburg</p><p><b>Moderation</b>:<br>Dr. Stefan Ullrich (Weizenbaum Institut für die vernetzte Gesellschaft)</p><p><b>Weiteres Programm</b>:</p><p>Am Vormittag wird gemeinsam mit den Schüler*innen des Gymnasiums der Workshop 'Das digitale Flugblatt' durchgeführt.</p><p>Donnerstag, 21. Juni 2018, 13.30 Uhr bis 15 Uhr (Podiumsdiskussion)<br>Gymnasium Beetzendorf, Goethestraße 18, 38489 Beetzendorf</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-av"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "23.JUNI - UELZEN MIT DEN DEMOKRATIELABOREN ZUM THEMA CYBERMOBBING",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header3-aw"
+        },
+        {
+          "_params": {
+            "showText": true,
+            "outside": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/39554633020-654ad30ac4-k-1400x928.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "Demokratielabore",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "<a href=\"https://www.flickr.com/photos/okfde/39554633020/in/photolist-23giQko-23giCK9-24E6xzH-23giMQJ-ZFPbku-23JbKu3-2668our-24E6sWK-ZFPdoN-KjUvNQ-ZFP43J-ZFP2rY-ZFP6jY-GQw4GF-GQwdXK-HNTdHM-21JizJ5-23giNMJ-27oAD8Y-2589rb2-26qjdYd-26mYUg1-23giFGG-27sKEPa-23giEfo-23giM8G-HTskM7-21Jij9C-23JbKp3-HNSdFp-HTsjiW-Jmjr6C-27sLq8e-27oCMpo-25p5cGj-25p5grU-KjTJEy-27oBSDU-23JbJmS-JmjtpA-26mZDr9-27oC98Q-23JbGid-GQ4638-Jmjqcd-GQ42rR-JmjsUs-2589vht-HNSt66-266742R\">CC-BY 4.0 Demokratielabore, Foto: Leonard Wolf</a><br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-az"
+        },
+        {
+          "text": "<p>Die Station in Uelzen steht unter dem Thema Cybermobbing. Der Tag beginnt mit einer Diskussion gemeinsam mit Philosophie- und Informatikschüler*Innen, bei der der Dokumentarfilm&nbsp;<a href=\"https://www.youtube.com/watch?v=zvKjfWSPI7s\">Lösch Dich</a>&nbsp;(KOOPERATIVE BERLIN) als Grundlage dient. Im Anschluss wird der Workshop 'Das digitale Flugblatt' mit den Schüler*innen durchgeführt. </p><p>Am Nachmittag wird dann im <a href=\"https://www.hansestadt-uelzen.de/home/themenseite/juz-und-kindertreff/home-3.aspx\">BAXX-Jugendzentrum</a> der Workshop <a href=\"https://demokratielabore.de/workshops/invasion-der-cybertrolle/\">Invasion der Cybertrolle</a>&nbsp;durch die&nbsp;<a href=\"https://demokratielabore.de/\">Demokratielabore</a>&nbsp;durchgeführt. Dabei werden auf spielerische Art Handlungsanweisungen und Ideen zum Thema Diskussionskultur im Netz vermittelt. Mehr zum Workshop gibt es <a href=\"https://demokratielabore.de/workshops/downloads/steckbriefe/Steckbrief%20WS%20Invasion%20der%20Cybertrolle.pdf\">hier</a>.&nbsp;</p><p>Freitag, 22. Juni 2018, 14.00 Uhr bis ca. 17 Uhr (Workshop)<br>BAXX das Kinder- und Jugendzentrum Uelzen. Gartenstraße 5, 29525 Uelzen, Deutschland</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-ax"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "25.JUNI - LANDSBERG (SAALKREIS) MIT DEM FABLAB COTTBUS, RAINER REHAK (GEWISSENSBITS, FIFF, AMNESTY INTERNATIONAL) UND SCIENCE ON TOUR",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header3-b0"
+        },
+        {
+          "_params": {
+            "showText": true,
+            "outside": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/rainer-rehak-1000x667.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "Rainer Rehak",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Rainer Rehak. Bild: Code Alliance (c) 2018.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-b2"
+        },
+        {
+          "text": "<p>In Landsberg werden insgesamt 66 Schüler*innen an der damit zweitgrößten Station des Turing-Busses teilnehmen. Der Tag steht unter dem Thema Datenschutz mit Impulsvorträgen, einer Reihe an Workshops und einem anschließenden Diskussionsformat in der Aula. Unterstützt wird der Turing-Bus von Rainer Rehak, Experte für Datenschutz &amp; Datensicherheit, Sven Kallet aus dem mobilen Schülerlabor 'Science on Tour' und Maximilian Voigt aus dem Fablab Cottbus. Projektinitiator Stefan Ullrich wird außerdem den Workshop 'Datenschutz Dungeons &amp; Dragons' durchführen.&nbsp;</p><p><b>Workshops</b>:<br>Rainer Rehak (gewissensbits, FIFF, Amnesty International): Cybersecurity Impulsvortrag &amp; Workshop<br>Maximilian Voigt (Fablab Cottbus): Das digitale Haustier<br>Sven Kallet (Mobiles Schülerlabor 'Science on Tour')<br>Dr. Stefan Ullrich (Weizenbaum Institut für die vernetzte Gesellschaft): Datenschutz Dungeons &amp; Dragons<br>Andrea Knaut (Turing-Bus): Das digitale Flugblatt<br></p><p><br>Montag, 21. Juni 2018 - Sekundarschule „An der Doppelkapelle“ 06188 Landsberg (Saalekreis).&nbsp;</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-b1"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "ABONNIEREN SIE UNSEREN NEWSLETTER:",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://eepurl.com/dlz6Fb\" data-toolbar=\"-mbrBtnMove\">BESTELLEN</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-aq"
+        },
+        {
+          "_params": {
+            "showHeader": false,
+            "showSubheader": false,
+            "showImages": true,
+            "showTitles": false,
+            "showCaptions": false,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "5",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "header": "",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bmbf-gefirdert-vom-deutsch-600x427.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "http://bmbf.de",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "GEFÖRDERT DURCH DAS BUNDESMINISTERIUM FÜR BILDUNG UND FORSCHUNG",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/gi-logo-1-600x427.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "https://gi.de/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "WISSENSCHAFTSJAHR 2018",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/okf-logo-angepasst-1-600x427.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "https://okfn.de/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/weizenbaum-logo-adjusted-01-1-600x428.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "https://vernetzung-und-gesellschaft.de/",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "https://www.bmbf.de/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bmbf-379x238.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "https://www.wissenschaftsjahr.de/2018/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".mbr-section-title .mbr-header__text": {
+              "font-size": "16px",
+              "text-align": "left"
+            },
+            ".mbr-section__col .mbr-header__text": {
+              "text-align": "left",
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "features1-ar"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/verlauf-2000x615.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#444444",
+            "overlay": false,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<p>Social: <a href=\"https://twitter.com/TuringBus/\">Twitter</a> | <a href=\"https://www.facebook.com/turingbus/\">Facebook</a> | <a href=\"https://www.instagram.com/turingbus/\">Instagram</a><br>Bilder: Soweit nicht anders gekennzeichnet&nbsp;<a href=\"https://creativecommons.org/choose/zero/?lang=de\">CC-0</a>. Andere Inhalte: <a href=\"https://creativecommons.org/licenses/by/3.0/de/\">CC-BY</a>. &nbsp;&nbsp;&nbsp;&nbsp;<a href=\"impressum.html\" class=\"text-black\">Impressum / Datenschutz</a>&nbsp;<br><b>Wir bedanken uns bei unseren <a href=\"supporter.html\">Unterstützern</a>!</b></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#252525"
+            }
+          },
+          "_anchor": "footer1-as"
         }
       ]
     }
