@@ -436,6 +436,18 @@
 #msg-box4-8p .mbr-article {
   color: #ffffff;
 }
+#msg-box4-b5 .mbr-header__text {
+  color: #252525;
+}
+#msg-box4-b5 .mbr-header__subtext {
+  color: #252525;
+}
+#msg-box4-b5 .mbr-article {
+  color: #3b3b3b;
+}
+#msg-box4-b5 .mbr-article P {
+  color: #777777;
+}
 #msg-box4-8q .mbr-header__text {
   color: #252525;
 }
