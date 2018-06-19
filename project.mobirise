@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "blogbuch.html",
+    "currentPage": "2018-06-18-Tur-Uebersicht.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -18,7 +18,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 403,
+    "uniqCompNum": 405,
     "versionPublish": "4.7.1",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -6027,12 +6027,37 @@
           "_anchor": "image2-b6"
         },
         {
-          "text": "<p>Weiter geht's direkt mit Riesa! Hier freuen wir uns, Rob Tranquillo aus dem OK Lab Dresden begrüßen zu dürfen. Rob ist außerdem im Erfa-Kreis von Chaos macht Schule aktiv und wird den Schüler*innen von Handlungsspielräumen und Projekten aus dem Umfeld berichten, damit - wie auch mit unserer Infonauten-Karte geplant - es auch nach unserer Station für die Schüler*innen weitergehen kann. </p><p>Anlässlich des an diesem Tag stattfindenden Demokratietags werden wir außerdem das digitale Fugblatt bauen um dessen Einsatz im politischen Leben zu ergründen. Max Voigt aus dem Fablab Cottbus ist auch wieder dabei und unterstützt uns mit einem &nbsp;Workshop zum Thema 'Wie entsteht ein Datensatz - von Sensor zum Fakt'.&nbsp;</p><p>Dienstag, 26. Juni 2018 - Christliche Gymnasium „Rudolf Stempel\", Lange Straße 51, 01587 Riesa</p>",
+          "text": "<p>Weiter geht's direkt mit Riesa! Hier freuen wir uns, Rob Tranquillo aus dem OK Lab Dresden begrüßen zu dürfen. Rob ist außerdem im Erfa-Kreis von Chaos macht Schule aktiv und wird den Schüler*innen von Handlungsspielräumen und Projekten aus dem Umfeld berichten, damit - wie auch mit unserer Infonauten-Karte geplant - es auch nach unserer Station für die Schüler*innen weitergehen kann. </p><p>Anlässlich des an diesem Tag stattfindenden Demokratietags werden wir außerdem das digitale Fugblatt bauen um dessen Einsatz im politischen Leben zu ergründen.&nbsp;</p><p>Dienstag, 26. Juni 2018 - Christliche Gymnasium „Rudolf Stempel\", Lange Straße 51, 01587 Riesa</p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
           "_anchor": "content1-b4"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "...WEITERE STATIONEN (TBA):&nbsp;",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header3-b7"
+        },
+        {
+          "text": "<p><b>27. Juni - Pfiffelbach<br>28. Juni - Bonn<br>02. Juni - Templin</b></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-b8"
         },
         {
           "_inherit": "msg-box1",
