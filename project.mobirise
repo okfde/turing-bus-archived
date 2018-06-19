@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "2018-06-18-Tur-Uebersicht.html",
+    "currentPage": "blogbuch.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -4401,7 +4401,7 @@
           },
           "headerAlign": "left",
           "meta": "Von Turing-Bus Team am 18. Juni, 2018",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"page11.html\" data-toolbar=\"-mbrBtnMove\">LESEN..</a>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"2018-06-18-Tur-Uebersicht.html\" data-toolbar=\"-mbrBtnMove\">LESEN..</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-b5"
         },
