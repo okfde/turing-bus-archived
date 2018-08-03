@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Turing-Bus",
-    "currentPage": "index.html",
+    "currentPage": "2018-04-26-Erste-Station-in-Cottbus.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -18,7 +18,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 406,
+    "uniqCompNum": 410,
     "versionPublish": "4.7.1",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -4903,12 +4903,47 @@
           "_anchor": "image2-9v"
         },
         {
-          "text": "<p>Anlässlich des Zukunftstags waren wir am 26. April an der BTU Cottbus-Senftenberg. Neben unserem „digitalen Flugblatt“</p><p>Die erste Station des Turing-Busses fand im Rahmen des Zukunftstag an der BTU Cottbus-Senftenberg am 26. April statt. Anlässlich des Girls’Day am gleichen Datum wurden explizit Mädchen und junge Frauen zwischen 15 und 19 Jahren eingeladen, an zwei Hands-on- Workshops und einer Diskussionsrunde teilzunehmen.</p><p>Als besonderes Highlight fand einer der angebotenen Workshops im <a href=\"http://blog.fablab-cottbus.de/\">Fablab Cottbus</a> statt. <a href=\"https://www.fablabs.io/\">Fablabs</a>&nbsp; sind mit Produktionstechniken wir 3D-Drucken, CNC-Fräsen oder Holzbearbeitungsmaschinen an eigenen Projekten arbeiten, sich austauschen und Neues erlernen können. <a href=\"https://twitter.com/ma__vo\">Maximilian Voigt</a>, Mitgründer des Fablab Cottbus, zeigte den Teilnehmerinnen wie sie mithilfe eines Arduino Mikrocontrollers ein digitales Haustier bauen können, welches blinzelnde LED-'Augen' hat und auf Streicheln mir 'Schnurren' reagiert. &nbsp;</p><p>Im zweiten, von Andrea Knaut (Turing-Bus-Team) angebotenen Workshop wurden digitale Flugblätter gebaut: mithilfe von Kleincomputern wurden hier WLAN-Hotspots ausgesandt, mit denen im nächsten Schritt entwickelte Nachrichten verbreitet werden können.&nbsp;</p><p>Das für die Mädchen-Förderung im MINT-Bereich besteht nach wie vor viel getan werden muss, bestätigt auch Dr. Ursula Köhler, Sprecherin der GI-Fachgruppe »Frauen und Informatik«: „Der Anteil weiblicher IT-Fachkräfte ist in den Industrienationen seit Jahrzehnten sehr gering. In Deutschland sind es derzeit nur 17 Prozent, auch bei Google und Apple liegt der Anteil weiblicher Tech Worker deutlich unter einem Viertel. In den IT-Ausbildungsberufen sind die Zahlen besonders niedrig. Besser, aber auch nicht rosig, sieht es bei den Gehaltsunterschieden aus: Durchschnittlich zehn Prozent weniger als Männer verdienen Frauen im MINT-Bereich in Deutschland.“</p><p>Wir bedanken uns beim Fablab Cottbus und der BTU Cottbus für die freundliche Unterstützung!&nbsp;</p>",
+          "text": "<p>Anlässlich des Girls’Day, dem bundesweiten Mädchen-Zukunftstag, besuchten wir die BTU Cottbus mit dem Turing-Bus. Besonders hierbei: an der BTU Cottbus befindet sich das Fablab Cottbus, eine Mitmachwerkstatt in der Interessierte gegen einen geringen Betrag mit modernen Produktionstechniken wie z.B. 3D-Druckern und CNC-Fräsen sowie einer Lötstation und Holzwerkstatt an eigenen Projekten arbeiten können. Maximilian Voigt, Mitbegründer des Fablabs, erklärte sich bereit einen der beiden angebotenen Workshops im Fablab zu halten, bei dem die Teilnehmenden mit dem Arduino Mikro-Controller ein 'Haustier' bauen konnten. Letzteres bestand aus LEDs, Kabeln, einer Platine, einem Lichtsensor und einem selbstgebauten Papiergehäuse.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
           "_anchor": "content1-9a"
+        },
+        {
+          "_params": {
+            "showText": false,
+            "outside": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-08-03-at-13.54.09-1400x698.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-bd"
+        },
+        {
+          "text": "<p>Als zweiten Workshop wurde der von uns weiterentwickelte Workshop 'Das digitale Flugblatt' angeboten, bei dem mithilfe eine Raspberry Pis ein mobiler Hotspot gebaut wird, über den draufhin als eine HTML/CSS programmierte Webseite Botschaften ausgesendet werden können. &nbsp;</p><p>Zusätzlich waren Marlen Berg, Fanziska Reifenstein und Kim März von <a href=\"http://www.frauenzentrum-cottbus.de/projekte/maedchen-in-aktion/\">Mädchen in Aktion</a> zu Gast, um an der Podiumsdiskussion mit dem Thema “Keine Probleme mehr für Mädchen und Frauen in der »IT-Arbeitswelt von morgen«?” teilzunehmen. Die lokale Gruppe betreibt eine Upcycling-Werkstatt und ein Blog / Magazinformat in Cottbus bei dem Kunst, Kreativität, Musik, Handwerk, Technik oder auch alles rund um das Thema Medien im Vordergrund steht. Außerdem haben sie sich selbst das Schneiden von Videos beigebracht und mit einer Mädchenredaktion, den Cyberangels, einen <a href=\"https://www.youtube.com/channel/UCJ8amh-h3xM_qjHp9pIaVlg/featured\">YouTube-Channel</a> aufgebaut. Die Sozialarbeiterinnen betonten die Bedeutung der Mädchenförderung in der Jugendarbeit in Cottbus.</p><p>Es hat uns sehr viel Spaß gemacht, diese Station ausschließlich mit Mädchen durchzuführen. Im Zuge der Workshops hatten diese sichtbar Spaß und ließen verlauten, dass ihnen bis dato nicht bewusst war, welche 'coolen Sachen' man mithilfe der Kombination aus Programmierung, Elektrotechnik und Kreativität so machen kann.&nbsp;</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-ba"
         },
         {
           "_inherit": "msg-box1",
