@@ -11,7 +11,7 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-a,button{transition: all .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
+a,button{-webkit-transition: all .3s ease-in-out;transition: all .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
 #page-loading-blocs-notifaction{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
@@ -24,9 +24,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	clear:both;
 	background: 50% 50% no-repeat;
 	padding:0 50px;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	position:relative;
 }
@@ -509,6 +506,7 @@ iframe{
 	right:20px;
 	opacity: 0;
 	z-index: 500;
+	-webkit-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
 .scrollToTop span{
@@ -549,8 +547,12 @@ a[data-lightbox]:hover img{
 	animation-fill-mode:none;
 }
 #lightbox-modal{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 #lightbox-modal .modal-dialog{
 	width:90%;
@@ -591,6 +593,7 @@ a[data-lightbox]:hover img{
 	font-size:20px;
 	color:rgba(255,255,255,.9);
 	background:rgba(0,0,0,.5);
+	-webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 	position: absolute;
 	top:45%;
@@ -1098,7 +1101,6 @@ h2{
 	text-align: left;
 	list-style: none;
 	background-color: #fff;
-	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	border: 1px solid #ccc;
 	border: 1px solid rgba(0,0,0,.15);
@@ -1110,6 +1112,7 @@ h2{
 	width:100%;
 }
 .special-dropdown-nav.collapsing{
+	-webkit-transition: height 0.001s;
 	transition: height 0.001s;
 }
 .mini-nav .special-dropdown-nav .site-navigation li a{
