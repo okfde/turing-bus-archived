@@ -321,7 +321,46 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-33 p{
 	font-size: 20px;
 }
-#bloc-36 p{
+#bloc-35 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-35 p{
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-35 p{
+	font-family: Roboto;
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-37 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-37 p{
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-37 p{
+	font-family: Roboto;
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-39 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-39 p{
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-39 p{
+	font-family: Roboto;
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-42 p{
 	font-size: 13px;
 	line-height: 26px;
 }
@@ -645,6 +684,10 @@ iframe{
 	transform: translate3d(0, 0, 0);
 }
 }
+.no-shadows .carousel-control.left, .no-shadows .carousel-control.right{
+	background-image: none;
+}
+
 
 /* ScrollToTop button */
 
@@ -1055,6 +1098,16 @@ h3link:hover{
 .mobiletext{
 	font-weight:normal;
 }
+.frithjof{
+	background-image:url("img/IMG_20180601_121921.jpg");
+	background-position:right center;
+}
+.podium-constanze{
+	background-image:url("img/Constanze_Kurz_vor SchülerInnen - Foto Frithjof Nagel (c) GI-edit.jpg");
+}
+.microbit{
+	background-image:url("img/microbit.jpeg");
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1158,6 +1211,15 @@ h3link:hover{
 }
 .bg-uelzen{
 	background-image:url("img/uelzen.png");
+}
+.bg-IMG-20180601-121921{
+	background-image:url("img/IMG_20180601_121921.jpg");
+}
+.bg-Turing-Bus-20Garz-Rügen-20-281-29{
+	background-image:url("img/Turing-Bus%20Garz_Rügen%20%281%29.jpg");
+}
+.bg-20180626-121253-20copy{
+	background-image:url("img/20180626_121253%20copy.jpg");
 }
 
 
@@ -1360,6 +1422,18 @@ h3link:hover{
 	font-size: 30px;
 	line-height: 2px;
 }
+#bloc-35 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+#bloc-37 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+#bloc-39 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
 }
 /* Drop Down Navigation */
 @media (min-width: 767px) and (max-width: 991px){
@@ -1489,7 +1563,19 @@ h3link:hover{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-36 p{
+#bloc-35 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-37 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-39 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-42 p{
 	font-size: 12px;
 	line-height: 18px;
 }
