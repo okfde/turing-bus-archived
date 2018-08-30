@@ -244,39 +244,39 @@ a:hover{text-decoration: none; cursor:pointer;}
 	line-height: 66px;
 }
 #bloc-20 p{
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-20 p{
 	font-family: Roboto;
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-22 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
 #bloc-22 p{
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-22 p{
 	font-family: Roboto;
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-24 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
 #bloc-24 p{
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-24 p{
 	font-family: Roboto;
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-26 p{
 	font-size: 15px;
@@ -286,39 +286,39 @@ a:hover{text-decoration: none; cursor:pointer;}
 	line-height: 66px;
 }
 #bloc-28 p{
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-28 p{
 	font-family: Roboto;
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-30 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
 #bloc-30 p{
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-30 p{
 	font-family: Roboto;
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-32 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
 #bloc-32 p{
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-32 p{
 	font-family: Roboto;
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
 #bloc-33 h2{
 	font-size: 47px;
@@ -1031,7 +1031,7 @@ h3link:hover{
 }
 .linkblog{
 	color:#DF167C!important;
-	font-size:16px;
+	font-size:18px;
 }
 .linkblog:hover{
 	color:#7DB1B7!important;
@@ -1107,12 +1107,6 @@ h3link:hover{
 
 /* Link colour styles */
 
-.ltc-white{
-	color:#FFFFFF!important;
-}
-.ltc-white:hover{
-	color:#cccccc!important;
-}
 .ltc-moonstone-blue{
 	color:#79B1B8!important;
 }

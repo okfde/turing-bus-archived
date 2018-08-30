@@ -69,6 +69,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	background-size: auto!important;
+}
+.bg-b-edge{
+	background: bottom no-repeat;
+}
+
+
 /* Background Textures */
 
 .bloc-bg-texture::before{
@@ -183,9 +193,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .voffset{
 	margin-top:30px;
 }
-.voffset-lg{
-	margin-top:80px;
-}
 
 /* Bloc text custom styling */
 
@@ -193,43 +200,31 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-2 p{
+#bloc-2 h4{
+	font-size: 22px;
+}
+#bloc-3 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-3 h2{
+#bloc-4 h2{
 	font-size: 70px;
 	line-height: 76.66667175292969px;
 }
-#bloc-3 h4{
+#bloc-4 h4{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-5 h3{
+#bloc-6 h3{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-7 h3{
+#bloc-9 h3{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-8 h3{
+#bloc-10 h3{
 	font-size: 30px;
-}
-#bloc-12 p{
-	font-size: 14px;
-	line-height: 20px;
-}
-#bloc-13 p{
-	font-size: 14px;
-	line-height: 26px;
-}
-#bloc-14 p{
-	font-size: 14px;
-	line-height: 26px;
-}
-#bloc-16 p{
-	font-size: 20px;
 }
 #bloc-17 h2{
 	font-size: 47px;
@@ -243,16 +238,92 @@ a:hover{text-decoration: none; cursor:pointer;}
 	line-height: 66px;
 }
 #bloc-20 p{
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-20 p{
 	font-family: Roboto;
-	font-size: 16px;
-	line-height: 22px;
+	line-height: 26px;
+	font-size: 18px;
 }
-#bloc-22 h6{
-	font-size: 14px;
-	line-height: 23px;
+#bloc-22 h4{
+	font-size: 50px;
+	line-height: 66px;
 }
-#bloc-27 p{
+#bloc-22 p{
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-22 p{
+	font-family: Roboto;
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-24 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-24 p{
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-24 p{
+	font-family: Roboto;
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-26 p{
+	font-size: 15px;
+}
+#bloc-28 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-28 p{
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-28 p{
+	font-family: Roboto;
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-30 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-30 p{
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-30 p{
+	font-family: Roboto;
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-32 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-32 p{
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-32 p{
+	font-family: Roboto;
+	line-height: 26px;
+	font-size: 18px;
+}
+#bloc-33 h2{
+	font-size: 47px;
+	line-height: 40px;
+}
+#bloc-33 p{
+	font-size: 20px;
+}
+#bloc-36 p{
 	font-size: 13px;
+	line-height: 26px;
 }
 
 /* = NavBar
@@ -434,6 +505,11 @@ button{
 }
 
 
+/* = Icons
+-------------------------------------------------------------- */
+.icon-md{
+	font-size:30px!important;
+}
 
 
 /* = Text & Icon Styles
@@ -494,7 +570,81 @@ button{
 iframe{
 	border:0;
 }
+/* = Carousel
+-------------------------------------------------------------- */
 
+.carousel{
+	display:inline-block;
+	vertical-align:bottom;
+}
+.full-width-bloc .carousel{
+	width:100%;
+}
+.carousel .item img{
+	margin-right:auto;
+	margin-left:auto;
+}
+.carousel-control span{
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	display: inline-block;
+}
+.carousel-control{
+	color:#FFF!important;
+	text-shadow: none;
+}
+.carousel-indicators li{
+	margin: 0 4px;
+}
+.carousel-indicators .active{
+	margin: 0 4px -1px;
+}
+.carousel-control.left span{
+	margin-left:-15px;
+}
+
+/*
+	Carousel Cross Fade Transition
+*/
+
+.carousel-crossfade .carousel-inner .item {
+	opacity: 0;
+	-webkit-transition-property: opacity;
+	transition-property: opacity;
+}
+.carousel-crossfade .carousel-inner .active {
+	opacity: 1;
+}
+.carousel-crossfade .carousel-inner .active.left,.carousel-crossfade .carousel-inner .active.right {
+	left: 0;
+	opacity: 0;
+	z-index: 1;
+}
+.carousel-crossfade .carousel-inner .next.left,.carousel-crossfade .carousel-inner .prev.right {
+	opacity: 1;
+}
+.carousel-crossfade .carousel-control {
+	z-index: 2;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+	.carousel-crossfade .carousel-inner > .item.next,.carousel-crossfade .carousel-inner > .item.active.right {
+	opacity: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.carousel-crossfade .carousel-inner > .item.prev,.carousel-crossfade .carousel-inner > .item.active.left {
+	z-index:0;
+	opacity: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.carousel-crossfade .carousel-inner > .item.next.left,.carousel-crossfade .carousel-inner > .item.prev.right,.carousel-crossfade .carousel-inner > .item.active {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+}
 
 /* ScrollToTop button */
 
@@ -659,7 +809,7 @@ h2{
 	font-weight:300;
 }
 .carousel{
-	height:1335px;
+	background-size:auto auto;
 }
 .imgsm{
 	border-style:none;
@@ -726,6 +876,8 @@ h2{
 }
 .link{
 	color:#79B1B8!important;
+	font-size:16px;
+	line-height:22px;
 }
 .link:hover{
 	color:#EF8100!important;
@@ -735,6 +887,7 @@ h2{
 }
 .linkblack{
 	color:#797979!important;
+	font-size:14px;
 }
 .linkblack:hover{
 	color:#E5007D!important;
@@ -788,9 +941,10 @@ h2{
 .ws-digitales-haustier{
 	background-size:400px auto;
 	height:200px;
-	padding:10px 0px 0px 10px;
 	text-shadow:-2px 2px 7px #4C4C4C;
-	margin-bottom:0px;
+	background-position:center top;
+	padding:16px 16px 16px 16px;
+	background-repeat:no-repeat;
 }
 .digitales-haustier{
 	background-image:url("img/turing-bus-in-bernau_40502100660_o.jpg");
@@ -818,6 +972,89 @@ h2{
 	background-image:url("img/turing-bus-in-bernau_27439205327_o.jpg");
 	background-position:center top;
 }
+.blogbuchheader{
+	background-image:url("img/Landstraße_nach_Clus_K632_-_panoramio.jpg");
+	background-size:auto auto;
+}
+.lightbox-caption{
+	color:#FEFFFF!important;
+}
+.h3link{
+	background-color:#FEFFFF;
+	font-size:22px;
+	color:#5E5E5E!important;
+}
+h3link:hover{
+}
+.h3link:hover{
+	color:#E5007D!important;
+}
+.divhome{
+	background-size:500px auto;
+	background-repeat:no-repeat;
+	height:205px;
+	text-align:left;
+	background-image:url("img/turing-bus-in-bernau_41586369384_o.jpg");
+	background-position:center center;
+	margin-top:0px;
+	padding-top:19px;
+	padding-left:39px;
+}
+.startvideo{
+	height:733px;
+	padding:9px 9px 9px 9px;
+	max-height:1000px;
+	background-position:center bottom;
+}
+.rowww{
+	background-size:auto auto;
+}
+.carouselstylo{
+	max-height:700px;
+}
+.linkwhite{
+	font-size:12px;
+}
+.linkwhite:hover{
+	color:#DE167C!important;
+}
+.blockquotee{
+	font-size:44px;
+}
+.blogpreviewimg:hover{
+	background-color:transparent;
+	background-clip:padding-box!important;
+	-webkit-background-clip:padding-box!important;
+	border-style:solid;
+	border-width:2px 2px 2px 2px;
+	border-radius:2px 2px 2px 2px;
+	border-color:rgba(255,255,255,0.5);
+}
+.linkblog{
+	color:#DF167C!important;
+	font-size:18px;
+}
+.linkblog:hover{
+	color:#7DB1B7!important;
+}
+.podium-cottbus{
+	background-image:url("img/turing-bus-in-bernau_41586605824_o.jpg");
+}
+.ccc{
+	background-image:url("img/rob-edit.png");
+}
+.olafthiele{
+	background-image:url("img/olaf-edit.png");
+}
+.demokratielabore{
+	background-image:url("img/demokratielbaore.png");
+}
+.loeschdich{
+	background-image:url("img/loeschdich.png");
+}
+.mobiletext{
+	font-weight:normal;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -827,14 +1064,17 @@ h2{
 .bgc-moonstone-blue{
 	background-color:#79B1B8;
 }
+.bgc-isabelline{
+	background-color:#EBEAEA;
+}
 .bgc-white{
 	background-color:#FFFFFF;
 }
 .bgc-white-2{
-	background-color:#FEFFFF;
+	background-color:#FFFFFF;
 }
-.bgc-platinum{
-	background-color:#EAEAEA;
+.bgc-black{
+	background-color:#000000;
 }
 
 /* Text colour styles */
@@ -849,16 +1089,10 @@ h2{
 	color:#5E5E5E!important;
 }
 .tc-white-2{
-	color:#FEFFFF!important;
+	color:#FFFFFF!important;
 }
-.tc-silver{
-	color:#C0C0C0!important;
-}
-.tc-bright-pink{
-	color:#E5007D!important;
-}
-.tc-moonstone-blue{
-	color:#79B1B8!important;
+.tc-isabelline{
+	color:#EBEAEA!important;
 }
 
 /* Button colour styles */
@@ -901,11 +1135,29 @@ h2{
 .bg-mbr-7-1620x1080{
 	background-image:url("img/mbr-7-1620x1080.jpg");
 }
-.bg-20180417-170343{
-	background-image:url("img/20180417_170343.jpg");
+.bg-münchen-ws1-20-281-29{
+	background-image:url("img/münchen_ws1%20%281%29.jpg");
 }
 .bg-turing-bus-in-bernau-27439298467-o{
 	background-image:url("img/turing-bus-in-bernau_27439298467_o.jpeg");
+}
+.bg-turing-bus-in-bernau-40501856010-o{
+	background-image:url("img/turing-bus-in-bernau_40501856010_o.jpeg");
+}
+.bg-constanze2{
+	background-image:url("img/constanze2.png");
+}
+.bg-turing-bus-in-bernau-41586416744-o{
+	background-image:url("img/turing-bus-in-bernau_41586416744_o.jpeg");
+}
+.bg-turing-bus-in-bernau-41407107815-o-edit{
+	background-image:url("img/turing-bus-in-bernau_41407107815_o-edit.jpg");
+}
+.bg-turing-bus-in-bernau-28435448738-o{
+	background-image:url("img/turing-bus-in-bernau_28435448738_o.jpg");
+}
+.bg-uelzen{
+	background-image:url("img/uelzen.png");
 }
 
 
@@ -1084,7 +1336,31 @@ h2{
 	.bloc-group-text-vc{
 	margin-top:0%;
 }
- }
+ #bloc-20 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+#bloc-22 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+#bloc-24 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+#bloc-28 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+#bloc-30 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+#bloc-32 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+}
 /* Drop Down Navigation */
 @media (min-width: 767px) and (max-width: 991px){
 	
@@ -1124,6 +1400,8 @@ h2{
 	text-shadow:0px 0px 0px #000000;
 	margin-left:25px;
 	margin-bottom:25px;
+	padding-right:25px;
+	padding-left:25px;
 }
 .imgmobile{
 	width:250px;
@@ -1138,6 +1416,7 @@ h2{
 	background-clip:padding-box!important;
 	-webkit-background-clip:padding-box!important;
 	border-style:none;
+	float:none;
 }
 .carouselstyle{
 	background-repeat:repeat;
@@ -1147,6 +1426,15 @@ h2{
 }
 .blocs-mobile-signup-text{
 	text-align:center;
+}
+.ws-digitales-haustier{
+	margin:15px 15px 15px 15px;
+}
+.mobiletext{
+	font-size:12px;
+	line-height:18px;
+	margin-right:25px;
+	margin-left:25px;
 }
  
 /* Mobile Text Margin Offsets */
@@ -1165,26 +1453,43 @@ h2{
 	font-size: 12px;
 	line-height: 18px;
 }
-#bloc-2 p{
+#bloc-3 p{
 	font-size: 12px;
 	line-height: 18px;
 }
-#bloc-3 h2{
+#bloc-4 h2{
 	font-size: 30px;
 	line-height: px;
 }
-#bloc-3 h4{
+#bloc-4 h4{
 	font-size: 12px;
 	line-height: 18px;
 }
-#bloc-12 p{
-	line-height: 18px;
+#bloc-20 h4{
+	font-size: 50px;
+	line-height: 66px;
 }
-#bloc-13 p{
-	font-size: 12px;
-	line-height: 18px;
+#bloc-22 h4{
+	font-size: 50px;
+	line-height: 66px;
 }
-#bloc-14 p{
+#bloc-24 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-28 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-30 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-32 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-36 p{
 	font-size: 12px;
 	line-height: 18px;
 }
