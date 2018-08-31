@@ -488,7 +488,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-60 h3{
 	font-size: 30px;
 }
-#bloc-64 p{
+#bloc-63 p{
 	font-size: 13px;
 	line-height: 26px;
 }
@@ -676,6 +676,25 @@ button{
 -------------------------------------------------------------- */
 .icon-md{
 	font-size:30px!important;
+}
+.icon-xl{
+	font-size:100px!important;
+}
+.icon-semi-rounded-b{
+	margin:0 auto;
+	border:2px solid transparent;
+	border-radius: 0 20px;
+	padding: 32px 30px 26px 30px;
+	min-width:80px;
+}
+.icon-round.icon-md,.icon-square.icon-md,.icon-rounded.icon-md{
+	min-width: 92px;
+}
+.icon-round.icon-lg,.icon-square.icon-lg,.icon-rounded.icon-lg{
+	min-width: 122px;
+}
+.icon-round.icon-xl,.icon-square.icon-xl,.icon-rounded.icon-xl{
+	min-width: 162px;
 }
 
 
@@ -1313,12 +1332,6 @@ h2link:hover{
 
 /* Link colour styles */
 
-.ltc-moonstone-blue{
-	color:#79B1B8!important;
-}
-.ltc-moonstone-blue:hover{
-	color:#618e93!important;
-}
 .ltc-bright-pink{
 	color:#E5007D!important;
 }
@@ -1792,7 +1805,7 @@ h2link:hover{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-64 p{
+#bloc-63 p{
 	font-size: 12px;
 	line-height: 18px;
 }
