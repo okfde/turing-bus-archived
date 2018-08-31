@@ -1,119 +1,350 @@
-
-
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="Default">
 <head>
-<title></title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Turing-Bus,Turingbus,">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jquery.touchSwipe.min.js" defer></script>
+	<script src="./js/lazysizes.min.js" defer></script>
+    <title>Turing-Bus</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
+<!-- Google Analytics -->
+ 
+<!-- Google Analytics END -->
+    
 </head>
-
-<style>
-body {
-	
-	background-image: url('grunge_patterns.jpg');
-	background-attachment: fixed;
-	color: #333;
-}
-.box {
-	border-radius: 3px;
-	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
-}
-.lightbox {
-	zoom: 1.5;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(10, 10, 10, 0.8);
-	text-align: center;
-	margin: auto;
-	
-}
-div.horizontal {
-	display: flex;
-	justify-content: center;
-	height: 100%;
-}
-div.vertical {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-}
-::-webkit-input-placeholder {
-   color: #955;
-   text-align: center;
-}
-::-moz-placeholder {  
-   color: #955;
-   text-align: center;
-}
-:-ms-input-placeholder {  
-   color: #955;
-   text-align: center;
-}
-</style>
-
 <body>
-	
-	<div id="loginbox" class="lightbox" >
-		<div class="horizontal">
-			<div class="vertical">
-				<div class="box">				
-					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
-					<button id="loginbutton" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none">wrong password</p>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc bgc-moonstone-blue l-bloc bloc-bg-texture texture-diagonal-lines" id="bloc-0">
+	<div class="container bloc-sm">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"><img src="img/logo%20turing-bus-white.png" alt="logo" height="30" width="180" /></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav">
+					<li>
+						<a href="faq.html">FAQ</a>
+					</li>
+					<li>
+						<a href="infonauten-karte.html">infonauten-karte</a>
+					</li>
+					<li>
+						<a href="blogbuch.html">[B]logbuch</a>
+					</li>
+					<li>
+						<a href="module.html">module</a>
+					</li>
+					<li>
+						<a href="wissenchaftsjahr.html" class="btn btn-d btn-lg">Wissenschaftsjahr</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- bloc-1 -->
+<div id="bloc-1" class="bloc bg-verlauf bgc-1 d-bloc none animSpeedFast">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="img/lazyload-ph.png" data-src="img/WJLogo_2018_webRZ%20%283%29.png" width="370" height="262" class="img-responsive lazyload" />
+			</div>
+			<div class="col-sm-8">
+				<h3 class="mg-lg  text-w-80 textboxmobile">
+					<span>Der Turing-Bus ist ein mobiles Bildungsangebot der</span> Open Knowledge Foundation Deutschland <span>und der</span> Gesellschaft für Informatik <span>im</span> Wissenschaftsjahr 2018 - Arbeitswelten der Zukunft <span>für Schulen, Jugendclubs und lokale Institutionen.</span><br><br><span>Der Bus möchte die Rolle von Digitalisierung und Technologie für Beruf und Gesellschaft mit Workshops, Vorträgen und Hands-on-Sessions ergründen, diskutieren und kritisch hinterfragen. Die Zielgruppe des Projektes sind Jugendliche und junge Erwachsene im Alter zwischen 15 und 20 Jahren.</span><br>
+				</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-1 END -->
+
+<!-- bloc-2 -->
+<div class="bloc bgc-isabelline b-parallax bg-constanze2 bloc-bg-texture texture-darken-strong l-bloc" id="bloc-2">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-4">
+				<h4 class="mg-md  tc-white textboxmobile">
+					<strong>Das war die Tour 2018!&nbsp;</strong>
+				</h4>
+				<p class="text-left  textboxmobile">
+					Acht Bundesländer, 12 Schulen, 3.900 gefahrene Kilometer:&nbsp;Das ist die vorläufige Bilanz des „Turing-Busses“, dem mobilen<br>Informatik-Bildungsangebot der Open Knowledge Foundation&nbsp;Deutschland und der GI. <span>Das Programm der einzelnen Stationen wurde individuell mit regionalen und lokalen Akteuren wie Fablabs, Chaos macht Schule, sense:Box und vielen mehr erstellt, die als Lehr- und Lernwelten auf die Arbeitswelt der Zukunft vorbereiten.</span>&nbsp;<br> <br><span>Einige Highlights sind hier zu sehen, eine detaillierte Übersicht der Stationen gibt es im&nbsp;</span><a class="linkblog " href="blogbuch.html">[B]logbuch</a><span>!&nbsp; <br> <br>Das Turing-Bus-Team bedankt sich bei allen Unterstützern und Teilnehmer*innen, die wir auf dem Weg getroffen haben!</span>
+				</p>
+			</div>
+			<div class="col-sm-8">
+				<div id="carousel-3" data-ride="carousel" class="carousel slide carousel-crossfade">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-3" data-slide-to="0" class="active">
+						</li>
+						<li data-target="#carousel-3" data-slide-to="1">
+						</li>
+						<li data-target="#carousel-3" data-slide-to="2">
+						</li>
+						<li data-target="#carousel-3" data-slide-to="3">
+						</li>
+						<li data-target="#carousel-3" data-slide-to="4">
+						</li>
+						<li data-target="#carousel-3" data-slide-to="5">
+						</li>
+						<li data-target="#carousel-3" data-slide-to="6">
+						</li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="img/Constanze_Kurz_vor%20SchülerInnen%20-%20Foto%20Frithjof%20Nagel%20%28c%29%20GI-edit.jpg" />
+							<div class="carousel-caption">
+								<h3 class="mg-md tc-white">
+									<a href="7-mit-constanze-kurz-in-beetzendorf.html">Impulsvortrag von Constanze Kurz in Beetzendorf.</a><br>
+								</h3>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/turing-bus-in-bernau_42307934251_o-edit.jpeg" />
+							<div class="carousel-caption">
+								<h3 class="mg-md tc-white">
+									<a href="3-offizieller-tour-start-in-bernau.html">Podiumsdiskussion mit Schüler*innen des Paulus-Praetorius-Gymnasiums und Herrn Graf von Kielmansegg (BMBF) in Bernau.</a><br>
+								</h3>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/rob-edit.png" />
+							<div class="carousel-caption">
+								<h3 class="mg-md tc-white text-center">
+									<a href="10-mit-chaos-macht-schule-und-code-for-germany-in-riesa.html">Mit „Chaos macht Schule“ in Riesa.</a><br>
+								</h3>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/turing-bus-in-bernau_41407107815_o-edit.jpg" />
+							<div class="carousel-caption">
+								<h3 class="mg-md tc-white text-center">
+									<a href="2-girls-day-in-cottbus.html">Das digitale Haustier in Cottbus.</a><br>
+								</h3>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/turing-bus-in-bernau_42261173052_o-edit.jpeg" />
+							<div class="carousel-caption">
+								<h3 class="mg-md tc-white">
+									<a href="5-geoinformatik-auf-ruegen.html">Umweltdaten generieren mit sense:Box.</a><br>
+								</h3>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/olaf-edit.png" />
+							<div class="carousel-caption">
+								<h3 class="mg-md tc-white">
+									<a href="8-mit-den-demokratielaboren-in-uelzen.html">Input von Olaf Thiele zum Thema Künstliche Intelligenz, Hatespeech und Wahlmanipulation in Uelzen.</a><br>
+								</h3>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/scienceontour.png" />
+							<div class="carousel-caption">
+								<h3 class="mg-md">
+									<a href="8-mit-den-demokratielaboren-in-uelzen.html">Mit dem mobilen Schülerlabor Science-on-Tour in Riesa.&nbsp;</a><br>
+								</h3>
+							</div>
+						</div>
+					</div><a class="left carousel-control" href="#carousel-3" role="button" data-slide="prev"><span class="fa fa-chevron-left"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-3" role="button" data-slide="next"><span class="fa fa-chevron-right"></span><span class="sr-only">Next</span></a>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
+<!-- bloc-2 END -->
+
+<!-- bloc-3 -->
+<div class="bloc none bgc-white l-bloc" id="bloc-3">
+	<div class="container bloc-lg">
+		<div class="row none">
+			<div class="col-sm-3">
+				<img src="img/lazyload-ph.png" data-src="img/turing-bus-in-bernau_40501589030_o.jpeg" class="img-responsive imgmobile lazyload" />
+				<h3 class="mg-md h3b textboxmobile textboxmobileblack mg-sm-xs">
+					<strong>Diskutieren</strong>
+				</h3>
+				<p class=" textboxmobile textboxmobileblack text-w-80">
+					<span>Fortschritt ist relativ: die Änderungen, die wir bereits erleben und die auf uns zukommen sind nicht nur positiver Natur. Die Konsequenzen der Digitalisierung für die Gesellschaft werden in diesem Modul diskutiert.</span>
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img src="img/lazyload-ph.png" data-src="img/turing-bus-in-bernau_41406747625_o.jpeg" class="img-responsive imgmobile lazyload" />
+				<h3 class="mg-md h3b mg-md-xs textboxmobile textboxmobileblack">
+					<strong>Veränderung erfahren</strong>
+				</h3>
+				<p class=" textboxmobile textboxmobileblack text-w-80">
+					<span>Welche Veränderungen gibt es bei existierenden Berufsbildern und welche neuen Berufe entstehen? Arbeitnehmer- und geberinnen teilen ihre Erfahrungen mit Studentinnen und Schülern.</span><br>
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img src="img/lazyload-ph.png" data-src="img/turing-bus-in-bernau_42308202631_o.jpeg" class="img-responsive imgmobile lazyload" />
+				<h3 class="mg-md h3b textboxmobile textboxmobileblack">
+					<strong>Anfassen</strong>
+				</h3>
+				<p class=" textboxmobile textboxmobileblack text-w-80">
+					<span>Informatik und Technologie können Mittel und Zweck für praktische, gesellschaftlich wertvolle und auch einfach spaßige Aktivitäten sein. Im Hands-On Teil werden Formate vorgestellt, die zum Mitmachen einladen.</span> <br>
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img src="img/lazyload-ph.png" data-src="img/turing-bus-in-bernau_27439614937_o.jpeg" class="img-responsive imgmobile lazyload" />
+				<h3 class="mg-md h3b textboxmobile textboxmobileblack">
+					<strong>Mitmachen</strong>
+				</h3>
+				<p class=" textboxmobile textboxmobileblack text-w-80">
+					<span>Digitales Ehrenamt, Offene Bildungsmaterialien, Open Data, Civic Tech und Feinstaubsensoren? Was sich hinter diesen Projekten und Begriffen versteckt und wie man dabei mitwirken kann, wird hier erklärt.&nbsp;</span><br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-3 END -->
+
+<!-- bloc-4 -->
+<div class="bloc bgc-white bg-mbr-7-1620x1080 b-parallax tc-white bloc-bg-texture texture-darken l-bloc" id="bloc-4">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="mg-md tc-white  textboxmobile fadeIn animated">
+					<strong>STATIONENLISTE 2018</strong>
+				</h2>
+				<h4 class="h4w mg-clear lg-shadow  textboxmobile text-w-90 mg-clear-xs fadeIn tc-white mobiletext animated">
+					Der Turing-Bus fuhr dieses Jahr die folgenden Stationen an:&nbsp;<br><br>20. April - <strong>München</strong>. Hochschule für Angewandte Wissenschaften<br>26. April - <strong>Cottbus</strong>. BTU Cottbus-Senftenberg (Girls'Day)<br>22. Mai - <strong>Bernau</strong>. Paulus-Praetorius-Gymnasium<br>01. Juni - <strong>Rangsdorf</strong>. Oberschule Rangsdorf<br>04. Juni - <strong>Garz</strong>. Regionale Schule „Am Burgwall“<br>07. Juni - <strong>Tessin</strong>. Regionale Schule Anne Frank <br>21. Juni - <strong>Beetzendorf</strong>. Ländliches Gymnasium Beetzendorf <br>22. Juni - <strong>Uelzen</strong>. Lessing Gymnasium Uelzen<br>25. Juni - <strong>Landsberg</strong>. Sekundarschule „An der Doppelkapelle“ Landsberg<br>26. Juni - <strong>Riesa</strong>. Christliches Gymnasium "Rudolf Stempel"<br>27. Juni - <strong>Pfiffelbach</strong>. Regelschule Pfiffelbach <br>28. Juni - <strong>Bonn</strong>.&nbsp;Ernst-Moritz-Arndt-Gymnasium<br>02. Juli - <strong>Templin</strong>. Gymnasium Templin<br>
+				</h4>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-4 END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
 
 
+<!-- Footer - bloc-60 -->
+<div class="bloc d-bloc bgc-isabelline" id="bloc-60">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-10">
+				<h3 class="mg-md blocs-mobile-signup-text tc-davys-grey ">
+					Abonniere unseren Newsletter:
+				</h3>
+			</div>
+			<div class="col-sm-2">
+				<div class="text-center">
+					<a href="index.html" class="btn btn-lg btn-block btn-bright-pink">BESTELLEN</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-60 END -->
 
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-	 
+<!-- Footer - bloc-61 -->
+<div class="bloc bgc-white l-bloc hidden-xs" id="bloc-61">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-2">
+				<a href="https://www.wissenschaftsjahr.de/2018/" target="_blank"><img src="img/lazyload-ph.png" data-src="img/WJLogo_2018_webRZ%20%282%29.png" class="img-responsive lazyload" /></a>
+			</div>
+			<div class="col-sm-2">
+				<a href="https://okfn.de" target="_blank"><img src="img/lazyload-ph.png" data-src="img/okf%20logo%20angepasst-01.png" class="img-responsive lazyload" /></a>
+			</div>
+			<div class="col-sm-2">
+				<a href="https://vernetzung-und-gesellschaft.de/" target="_blank"><img src="img/lazyload-ph.png" data-src="img/weizenbaum%20logo-adjusted-01-01.png" class="img-responsive lazyload" /></a>
+			</div>
+			<div class="col-sm-2">
+				<a href="https://gi.de/" target="_blank"><img src="img/lazyload-ph.png" data-src="img/gi%20logo-01.png" class="img-responsive lazyload" /></a>
+			</div>
+			<div class="col-sm-2">
+				<a href="https://www.bmbf.de/" target="_blank"><img src="img/lazyload-ph.png" data-src="img/BMBF_gefîrdert%20vom_deutsch.png" class="img-responsive lazyload" /></a>
+			</div>
+			<div class="col-sm-2">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-61 END -->
 
-	 <script type="text/javascript" src="https://cdn.rawgit.com/chrisveness/crypto/master/sha1.js"></script>
+<!-- Footer - bloc-62 -->
+<div id="bloc-62" class="bloc bgc-white l-bloc hidden-lg hidden-md hidden-sm none pulse animated">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-2">
+				<a href="https://www.wissenschaftsjahr.de/2018/" target="_blank"><img src="img/lazyload-ph.png" data-src="img/WJLogo_2018_webRZ%20%282%29.png" class="center-block lazyload" height="120" /></a>
+			</div>
+			<div class="col-sm-2">
+				<a href="https://okfn.de" target="_blank"><img src="img/lazyload-ph.png" data-src="img/okf%20logo%20angepasst-01.png" class="center-block lazyload" height="120" /></a>
+			</div>
+			<div class="col-sm-2">
+				<a href="https://vernetzung-und-gesellschaft.de/" target="_blank"><img src="img/lazyload-ph.png" data-src="img/weizenbaum%20logo-adjusted-01-01.png" class="center-block lazyload" height="120" /></a>
+			</div>
+			<div class="col-sm-2">
+				<a href="https://gi.de/" target="_blank"><img src="img/lazyload-ph.png" data-src="img/gi%20logo-01.png" class="center-block lazyload" height="120" /></a>
+			</div>
+			<div class="col-sm-2">
+				<a href="https://www.bmbf.de/" target="_blank"><img src="img/lazyload-ph.png" data-src="img/BMBF_gefîrdert%20vom_deutsch.png" class="center-block lazyload" height="120" /></a>
+			</div>
+			<div class="col-sm-2">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-62 END -->
 
-	<script type="text/javascript">
-	"use strict";
-	function loadPage(pwd) {
-		
-		var hash= pwd;
-		hash= Sha1.hash(pwd);
-		var url= hash + "/index.html";
-			
-		$.ajax({
-			url : url,
-			dataType : "html",
-			success : function(data) {
-				window.location= url;
-			},
-			error : function(xhr, ajaxOptions, thrownError) {
-			
-				parent.location.hash= hash;
-				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
-				$("#password").val("");
-			}
-		});
-	}
-	 
-	$("#loginbutton").on("click", function() {
-		loadPage($("#password").val());
-	});
-	$("#password").keypress(function(e) {
-		if (e.which == 13) {
-			
-			loadPage($("#password").val());
-		}
-	});
-	$("#password").focus();
-		
-	</script>
+<!-- Footer - bloc-63 -->
+<div class="bloc bgc-white bg-verlauf d-bloc" id="bloc-63">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="row">
+					<div class="col-sm-6">
+						<p>
+							Social:&nbsp;<a class="linkwhite" href="https://twitter.com/TuringBus/">Twitter</a>&nbsp;|&nbsp;<a class="linkwhite" href="https://www.facebook.com/turingbus/">Facebook</a>&nbsp;|&nbsp;<a class="linkwhite" href="https://www.instagram.com/turingbus/">Instagram</a>&nbsp; <br>Wir bedanken uns bei unseren&nbsp;<a class="linkwhite" href="supporter.html">Unterstützern</a>! <br>
+						</p>
+					</div>
+					<div class="col-sm-6">
+						<p>
+							Bilder: Soweit nicht anders gekennzeichnet&nbsp;<a class="linkwhite" href="https://creativecommons.org/publicdomain/zero/1.0/">CC-0</a>.&nbsp;Andere Inhalte:&nbsp;<a class="linkwhite" href="https://creativecommons.org/licenses/by/2.0/de/">CC-BY</a>.&nbsp; <br><a class="linkwhite" href="impressum.html">Impressum / Datenschutz</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-63 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction"></div>
+<!-- Preloader END -->
 
 </body>
 </html>
