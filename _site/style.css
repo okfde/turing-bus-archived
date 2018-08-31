@@ -69,6 +69,27 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Group Styles */
+
+.bloc-group{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+}
+.bloc-tile-2{
+	width:50%;
+}
+.bloc-tile-3{
+	width:33.33333333%;
+}
+.bloc-tile-4{
+	width:25%;
+}
+.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+	width:100%;
+}
+
+
 /* Background Styles */
 
 .bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
@@ -219,148 +240,255 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 22px;
 	line-height: 28px;
 }
+#bloc-8 h2{
+	font-size: 80px;
+}
+#bloc-8 h6{
+	font-size: 20px;
+	line-height: 20px;
+}
 #bloc-9 h3{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-10 h3{
-	font-size: 30px;
-}
-#bloc-17 h2{
+#bloc-16 h2{
 	font-size: 47px;
 	line-height: 40px;
 }
-#bloc-17 p{
+#bloc-16 p{
 	font-size: 20px;
 }
-#bloc-20 h4{
+#bloc-19 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-20 p{
-	line-height: 26px;
+#bloc-19 p{
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-20 p{
+#bloc-19 p{
 	font-family: Roboto;
-	line-height: 26px;
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-22 h4{
+#bloc-21 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-22 p{
-	line-height: 26px;
+#bloc-21 p{
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-22 p{
+#bloc-21 p{
 	font-family: Roboto;
-	line-height: 26px;
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-24 h4{
+#bloc-23 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-24 p{
-	line-height: 26px;
+#bloc-23 p{
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-24 p{
+#bloc-23 p{
 	font-family: Roboto;
-	line-height: 26px;
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-26 p{
+#bloc-25 p{
 	font-size: 15px;
 }
-#bloc-28 h4{
+#bloc-27 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-28 p{
-	line-height: 26px;
+#bloc-27 p{
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-28 p{
+#bloc-27 p{
 	font-family: Roboto;
-	line-height: 26px;
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-30 h4{
+#bloc-29 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-30 p{
-	line-height: 26px;
+#bloc-29 p{
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-30 p{
+#bloc-29 p{
 	font-family: Roboto;
-	line-height: 26px;
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-32 h4{
+#bloc-31 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-32 p{
-	line-height: 26px;
+#bloc-31 p{
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-32 p{
+#bloc-31 p{
 	font-family: Roboto;
-	line-height: 26px;
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-33 h2{
+#bloc-32 h2{
 	font-size: 47px;
 	line-height: 40px;
 }
-#bloc-33 p{
+#bloc-32 p{
 	font-size: 20px;
 }
-#bloc-35 h4{
+#bloc-34 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-35 p{
-	line-height: 26px;
+#bloc-34 p{
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-35 p{
+#bloc-34 p{
 	font-family: Roboto;
-	line-height: 26px;
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-37 h4{
+#bloc-36 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-37 p{
-	line-height: 26px;
+#bloc-36 p{
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-37 p{
+#bloc-36 p{
 	font-family: Roboto;
-	line-height: 26px;
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-39 h4{
+#bloc-38 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-39 p{
-	line-height: 26px;
+#bloc-38 p{
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-39 p{
+#bloc-38 p{
 	font-family: Roboto;
-	line-height: 26px;
 	font-size: 18px;
+	line-height: 26px;
 }
-#bloc-42 p{
+#bloc-40 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-41 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-42 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-43 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-44 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-45 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-46 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-47 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-48 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-49 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-50 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-51 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-53 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-53 p{
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-53 p{
+	font-family: Roboto;
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-55 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-55 p{
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-55 p{
+	font-family: Roboto;
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-57 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-57 p{
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-57 p{
+	font-family: Roboto;
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-59 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-59 p{
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-59 p{
+	font-family: Roboto;
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-60 h3{
+	font-size: 30px;
+}
+#bloc-64 p{
 	font-size: 13px;
 	line-height: 26px;
 }
@@ -684,10 +812,6 @@ iframe{
 	transform: translate3d(0, 0, 0);
 }
 }
-.no-shadows .carousel-control.left, .no-shadows .carousel-control.right{
-	background-image: none;
-}
-
 
 /* ScrollToTop button */
 
@@ -1108,6 +1232,28 @@ h3link:hover{
 .microbit{
 	background-image:url("img/microbit.jpeg");
 }
+.robotergericht{
+	background-image:url("img/robotergericht.png");
+}
+.podium-landsberg{
+	background-image:url("img/IMG_-jbmpc6.jpg");
+	background-position:center center;
+}
+.h2link{
+	font-size:50px;
+	line-height:66px;
+	color:#5E5E5E!important;
+}
+h2link:hover{
+}
+.h2link:hover{
+	color:#DF167D!important;
+}
+.interview{
+	background-color:#EAEAEA;
+	border-style:none;
+	padding:11px 11px 11px 11px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1129,6 +1275,9 @@ h3link:hover{
 .bgc-black{
 	background-color:#000000;
 }
+.bgc-silver{
+	background-color:#C0C0C0;
+}
 
 /* Text colour styles */
 
@@ -1138,14 +1287,17 @@ h3link:hover{
 .tc-black{
 	color:#000000!important;
 }
-.tc-davys-grey{
-	color:#5E5E5E!important;
-}
 .tc-white-2{
 	color:#FFFFFF!important;
 }
+.tc-davys-grey{
+	color:#5E5E5E!important;
+}
 .tc-isabelline{
 	color:#EBEAEA!important;
+}
+.tc-silver{
+	color:#C0C0C0!important;
 }
 
 /* Button colour styles */
@@ -1218,8 +1370,41 @@ h3link:hover{
 .bg-Turing-Bus-20Garz-Rügen-20-281-29{
 	background-image:url("img/Turing-Bus%20Garz_Rügen%20%281%29.jpg");
 }
+.bg-Constanze-Kurz-vor-20SchülerInnen-20--20Foto-20Frithjof-20Nagel-20-28c-29-20GI{
+	background-image:url("img/Constanze_Kurz_vor%20SchülerInnen%20-%20Foto%20Frithjof%20Nagel%20%28c%29%20GI.jpg");
+}
 .bg-20180626-121253-20copy{
 	background-image:url("img/20180626_121253%20copy.jpg");
+}
+.bg-turing-bus-in-bernau-42261209942-o{
+	background-image:url("img/turing-bus-in-bernau_42261209942_o.jpeg");
+}
+.bg-20180417-163248{
+	background-image:url("img/20180417_163248.jpg");
+}
+.bg-turing-bus-in-bernau-42308202631-o{
+	background-image:url("img/turing-bus-in-bernau_42308202631_o.jpeg");
+}
+.bg-IMG-2667{
+	background-image:url("img/IMG_2667.jpg");
+}
+.bg-microbit{
+	background-image:url("img/microbit.jpeg");
+}
+.bg-turing-bus-in-bernau-28435448738-o{
+	background-image:url("img/turing-bus-in-bernau_28435448738_o.jpeg");
+}
+.bg-rob{
+	background-image:url("img/rob.png");
+}
+.bg-loeschdich{
+	background-image:url("img/loeschdich.png");
+}
+.bg-IMG-2685{
+	background-image:url("img/IMG_2685.JPG");
+}
+.bg-20180626-122138-20copy{
+	background-image:url("img/20180626_122138%20copy.jpg");
 }
 
 
@@ -1398,39 +1583,55 @@ h3link:hover{
 	.bloc-group-text-vc{
 	margin-top:0%;
 }
- #bloc-20 h4{
+ #bloc-19 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-22 h4{
+#bloc-21 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-24 h4{
+#bloc-23 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-28 h4{
+#bloc-27 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-30 h4{
+#bloc-29 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-32 h4{
+#bloc-31 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-35 h4{
+#bloc-34 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-37 h4{
+#bloc-36 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-39 h4{
+#bloc-38 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+#bloc-53 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+#bloc-55 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+#bloc-57 h4{
+	font-size: 30px;
+	line-height: 2px;
+}
+#bloc-59 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
@@ -1539,43 +1740,59 @@ h3link:hover{
 	font-size: 12px;
 	line-height: 18px;
 }
-#bloc-20 h4{
+#bloc-19 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-22 h4{
+#bloc-21 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-24 h4{
+#bloc-23 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-28 h4{
+#bloc-27 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-30 h4{
+#bloc-29 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-32 h4{
+#bloc-31 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-35 h4{
+#bloc-34 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-37 h4{
+#bloc-36 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-39 h4{
+#bloc-38 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-42 p{
+#bloc-53 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-55 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-57 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-59 h4{
+	font-size: 50px;
+	line-height: 66px;
+}
+#bloc-64 p{
 	font-size: 12px;
 	line-height: 18px;
 }
