@@ -91,19 +91,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Background Styles */
-
-.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
-	-webkit-background-size: auto!important;
-	-moz-background-size: auto!important;
-	-o-background-size: auto!important;
-	background-size: auto!important;
-}
-.bg-b-edge{
-	background: bottom no-repeat;
-}
-
-
 /* Background Textures */
 
 .bloc-bg-texture::before{
@@ -1350,9 +1337,6 @@ h2link:hover{
 .bg-mbr-7-1620x1080{
 	background-image:url("img/mbr-7-1620x1080.jpg");
 }
-.bg-münchen-ws1-20-281-29{
-	background-image:url("img/münchen_ws1%20%281%29.jpg");
-}
 .bg-turing-bus-in-bernau-27439298467-o{
 	background-image:url("img/turing-bus-in-bernau_27439298467_o.jpeg");
 }
@@ -1415,6 +1399,9 @@ h2link:hover{
 }
 .bg-20180626-122138-20copy{
 	background-image:url("img/20180626_122138%20copy.jpg");
+}
+.bg-münchen-ws1-20-281-29-202{
+	background-image:url("img/münchen_ws1%20%281%29%202.jpg");
 }
 
 
