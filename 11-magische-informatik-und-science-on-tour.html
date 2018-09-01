@@ -22,7 +22,21 @@
 
     
 <!-- Google Analytics -->
- 
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//traffic.okfn.de/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '41']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 <!-- Google Analytics END -->
     
 </head>
@@ -31,7 +45,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-moonstone-blue l-bloc bloc-bg-texture texture-diagonal-lines " id="bloc-0">
+<div class="bloc bgc-moonstone-blue l-bloc bloc-bg-texture texture-diagonal-lines" id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -235,7 +249,7 @@
 <!-- Footer - bloc-62 END -->
 
 <!-- Footer - bloc-63 -->
-<div class="bloc bgc-white bg-verlauf d-bloc" id="bloc-63">
+<div class="bloc bgc-white bg-verlauf d-bloc " id="bloc-63">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -250,6 +264,14 @@
 						<p>
 							Bilder: Soweit nicht anders gekennzeichnet&nbsp;<a class="linkwhite" href="https://creativecommons.org/publicdomain/zero/1.0/">CC-0</a>.&nbsp;Andere Inhalte:&nbsp;<a class="linkwhite" href="https://creativecommons.org/licenses/by/2.0/de/">CC-BY</a>.&nbsp; <br>Design:&nbsp;<a class="linkwhite" href="mailto:info@belaseeger.de">Bela Seeger</a>&nbsp; | &nbsp;Entwicklung: Stefan Wehrmeyer &nbsp;| &nbsp;<a class="linkwhite" href="team.html">Turing-Bus-Team</a>
 						</p>
+					</div>
+				</div>
+				<div class="row voffset">
+					<div class="col-sm-12">
+						
+							Das Turing-Bus Projekt nutzt statt den üblichen externen Dienstleistern die datenschutzfreundlichere Technologie von <a href="https://matomo.org">Matomo</a>, um statistische Auswertungen der Seitennutzung zu erhalten. Wenn sie dies nicht wollen, <a href="https://traffic.okfn.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de">klicken Sie bitte hier und entfernen Sie den Haken</a>. Näheres in <a href="/impressum/#datenschutzerklaerung">unserer Datenschutzerklärung</a>.
+							
+						
 					</div>
 				</div>
 			</div>
