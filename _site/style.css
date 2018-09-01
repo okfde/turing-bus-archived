@@ -243,7 +243,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 #bloc-16 h2{
 	font-size: 47px;
-	line-height: 40px;
+	line-height: 50px;
 }
 #bloc-16 p{
 	font-size: 20px;
@@ -335,6 +335,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 #bloc-32 p{
 	font-size: 20px;
+	line-height: 18px;
 }
 #bloc-34 h4{
 	font-size: 50px;
@@ -661,6 +662,10 @@ button{
 	outline: none!important;
 }
 
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
+}
 
 /* = Icons
 -------------------------------------------------------------- */
@@ -955,6 +960,7 @@ p{
 }
 h1{
 	font-size:400%;
+	font-family:"Roboto";
 }
 h2{
 	font-size:5em;
@@ -1263,6 +1269,13 @@ h2link:hover{
 	border-style:none;
 	padding:11px 11px 11px 11px;
 }
+.profileimg{
+	margin:0px 0px 0px 0px;
+	padding:20px 20px 20px 20px;
+}
+.profileimgdiv{
+	padding:10px 10px 10px 10px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1327,12 +1340,6 @@ h2link:hover{
 }
 .ltc-bright-pink:hover{
 	color:#b70064!important;
-}
-.ltc-black{
-	color:#000000!important;
-}
-.ltc-black:hover{
-	color:#000000!important;
 }
 
 /* Bloc image backgrounds */
@@ -1680,6 +1687,9 @@ h2link:hover{
 	margin-bottom:25px;
 	padding-right:25px;
 	padding-left:25px;
+	margin-right:25px;
+	font-size:12px;
+	line-height:18px;
 }
 .imgmobile{
 	width:250px;
@@ -1714,6 +1724,40 @@ h2link:hover{
 	margin-right:25px;
 	margin-left:25px;
 }
+.h1mobile{
+	padding-right:25px;
+	padding-left:25px;
+	margin-right:25px;
+	margin-left:25px;
+	color:#000000!important;
+	font-size:23px;
+	text-transform:uppercase;
+}
+.h1mobilewhite{
+	padding-right:25px;
+	padding-left:25px;
+	margin-right:25px;
+	margin-left:25px;
+	font-size:23px;
+	line-height:120%;
+}
+.linkblog{
+	font-size:100%;
+}
+.h2mobilewhite{
+	padding-right:25px;
+	padding-left:25px;
+	margin-right:25px;
+	margin-left:25px;
+	font-size:40px;
+}
+.profileimg{
+	padding:20px 20px 20px 20px;
+	margin:61px 61px 61px 61px;
+}
+.profileimgdiv{
+	padding:10% 10% 10% 10%;
+}
  
 /* Mobile Text Margin Offsets */
 .mg-sm-xs{
@@ -1736,12 +1780,19 @@ h2link:hover{
 	line-height: 18px;
 }
 #bloc-4 h2{
-	font-size: 30px;
+	font-size: px;
 	line-height: px;
 }
 #bloc-4 h4{
 	font-size: 12px;
 	line-height: 18px;
+}
+#bloc-16 h2{
+	font-size: px;
+	line-height: px;
+}
+#bloc-16 p{
+	font-size: 12px;
 }
 #bloc-19 h4{
 	font-size: 50px;
@@ -1766,6 +1817,13 @@ h2link:hover{
 #bloc-31 h4{
 	font-size: 50px;
 	line-height: 66px;
+}
+#bloc-32 h2{
+	font-size: 30px;
+	line-height: px;
+}
+#bloc-32 p{
+	font-size: 12px;
 }
 #bloc-34 h4{
 	font-size: 50px;
@@ -1798,6 +1856,11 @@ h2link:hover{
 #bloc-63 p{
 	font-size: 12px;
 	line-height: 18px;
+}
+/* = Text Mobile Alignment Classes
+-------------------------------------------------------------- */
+.text-center-xs{
+	text-align:center;
 }
 }
 
