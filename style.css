@@ -1189,7 +1189,7 @@ h3link:hover{
 	max-height:700px;
 }
 .linkwhite{
-	font-size:12px;
+	font-size:100%;
 }
 .linkwhite:hover{
 	color:#DE167C!important;
@@ -1269,6 +1269,10 @@ h2link:hover{
 }
 .profileimgdiv{
 	padding:10px 10px 10px 10px;
+}
+.matomodisclaimer{
+	font-size:11px;
+	line-height:12px;
 }
 
 /* = Colour
