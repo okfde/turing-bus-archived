@@ -940,8 +940,8 @@ a[data-lightbox]:hover img{
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Roboto";
 	font-weight:bold;
-	color:#FEFFFF!important;
 	font-size:18px;
+	color:#FEFFFF!important;
 }
 .container{
 	max-width:1170px;
@@ -1408,7 +1408,7 @@ h2link:hover{
 	background-image:url("img/20180626_122138%20copy.jpg");
 }
 .bg-münchen-ws1-20-281-29-202{
-	background-image:url("img/münchen_ws1%20%281%29%202.jpg");
+	background-image:url("img/muenchen.jpg");
 }
 
 
