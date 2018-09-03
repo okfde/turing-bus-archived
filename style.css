@@ -216,16 +216,20 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 23px;
 	line-height: 24px;
 }
-#bloc-2 p{
-	font-size: px;
-	line-height: px;
-}
 #bloc-3 h3{
 	font-size: 23px;
 }
 #bloc-3 p{
 	font-size: 18px;
 	line-height: 26px;
+}
+#bloc-4 h4{
+	font-size: 23px;
+	line-height: 24px;
+}
+#bloc-4 p{
+	font-size: 20px;
+	line-height: 28px;
 }
 #bloc-7 h3{
 	font-size: 22px;
@@ -241,6 +245,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-10 h3{
 	font-size: 22px;
 	line-height: 28px;
+}
+#bloc-17 h2{
+	font-size: 47px;
+	line-height: 50px;
 }
 #bloc-17 p{
 	font-size: 20px;
@@ -328,6 +336,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 #bloc-33 h2{
 	font-size: 47px;
+	line-height: 40px;
 }
 #bloc-33 p{
 	font-size: 20px;
@@ -689,11 +698,6 @@ button{
 }
 
 
-/* = Text & Icon Styles
--------------------------------------------------------------- */
-.lg-shadow{
-	text-shadow:0 2px 5px rgba(0,0,0,.5);
-}
 /* = Text Widths
 -------------------------------------------------------------- */
 .text-w-80{
@@ -1773,14 +1777,7 @@ h2link:hover{
 	margin-top:10px;
 	 margin-bottom:20px;
 }
-.mg-clear-xs{
-	margin:0;
-}
 #bloc-1 h3{
-	font-size: 12px;
-	line-height: 18px;
-}
-#bloc-2 p{
 	font-size: 12px;
 	line-height: 18px;
 }
@@ -1790,6 +1787,14 @@ h2link:hover{
 #bloc-3 p{
 	font-size: 12px;
 	line-height: 18px;
+}
+#bloc-4 p{
+	font-size: 12px;
+	line-height: 18px;
+}
+#bloc-17 h2{
+	font-size: px;
+	line-height: px;
 }
 #bloc-17 p{
 	font-size: 12px;
