@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    turing-bus-new
+	    turing-backup
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -216,20 +216,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 23px;
 	line-height: 24px;
 }
+#bloc-2 p{
+	font-size: px;
+	line-height: px;
+}
 #bloc-3 h3{
 	font-size: 23px;
 }
 #bloc-3 p{
 	font-size: 18px;
 	line-height: 26px;
-}
-#bloc-4 h2{
-	font-size: 70px;
-	line-height: 76.66667175292969px;
-}
-#bloc-4 h4{
-	font-size: 22px;
-	line-height: 28px;
 }
 #bloc-7 h3{
 	font-size: 22px;
@@ -245,10 +241,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-10 h3{
 	font-size: 22px;
 	line-height: 28px;
-}
-#bloc-17 h2{
-	font-size: 47px;
-	line-height: 50px;
 }
 #bloc-17 p{
 	font-size: 20px;
@@ -336,7 +328,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 #bloc-33 h2{
 	font-size: 47px;
-	line-height: 40px;
 }
 #bloc-33 p{
 	font-size: 20px;
@@ -1731,10 +1722,12 @@ h2link:hover{
 	line-height:18px;
 	margin-right:10px;
 	margin-left:10px;
+	padding-right:10px;
+	padding-left:10px;
 }
 .blogpreviewimg{
-	padding-right:19px;
-	padding-left:19px;
+	padding-right:20px;
+	padding-left:20px;
 }
 .h1mobile{
 	padding-right:10px;
@@ -1787,24 +1780,16 @@ h2link:hover{
 	font-size: 12px;
 	line-height: 18px;
 }
+#bloc-2 p{
+	font-size: 12px;
+	line-height: 18px;
+}
 #bloc-3 h3{
 	font-size: 20px;
 }
 #bloc-3 p{
 	font-size: 12px;
 	line-height: 18px;
-}
-#bloc-4 h2{
-	font-size: px;
-	line-height: px;
-}
-#bloc-4 h4{
-	font-size: 12px;
-	line-height: 18px;
-}
-#bloc-17 h2{
-	font-size: px;
-	line-height: px;
 }
 #bloc-17 p{
 	font-size: 12px;
