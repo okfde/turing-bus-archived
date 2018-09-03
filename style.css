@@ -224,7 +224,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	line-height: 26px;
 }
 #bloc-4 h4{
-	font-size: 23px;
+	font-size: 40px;
 	line-height: 24px;
 }
 #bloc-4 p{
@@ -1277,6 +1277,9 @@ h2link:hover{
 .caps{
 	text-transform:uppercase;
 }
+.bmbf{
+	padding:14px 14px 14px 14px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1286,11 +1289,11 @@ h2link:hover{
 .bgc-moonstone-blue{
 	background-color:#79B1B8;
 }
-.bgc-isabelline{
-	background-color:#EBEAEA;
-}
 .bgc-white{
 	background-color:#FFFFFF;
+}
+.bgc-isabelline{
+	background-color:#EBEAEA;
 }
 .bgc-white-2{
 	background-color:#FFFFFF;
@@ -1767,6 +1770,9 @@ h2link:hover{
 .profileimgdiv{
 	padding:10% 10% 10% 10%;
 }
+.bmbf{
+	padding:10px 10px 10px 10px;
+}
  
 /* Mobile Text Margin Offsets */
 .mg-sm-xs{
@@ -1776,6 +1782,9 @@ h2link:hover{
 .mg-md-xs{
 	margin-top:10px;
 	 margin-bottom:20px;
+}
+.mg-clear-xs{
+	margin:0;
 }
 #bloc-1 h3{
 	font-size: 12px;
@@ -1787,6 +1796,9 @@ h2link:hover{
 #bloc-3 p{
 	font-size: 12px;
 	line-height: 18px;
+}
+#bloc-4 h4{
+	font-size: 24px;
 }
 #bloc-4 p{
 	font-size: 12px;
