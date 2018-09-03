@@ -340,7 +340,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 #bloc-33 p{
 	font-size: 20px;
-	line-height: 18px;
+	line-height: 23px;
 }
 #bloc-35 h4{
 	font-size: 50px;
@@ -1772,6 +1772,10 @@ h2link:hover{
 }
 .bmbf{
 	padding:10px 10px 10px 10px;
+}
+.footertext{
+	font-size:9px;
+	line-height:12px;
 }
  
 /* Mobile Text Margin Offsets */
