@@ -222,170 +222,166 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-4 h4{
+#bloc-5 h4{
 	font-size: 40px;
 	line-height: 24px;
 }
-#bloc-4 p{
+#bloc-5 p{
 	font-size: 20px;
 	line-height: 28px;
 }
-#bloc-7 h3{
+#bloc-8 h3{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-9 h2{
+#bloc-10 h2{
 	font-size: 80px;
 }
-#bloc-9 h6{
+#bloc-10 h6{
 	font-size: 20px;
 	line-height: 20px;
 }
-#bloc-10 h3{
+#bloc-11 h3{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-17 h2{
+#bloc-18 h2{
 	font-size: 47px;
 	line-height: 50px;
 }
-#bloc-17 p{
+#bloc-18 p{
 	font-size: 20px;
 }
-#bloc-20 h4{
+#bloc-21 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-20 p{
+#bloc-21 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-20 p{
+#bloc-21 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-22 h4{
+#bloc-23 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-22 p{
+#bloc-23 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-22 p{
+#bloc-23 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-24 h4{
+#bloc-25 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-24 p{
+#bloc-25 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-24 p{
+#bloc-25 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-26 p{
+#bloc-27 p{
 	font-size: 15px;
 }
-#bloc-28 h4{
+#bloc-29 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-28 p{
+#bloc-29 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-28 p{
+#bloc-29 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-30 h4{
+#bloc-31 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-30 p{
+#bloc-31 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-30 p{
+#bloc-31 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-32 h4{
+#bloc-33 h4{
 	font-size: 50px;
 	line-height: 66px;
-}
-#bloc-32 p{
-	font-size: 18px;
-	line-height: 26px;
-}
-#bloc-32 p{
-	font-family: Roboto;
-	font-size: 18px;
-	line-height: 26px;
-}
-#bloc-33 h2{
-	font-size: 47px;
-	line-height: 40px;
 }
 #bloc-33 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-33 h3{
+#bloc-33 p{
+	font-family: Roboto;
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-34 h2{
+	font-size: 47px;
+	line-height: 40px;
+}
+#bloc-34 p{
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-34 h3{
 	font-size: 20px;
 }
-#bloc-35 h4{
+#bloc-36 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-35 p{
+#bloc-36 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-35 p{
+#bloc-36 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-37 h4{
+#bloc-38 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-37 p{
+#bloc-38 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-37 p{
+#bloc-38 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-39 h4{
+#bloc-40 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-39 p{
+#bloc-40 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-39 p{
+#bloc-40 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
-}
-#bloc-41 h3{
-	font-size: 25px;
-	line-height: 30px;
 }
 #bloc-42 h3{
 	font-size: 25px;
@@ -431,62 +427,66 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 25px;
 	line-height: 30px;
 }
-#bloc-54 h4{
+#bloc-53 h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+#bloc-55 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-54 p{
+#bloc-55 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-54 p{
+#bloc-55 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-56 h4{
+#bloc-57 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-56 p{
+#bloc-57 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-56 p{
+#bloc-57 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-58 h4{
+#bloc-59 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-58 p{
+#bloc-59 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-58 p{
+#bloc-59 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-60 h4{
+#bloc-61 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-60 p{
+#bloc-61 p{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-60 p{
+#bloc-61 p{
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-61 h3{
+#bloc-62 h3{
 	font-size: 30px;
 }
-#bloc-64 p{
+#bloc-65 p{
 	font-size: 13px;
 	line-height: 26px;
 }
@@ -669,10 +669,6 @@ button{
 	outline: none!important;
 }
 
-.btn-xl{
-	padding: 16px 40px;
-	font-size: 28px;
-}
 
 /* = Icons
 -------------------------------------------------------------- */
@@ -1606,55 +1602,55 @@ h2link:hover{
 	.bloc-group-text-vc{
 	margin-top:0%;
 }
- #bloc-20 h4{
+ #bloc-21 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-22 h4{
+#bloc-23 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-24 h4{
+#bloc-25 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-28 h4{
+#bloc-29 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-30 h4{
+#bloc-31 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-32 h4{
+#bloc-33 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-35 h4{
+#bloc-36 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-37 h4{
+#bloc-38 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-39 h4{
+#bloc-40 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-54 h4{
+#bloc-55 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-56 h4{
+#bloc-57 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-58 h4{
+#bloc-59 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
-#bloc-60 h4{
+#bloc-61 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
@@ -1810,83 +1806,83 @@ h2link:hover{
 	font-size: 12px;
 	line-height: 18px;
 }
-#bloc-4 h4{
+#bloc-5 h4{
 	font-size: 24px;
 }
-#bloc-4 p{
+#bloc-5 p{
 	font-size: 12px;
 	line-height: 18px;
 }
-#bloc-17 h2{
+#bloc-18 h2{
 	font-size: px;
 	line-height: px;
 }
-#bloc-17 p{
+#bloc-18 p{
 	font-size: 12px;
 }
-#bloc-20 h4{
+#bloc-21 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-22 h4{
+#bloc-23 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-24 h4{
+#bloc-25 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-28 h4{
+#bloc-29 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-30 h4{
+#bloc-31 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-32 h4{
+#bloc-33 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-33 h2{
+#bloc-34 h2{
 	font-size: 30px;
 	line-height: 38px;
 }
-#bloc-33 p{
+#bloc-34 p{
 	font-size: 12px;
 }
-#bloc-35 h4{
+#bloc-36 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-37 h4{
+#bloc-38 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-39 h4{
+#bloc-40 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-54 h4{
+#bloc-55 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-56 h4{
+#bloc-57 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-58 h4{
+#bloc-59 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-60 h4{
+#bloc-61 h4{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-61 h3{
+#bloc-62 h3{
 	font-size: 22px;
 }
-#bloc-64 p{
+#bloc-65 p{
 	font-size: 12px;
 	line-height: 18px;
 }
