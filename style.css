@@ -484,10 +484,21 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 18px;
 	line-height: 26px;
 }
+#bloc-62 h2{
+	font-size: 47px;
+	line-height: 40px;
+}
+#bloc-62 p{
+	font-size: 18px;
+	line-height: 26px;
+}
 #bloc-62 h3{
+	font-size: 20px;
+}
+#bloc-63 h3{
 	font-size: 30px;
 }
-#bloc-65 p{
+#bloc-66 p{
 	font-size: 13px;
 	line-height: 26px;
 }
@@ -1873,10 +1884,17 @@ h2link:hover{
 	font-size: 50px;
 	line-height: 66px;
 }
-#bloc-62 h3{
+#bloc-62 h2{
+	font-size: 30px;
+	line-height: 38px;
+}
+#bloc-62 p{
+	font-size: 12px;
+}
+#bloc-63 h3{
 	font-size: 22px;
 }
-#bloc-65 p{
+#bloc-66 p{
 	font-size: 12px;
 	line-height: 18px;
 }
