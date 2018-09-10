@@ -16,6 +16,7 @@
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jquery.touchSwipe.min.js" defer></script>
 	<script src="./js/lazysizes.min.js" defer></script>
     <title>ideenwettbewerb</title>
 
@@ -44,7 +45,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-moonstone-blue l-bloc bloc-bg-texture texture-diagonal-lines " id="bloc-0">
+<div class="bloc bgc-moonstone-blue l-bloc bloc-bg-texture texture-diagonal-lines" id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -67,9 +68,6 @@
 					<li>
 						<a href="turing-bus-faq.html">FAQ</a>
 					</li>
-					<li>
-						<a href="wissenchaftsjahr.html" class="btn btn-d btn-lg">Wissenschaftsjahr</a>
-					</li>
 				</ul>
 			</div>
 		</nav>
@@ -78,45 +76,109 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-62 -->
-<div class="bloc bgc-white bg-verlauf d-bloc" id="bloc-62">
-	<div class="container bloc-lg">
-		<div class="row">
+<div class="bloc bgc-white full-width-bloc l-bloc" id="bloc-62">
+	<div class="container">
+		<div class="row bgc-black">
 			<div class="col-sm-12">
-				<h2 class="mg-lg  text-w-80 textboxmobile h2mobilewhite">
-					<strong>Deine Ideen sind gefragt!&nbsp;</strong>
-				</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-4">
-				<p class=" textboxmobile">
-					<span>Mach mit beim Turing-Bus Ideenwettbewerb!&nbsp; <br> <br> Schon heute ist spürbar, dass unsere Arbeitswelten sich veträndern. Roboter, Home-Office, Künstliche Intelligenz, ständig neue Programmiersprachen, Soft- und Hardware: Vieles wird anders sein, auch in Berufsfeldern die klassischerweise wenig mit digitalen Mitteln (Computer, Smartphones, etc.) zu tun hatten.&nbsp;<br><br>Wie stellst du dir die Arbeitswelten der Zukunft vor? Worauf freust du dich besonders? Gibt es etwas, dass dir Angst macht?&nbsp; <br> <br>Schicke uns</span>
-				</p>
-			</div>
-			<div class="col-sm-8">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item lazyload" src="img/lazyload-ph.png" data-src="https://umap.openstreetmap.fr/en/map/turing-bus_196785?scaleControl=false&amp;amp;miniMap=false&amp;amp;scrollWheelZoom=false&amp;amp;zoomControl=true&amp;amp;allowEdit=false&amp;amp;moreControl=true&amp;amp;searchControl=null&amp;amp;tilelayersControl=null&amp;amp;embedControl=null&amp;amp;datalayersControl=true&amp;amp;onLoadPanel=none&amp;amp;captionBar=false&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-					</iframe>
+				<div id="carousel-2" class="carousel no-shadows slide animated zoomInDown" data-ride="carousel" data-interval="false">
+					<ol class="carousel-indicators hide-indicators">
+						<li data-target="#carousel-2" data-slide-to="0" class="active">
+						</li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="img/turinggoesspace2-03.png" />
+							<div class="carousel-caption">
+							</div>
+						</div>
+					</div><a class="left carousel-control" href="#carousel-2" role="button" data-slide="prev"><span class="fa fa-chevron-left"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-2" role="button" data-slide="next"><span class="fa fa-chevron-right"></span><span class="sr-only">Next</span></a>
 				</div>
-				<h3 class="mg-md ">
-					…fehlt was?
-				</h3>
-				<p class="textboxmobile">
-					<span>Betreibst du einen Hackspace, ein Coworking-Lab oder einen anderen Arbeitsort der Zukunft? <br></span><a class="linkblog" href="index.html">Schreib uns</a>,&nbsp;<span>damit er auf diese Karte hinzugefügt werden kann! &nbsp;</span>
-				</p>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- bloc-62 END -->
 
+<!-- bloc-63 -->
+<div class="bloc bgc-white bg-verlauf d-bloc" id="bloc-63">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2 class="mg-lg  text-w-80 textboxmobile h1mobilewhite">
+							<strong>Der Turing-Bus fährt in die unendlichen Weiten der Galaxie..</strong>
+						</h2>
+						<div class="row">
+							<div class="col-sm-6">
+								<p class=" textboxmobile">
+									<strong>..und nimmt euch mit!<br></strong><br><strong>Wie sehen die Arbeitswelten der Zukunft aus?</strong> Übernehmen Roboter die harten Jobs (oder etwa die Herrschaft?), arbeiten wir in selbstfahrenden Autos oder sind wir vollends Teil einer Simulation geworden und existieren nur noch als Avatare? Wie könnte sich euer Traumberuf verändern, oder werdet ihr in einem heute noch garnicht existierenden Beruf tätig sein?<br><br><strong>Eure Ideen sind gefragt!</strong> Beschreibt uns eure Vision für die Arbeitswelten der Zukunft. Denkt an einen typischen Arbeitsalltag im Jahre 2050. Was wird sich verändern? Welche dieser Veränderungen bereiten euch Sorgen, und worauf freut ihr euch?<br><br>Der Turing-Bus hat euch dieses Jahr besucht und Workshops mit euch durchgeführt. Dabei habt ihr mit Mikrocontrollern gearbeitet, diskutiert und Neues über Orte und Formen der Arbeitswelten der Zukunft gelernt. Wenn ihr dabei Lust auf mehr bekommen habt und noch dazu eine Fahrt in das Insulaner-Planetarium in Berlin gewinnen wollt, ist das hier eure Chance! <br><br>Ihr könnt uns bis zum 15. Oktober eure besten Ideen schicken. Egal ob Cartoon, Kurzgeschichte, Smartphone-Minifilm oder Präsentation: auf eure Ideen kommt es an! Am besten tust du dich dabei mit 1-2 deiner Klassenkameraden zusammen. <br><br>Aus allen Einsendungen wählen wir die besten aus und laden euch für ein Wochenende nach Berlin ein! Dabei übernehmen wir die Kosten für An- und Abreise, eure Unterkunft und sorgen für Verpflegung vor Ort.<br>
+								</p>
+							</div>
+							<div class="col-sm-6">
+								<img src="img/lazyload-ph.png" data-src="img/planetarium1.jpeg" class="img-responsive mg-sm lazyload" /><img src="img/lazyload-ph.png" data-src="img/planetarium2.jpeg" class="img-responsive mg-sm lazyload" />
+							</div>
+						</div>
+						<div class="row voffset">
+							<div class="col-sm-6">
+								<h5 class=" textboxmobile">
+									<strong>Wichtige Informationen:</strong> <br>
+								</h5>
+								<ul class="list-horizontal-layout">
+									<li>
+										<p class=" textboxmobile">
+											Die Kosten für Anfahrt und Abreise, Unterkunft und Verpflegung vor Ort werden übernommen.
+										</p>
+									</li>
+									<li>
+										<p class="textboxmobile">
+											Bewerben können sich Gruppen von Schüler*innen (mindestens 2 Personen), die an einer Station des Turing-Bus teilgenommen haben.
+										</p>
+									</li>
+									<li>
+										<p class="textboxmobile">
+											Das Mindestalter ist 16 Jahre. Jüngere Teilnehmer*innen müssen mit einer aufsichtspflichtigen Person anreisen.
+										</p>
+										<p class="textboxmobile">
+											Anreise: Freitag <br>Start: Samstag, 09:00 Uhr <br>Ende: Samstag, 16:00 Uhr <br>Die Rückfahrt kann entweder am Samstag direkt nach der Veranstaltung oder am Sonntag erfolgen, wenn kein passender Zug mehr fährt.
+										</p>
+									</li>
+									<li>
+										<p class="textboxmobile">
+											Formate die eingereicht werden können: <br>Kurzgeschichte (1000-1500 Wörter)<br>Comiczeichnung (5-10 Bilder) als PDF oder JPG Scan&nbsp; <br>Powerpoint-Präsentation (5-10 Slides) als PDF&nbsp;<br>Poster (A1-A3), als PDF oder JPG Scan&nbsp; <br>Kurzfilm mit Smartphone (als YouTube Upload)<br>
+										</p>
+									</li>
+									<li>
+										<h3 class="mg-md">
+											Einsendeschluss ist der 15. Oktober!
+										</h3>
+									</li>
+								</ul>
+							</div>
+							<div class="col-sm-6">
+								<h5 class=" textboxmobile">
+									<strong>Ansprechpartner*innen:</strong> <br>
+								</h5>
+								<p class=" textboxmobile">
+									Benjamin Husheer, Leiter Bildung, Stiftung Planetarium Berlin; <br>Bela Seeger, Projektleitung Turing-Bus Open, Knowledge Foundation; <br>Andrea Knaut, Projektleitung Turing-Bus, Gesellschaft für Informatik <br>&nbsp;<br>Wenn uns eure Entwürfe gefallen, bitten wir um eure Erlaubnis, sie unter Creative-Commons-Lizenz veröffentlichen zu dürfen.<br><br>In der Jury sitzen die Infonaut*innen des Turing-Bus-Teams. Zwischen allen Einsendungen verlosen wir drei Raspberry Pi Zero Starter Sets. Wir laden die Teams mit den kreativsten Ideen ein –die Platzzahl ist auf 20 beschränkt.<br><br>Solltet Ihr noch Fragen haben, schreibt uns an info@turing-bus.de<br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-63 END -->
+
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
-<!-- Footer - bloc-63 -->
-<div class="bloc d-bloc bgc-isabelline" id="bloc-63">
+<!-- Footer - bloc-64 -->
+<div class="bloc d-bloc bgc-isabelline" id="bloc-64">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-10">
@@ -132,10 +194,10 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-63 END -->
+<!-- Footer - bloc-64 END -->
 
-<!-- Footer - bloc-64 -->
-<div class="bloc bgc-white l-bloc hidden-xs" id="bloc-64">
+<!-- Footer - bloc-65 -->
+<div class="bloc bgc-white l-bloc hidden-xs" id="bloc-65">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-2">
@@ -158,10 +220,10 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-64 END -->
+<!-- Footer - bloc-65 END -->
 
-<!-- Footer - bloc-65 -->
-<div id="bloc-65" class="bloc bgc-white l-bloc hidden-lg hidden-md hidden-sm none pulse animated">
+<!-- Footer - bloc-66 -->
+<div id="bloc-66" class="bloc bgc-white l-bloc hidden-lg hidden-md hidden-sm none pulse animated">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-2">
@@ -184,10 +246,10 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-65 END -->
+<!-- Footer - bloc-66 END -->
 
-<!-- Footer - bloc-66 -->
-<div class="bloc bgc-white bg-verlauf d-bloc none" id="bloc-66">
+<!-- Footer - bloc-67 -->
+<div class="bloc bgc-white bg-verlauf d-bloc none" id="bloc-67">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -217,7 +279,7 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-66 END -->
+<!-- Footer - bloc-67 END -->
 
 </div>
 <!-- Main container END -->
