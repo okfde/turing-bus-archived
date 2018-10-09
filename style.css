@@ -1311,6 +1311,13 @@ h2link:hover{
 	font-size:20pt;
 	line-height:35px;
 }
+.statement-bloc-text{
+	line-height:38px;
+	font-style:italic;
+	font-size:28px;
+	text-align:center;
+	font-weight:lighter;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1450,6 +1457,9 @@ h2link:hover{
 }
 .bg-münchen-ws1-20-281-29-202{
 	background-image:url("img/muenchen.jpg");
+}
+.bg-Screenshot-202018-10-09-20at-2023-31-42{
+	background-image:url("img/Screenshot%202018-10-09%20at%2023.31.42.png");
 }
 
 
@@ -1628,7 +1638,13 @@ h2link:hover{
 	.bloc-group-text-vc{
 	margin-top:0%;
 }
- #bloc-21 h4{
+ 
+/* Mobile Text Margin Offsets */
+.mg-md-sm{
+	margin-top:10px;
+	 margin-bottom:20px;
+}
+#bloc-21 h4{
 	font-size: 30px;
 	line-height: 2px;
 }
