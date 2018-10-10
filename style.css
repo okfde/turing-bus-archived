@@ -491,10 +491,14 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-63 h6{
 	font-size: 26px;
 }
-#bloc-64 h3{
+#bloc-65 h2{
+	font-size: 47px;
+	line-height: 50px;
+}
+#bloc-66 h3{
 	font-size: 30px;
 }
-#bloc-67 p{
+#bloc-69 p{
 	font-size: 13px;
 	line-height: 26px;
 }
@@ -1321,6 +1325,15 @@ h2link:hover{
 .faq3{
 	background-color:#79B1B7;
 }
+.faq4{
+	background-color:#E4027D;
+}
+.linklarge{
+	font-size:100%;
+}
+.linklarge:hover{
+	color:#79B1B6!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1928,10 +1941,14 @@ h2link:hover{
 	font-size: 30px;
 	line-height: 38px;
 }
-#bloc-64 h3{
+#bloc-65 h2{
+	font-size: 30px;
+	line-height: 38px;
+}
+#bloc-66 h3{
 	font-size: 22px;
 }
-#bloc-67 p{
+#bloc-69 p{
 	font-size: 12px;
 	line-height: 18px;
 }
