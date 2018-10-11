@@ -1840,6 +1840,9 @@ h2link:hover{
 	font-size:9px;
 	line-height:12px;
 }
+.linklarge{
+	width:100%;
+}
  
 /* Mobile Text Margin Offsets */
 .mg-sm-xs{
