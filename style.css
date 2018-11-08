@@ -102,6 +102,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	left:0;
 	right:0;
 }
+.texture-diagonal-lines::before{
+	background: url("img/texture-diag-lines.png");
+	background-size: 10px 10px;
+}
 .texture-darken::before{
 	background: rgba(0,0,0,0.5);
 }
