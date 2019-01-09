@@ -17,7 +17,7 @@ exclude:
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
-  - octopress-autoprefixer
+# - octopress-autoprefixer
 # - jekyll-paginate
 paginate: 8
 paginate_path: blog/page/:num/
