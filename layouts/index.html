@@ -19,7 +19,7 @@
 
 <!--{{ partial "hero-banner.html" (dict "background" .Params.img "heading" .Params.bannerHeading "subheading" .Params.bannersubHeading "content" .)}}-->
 
-  {{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
+  {{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
 
 
 
@@ -48,6 +48,25 @@
   {{ partial "parallax.html" (dict "background" .Params.parallax1  )}}
 
 
+  <div class="container">
+
+    <div class="l__topics">
+
+
+        <section class="row align-items-center l__topics__section mt-d mb-l">
+          <div class="col col-12 col-md-6 order-2 order-md-1">
+            <h3 class="h3">Jetzt mitmachen!</h3>
+            <p>{{ .Params.mitmachen }}</p>
+            <p><b><a href="/stationen">→ Hier entlang</a></b>
+          </div>
+          <div class="col col-12 col-md-6 order-1 order-md-2">
+            <img src="{{ .Params.mitmachenimg }}" alt="Logo {{.Title}}">
+          </div>
+        </section>
+      </a>
+    </div>
+  </div>
+</main>
 
 
   <section class="container mt-l mb-l">

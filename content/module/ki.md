@@ -4,8 +4,8 @@ weight: 1
 
 img:
   -
-    url: /okf/profil/07.jpg
-    license: 
+    url: /files/blog/2018/turing-bus-in-bernau_42307934251_o-lowres.jpg
+    license:
 
 
 arrange: img_right

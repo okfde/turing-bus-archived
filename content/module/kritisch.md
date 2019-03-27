@@ -5,7 +5,7 @@ weight: 5
 img:
 
   -
-    url: /okf/profil/05.jpg
+    url: /files/blog/2018/turing-bus-in-bernau_41586605824_o.jpg
     license: 'Foto: Leonard Wolf, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> edulabs'
 
 arrange: img_right
