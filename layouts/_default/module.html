@@ -29,7 +29,7 @@
     {{ range (.Paginator 10).Pages }}
     {{ if eq .Params.arrange "img_top"}}
     <section class="row l__module__section">
-      <div class="col col-12 col-md-10 offset-md-1">
+      <div class="col col-12 col-md-8 offset-md-1">
         <div class="row align-items-center">
           {{ with .Params.img }}
           {{ range $i, $v := . }}
@@ -106,14 +106,14 @@
     <section class="row l__module__section">
       <div class="col col-12">
         <div class="row align-items-center">
-          <div class="col col-12 col-md-5 order-2 order-md-1">
+          <div class="col col-12 col-md-8 order-2 order-md-2">
             <h2 class="h3">{{.Title}}</h2>
             {{.Content}}
           </div>
 
           {{ with .Params.img }}
           {{ range . }}
-          <div class="col col-12 col-md-7 order-1 order-md-2">
+          <div class="col col-12 col-md-8 order-1 order-md-1">
             <figure class="license">
               <img src="{{.url}}" alt="">
               <figcaption>{{ .license | safeHTML }}</figcaption>

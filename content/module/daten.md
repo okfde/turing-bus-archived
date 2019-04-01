@@ -14,6 +14,6 @@ img:
 arrange: img_right
 ---
 
-Die Diskussion um Künstliche Intelligenz dreht sich oft vorrangig um Anwendungsmöglichkeiten und Zukunftspotentiale. Seltener wird über ihren Treibstoff gesprochen: Daten. Wie ein Datensatz entsteht, wie man mithilfe von Sensoren selbst Daten erstellen kann und welche schwerwiegenden Folgen ein Datensatz von niedriger Qualität haben kann, wird hier anhand von Hands-On Formaten nachvollziehbar.
+Die Diskussion um Künstliche Intelligenz dreht sich oft vorrangig um Anwendungsmöglichkeiten und Zukunftspotentiale. Seltener wird über ihren Treibstoff gesprochen: Daten. Wie ein Datensatz entsteht, wie man mithilfe von Sensoren selbst Daten erstellen kann und welche schwerwiegenden Folgen ein Datensatz von niedriger Qualität haben kann, wird hier anhand von Hands-On-Formaten nachvollziehbar.
 
-In diesem Modul erstellen wir Datensätze mithilfe von Mikrocontrollern wie Arduinos und Raspberry Pis.   
+In diesem Modul erstellen wir Datensätze mithilfe von Mikrocontrollern wie Arduinos und Einplatinenrechnern wie  Raspberry Pis.

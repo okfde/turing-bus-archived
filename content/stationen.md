@@ -1,8 +1,8 @@
 ---
 layout: verein
-title: Stationen
-blurb: Stationen
-meta: Die Stationen des Turing-Bus 2019
+title: Mitmachen
+blurb: Mitmachen
+meta: Beim Turing-Bus dabei sein!
 img_header: /files/blog/2018/turing-bus-in-bernau_41586416744_o-lowres.jpg
 img: /files/blog/2018/turing-bus-in-bernau_41586416744_o-lowres.jpg
 stats:
@@ -20,12 +20,12 @@ stats:
     text: Teilnehmer*innen im Alter von 15-19 Jahren waren dabei.
 ---
 
-### Mitmachen (tl;dr)
+### tl;dr
 
 Grundsätzlich gibt es drei Möglichkeiten, bei den Turing-Bus-Stationen mitzuwirken.
 
 1. Als Schule können sie sich für eine Station bewerben. Dies bedeutet je nach lokalen Gegebenheiten entweder, dass der Bus zu ihrer Schule kommt und dort Workshops anbietet, oder, dass der Bus einen Hack- oder Makerspace in ihrer Nähe anfährt und die Station dort stattfindet.
-2. Hack- und Makerspaces sowie Orte der KI, die daran interessiert sind eine Station zu hosten können sich gerne melden. Im besten Fall sollte ihre Räumlichkeit Platz für 20-30 Personen bieten.
+2. Hack- und Makerspaces sowie Orte der KI, die daran interessiert sind eine Station zu hosten können sich gerne melden. Im besten Fall sollte ihre Räumlichkeit Platz für mindestens  20-30 Personen bieten.
 3. Sind sie Expert*in in einem Gebiet, dass in Zusammenhang mit Künstlicher Intelligenz steht und können sich vorstellen, für eine geringe Aufwandsentschädigung einen Workshop anzubieten? Der Turing-Bus sucht immer nach spannenden Infonaut*innen, die uns auf der Tour begleiten.  
 
 
