@@ -3,11 +3,11 @@
   <link rel="self" href="{{ .Permalink }}atom.xml"/>
   <updated>{{ .Date.Format "2006-01-02T15:04:05-0700" | safeHTML }}</updated>
   <author>
-    <name>Open Knowledge Foundation DE</name>
-    <email>info@okfn.de</email>
-    <uri>https://okfn.de</uri>
+    <name>Turing-Bus</name>
+    <email>info@turing-bus.de</email>
+    <uri>https://turing-bus.de</uri>
   </author>
-  <id>https://okfn.de</id>
+  <id>https://turing-bus.de</id>
   {{ range first 15 .Data.Pages }}
   <entry>
     <title>{{ .Title }}</title>

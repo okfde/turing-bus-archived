@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Open Knowledge Foundation DE</title>
+    <title>Turing-Bus</title>
     <link rel="self" href="{{ .Permalink }}atom.xml"/>
-    <description>{{ if ne  .Title  .Site.Title }}{{ with .Title }}{{.}} {{ end }}{{ end }}on OKF DE</description>
+    <description>{{ if ne  .Title  .Site.Title }}{{ with .Title }}{{.}} {{ end }}{{ end }}on Turing-Bus</description>
     {{ with .Site.Author.email }}
     <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}
     {{ if not .Date.IsZero }}
