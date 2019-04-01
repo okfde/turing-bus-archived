@@ -11,4 +11,4 @@ img:
 arrange: img_right
 ---
 
-KI ist Teil einer Gruppe von technischen Verfahren, die potentiell eine Reihe von Berufsbildern ersetzen bzw. obsolet machen. Was dies für die Zukunft der Arbeit bedeutet und welchen Einfluss dies schon heute auf uns hat, wird hier besprochen.  
+KI ist Teil einer Gruppe von technischen Verfahren, die potentiell eine Reihe von Berufsbildern ersetzen bzw. obsolet machen. Was dies für zukünftige Tätigkeitsfelder von heute heranwachsenden bedeutet und welchen Einfluss dies schon heute auf uns hat, wird hier besprochen.  

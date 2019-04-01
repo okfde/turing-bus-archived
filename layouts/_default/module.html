@@ -17,11 +17,15 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="container">
+{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.blurb "subheading" .Params.heroSubHeading "content" .)}}
+
+
+<!--<div class="container">
   <div class="row">
     <h1 class="col col-12">{{.Params.blurb}}</h1>
-  </div>
-  <div class="l__module">
+  </div>-->
+<div class="container">
+    <div class="l__module">
     {{ range (.Paginator 10).Pages }}
     {{ if eq .Params.arrange "img_top"}}
     <section class="row l__module__section">

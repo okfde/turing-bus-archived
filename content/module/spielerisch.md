@@ -11,4 +11,4 @@ img:
 arrange: img_right
 ---
 
-Als Annäherung an das Thema KI setzen wir eine Reihe von spielerischen Formaten ein, die von Rollenspielen bis hin zu interaktiven Browsergames reichen.   
+Als Annäherung an das Thema KI setzen wir eine Reihe von spielerischen Formaten ein, die von Rollenspielen bis hin zu interaktiven Browsergames reichen. Dabei kommen beispielsweise interaktive Varianten des Turing-Tests zum Einsatz, bei dem die Teilnehmer*innen menschliche und maschinell erstellte Artefakte ihren Erstellern zuordnen müssen. 
