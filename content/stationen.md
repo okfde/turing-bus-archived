@@ -1,5 +1,5 @@
 ---
-layout: verein
+layout: mitmachen
 title: Mitmachen
 blurb: Mitmachen
 meta: Beim Turing-Bus dabei sein!
