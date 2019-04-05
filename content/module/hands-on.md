@@ -4,8 +4,8 @@ weight: 1
 
 img:
   -
-    url: /files/blog/2018/turing-bus-in-bernau_42307934251_o-lowres.jpg
-    license:
+    url: /files/blog/2018/turing-bus-in-bernau_41586616954_o.jpeg
+    license: 'Foto: Leonard Wolf, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> Turing-Bus'
 
 
 arrange: img_right

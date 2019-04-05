@@ -4,9 +4,8 @@ weight: 2
 
 img:
   -
-    url: /files/blog/2018/turing-bus-in-bernau_42307934251_o-lowres.jpg
-    license:
-
+    url: /files/blog/2018/126-FW7_6972.jpg
+    license: 'Foto: Fabian Wanisch, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> Turing-Bus'
 
 arrange: img_right
 

@@ -25,7 +25,7 @@ mitmachenimg: '/okf/profil/profil_teaser_1.jpg'
 
 ---
 
-Der Turing-Bus ist ein mobiles Bildungsangebot der **[Open Knowledge Foundation Deutschland](https://okfn.de)** und der **[Gesellschaft für Informatik](https://gi.de)** im **[Wissenschaftsjahr 2019 - Künstliche Intelligenz](/wissenschaftsjahr)**. Das Projekt wird durch das **[Bundesministerium für Bildung und Forschung](https://bmbf.de)** gefördert.
+Der nach dem Informatikpionier Alan Turing benannte Bus ist ein mobiles Bildungsangebot der **[Gesellschaft für Informatik](https://gi.de)** und der **[Open Knowledge Foundation Deutschland](https://okfn.de)** im **[Wissenschaftsjahr 2019 - Künstliche Intelligenz](/wissenschaftsjahr)**. Das Projekt wird durch das **[Bundesministerium für Bildung und Forschung](https://bmbf.de)** gefördert.
 
 
 <!--more-->
